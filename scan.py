@@ -126,6 +126,10 @@ def parse_pool(item, included_by_id, network):
     volume = as_float(dig(attrs, "volume_usd", "h24"))
     buys = int(as_float(dig(attrs, "transactions", "h24", "buys")))
     sells = int(as_float(dig(attrs, "transactions", "h24", "sells")))
+    # distinct wallets, not transaction count: the closest free stand-in for
+    # holder growth now that Solscan's holder endpoint is out of reach
+    buyers = dig(attrs, "transactions", "h24", "buyers")
+    buyers = int(as_float(buyers)) if buyers is not None else None
 
     created_raw = attrs.get("pool_created_at")
     created_ts = None
@@ -161,6 +165,7 @@ def parse_pool(item, included_by_id, network):
         "volume24hUsd": volume,
         "buys": buys,
         "sells": sells,
+        "buyers24h": buyers,
         "createdAt": created_ts.isoformat() if created_ts else None,
         "ageHours": round((datetime.now(timezone.utc) - created_ts).total_seconds() / 3600, 2)
         if created_ts else None,
@@ -275,38 +280,51 @@ def save_state(state):
         json.dump(state, f, indent=1, sort_keys=True)
 
 
-def apply_holder_growth(candidate, state, now_iso):
+def apply_growth(candidate, state, now_iso):
     """
-    Compare this run's holder count against the last one recorded.
-    A token seen for the first time has no growth to report yet, which is
-    inherent: growth needs two observations.
+    Measure whether participation is expanding, comparing this run against the
+    last one. True holder counts are preferred; when they aren't available we
+    fall back to distinct 24h buyers, which is flow rather than stock but is
+    free and moves for the same reasons.
+
+    Either way growth needs two observations, so a token seen for the first
+    time reports no growth yet. That is inherent, not a failure.
     """
     address = candidate["address"]
-    count = solana_holder_count(address) if candidate["network"] == "solana" else None
+    holders = solana_holder_count(address) if candidate["network"] == "solana" else None
+    buyers = candidate.get("buyers24h")
 
     entry = state.get(address) or {"history": []}
     history = entry["history"]
 
-    candidate["holderCount"] = count
-    candidate["holderGrowthPct"] = None
-    candidate["holderGrowthStatus"] = "unavailable"
+    candidate["holderCount"] = holders
+    candidate["growthPct"] = None
+    candidate["growthBasis"] = "unavailable"
+    candidate["growthStatus"] = "unavailable"
 
-    if count is None:
-        # no holder source for this chain yet
-        if candidate["network"] != "solana":
-            candidate["holderGrowthStatus"] = "no source for this chain"
+    # Prefer holders; fall back to distinct buyers.
+    basis, value = ("holders", holders) if holders is not None else ("buyers24h", buyers)
+
+    if value is None:
+        candidate["growthStatus"] = "no source"
     else:
-        prior = [h for h in history if h.get("count")]
+        prior = [h for h in history if h.get("basis") == basis and h.get("value")]
         if prior:
-            before = prior[-1]["count"]
+            before = prior[-1]["value"]
             if before > 0:
-                candidate["holderGrowthPct"] = round((count - before) / before * 100, 1)
-                candidate["holderGrowthStatus"] = "measured"
-                candidate["holderCountBefore"] = before
-                candidate["holderCountBeforeAt"] = prior[-1]["ts"]
+                candidate["growthPct"] = round((value - before) / before * 100, 1)
+                candidate["growthBasis"] = basis
+                candidate["growthStatus"] = "measured"
+                candidate["growthBefore"] = before
+                candidate["growthBeforeAt"] = prior[-1]["ts"]
         else:
-            candidate["holderGrowthStatus"] = "first sighting"
-        history.append({"ts": now_iso, "count": count})
+            candidate["growthBasis"] = basis
+            candidate["growthStatus"] = "first sighting"
+        history.append({"ts": now_iso, "basis": basis, "value": value})
+
+    # kept for the dashboard, which scores an "adoption growth" number
+    candidate["holderGrowthPct"] = candidate["growthPct"]
+    candidate["holderGrowthStatus"] = candidate["growthStatus"]
 
     entry["history"] = history
     entry["lastSeen"] = now_iso
@@ -381,13 +399,13 @@ def main():
     shortlist = screened[:20]
 
     for c in shortlist:
-        apply_holder_growth(c, state, now_iso)
-        if c["network"] == "solana":
+        apply_growth(c, state, now_iso)
+        if c["network"] == "solana" and SOLSCAN_KEY:
             time.sleep(1)
 
-    # holders growing, or not yet measurable; a confirmed decline drops out
-    keep = [c for c in shortlist if c["holderGrowthPct"] is None or c["holderGrowthPct"] > 0]
-    keep.sort(key=lambda c: (c["holderGrowthPct"] or 0, c["volMcapRatio"]), reverse=True)
+    # participation growing, or not yet measurable; a confirmed decline drops out
+    keep = [c for c in shortlist if c["growthPct"] is None or c["growthPct"] > 0]
+    keep.sort(key=lambda c: (c["growthPct"] or 0, c["volMcapRatio"]), reverse=True)
     final = keep[:MAX_CANDIDATES]
 
     for c in final:
