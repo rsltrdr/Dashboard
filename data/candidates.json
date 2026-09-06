@@ -1,53 +1,134 @@
 {
- "generatedAt": "2026-09-06T09:46:49.803950+00:00",
+ "generatedAt": "2026-09-06T10:06:53.357465+00:00",
  "usdToEur": 0.8611,
  "usdToEurLive": true,
+ "venue": "FOMO app",
+ "networksScanned": [
+  "Solana",
+  "Ethereum",
+  "Base",
+  "BNB Chain",
+  "Monad",
+  "Robinhood Chain"
+ ],
  "screen": {
-  "maxMcapUsd": 550000,
-  "minVolMcapRatio": 2.0,
+  "mcapUsd": [
+   20000,
+   550000
+  ],
+  "volMcapRatio": [
+   0.5,
+   3.0
+  ],
+  "volMcapRatioUnder24h": [
+   0.5,
+   10.0
+  ],
   "minLiquidityUsd": 15000,
-  "maxAgeDays": 7
+  "minLiquidityPctOfMcap": 0.1,
+  "ageHours": [
+   6,
+   72
+  ],
+  "minDistinctBuyers": 15,
+  "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 151,
-  "passedScreen": 1,
-  "shortlisted": 1,
-  "returned": 1
+  "discovered": 212,
+  "passedScreen": 2,
+  "shortlisted": 2,
+  "returned": 2
+ },
+ "rejectedBy": {
+  "liquidity too thin to exit": 7,
+  "market cap outside band": 185,
+  "volume implausibly high against cap": 2,
+  "outside the 6-72h window": 16
  },
  "candidates": [
   {
-   "address": "6FWKoFmHtsds8TC9dQtNK4TJaD2fpPcay44tqiuR8Rz",
-   "symbol": "IBRL",
-   "name": "I'll Be Rich Later",
-   "network": "solana",
-   "chain": "Solana",
-   "mcapUsd": 59234.823003921,
-   "liquidityUsd": 23044.3384,
-   "volume24hUsd": 611231.69997174,
-   "buys": 7907,
-   "sells": 6433,
-   "buyers24h": 2271,
-   "createdAt": "2026-09-05T05:59:44+00:00",
-   "ageHours": 27.79,
-   "poolAddress": "Dc8KWanHjLymndfZjsNJXt2a6dqjqus9SAFwLyRYK5vu",
-   "volMcapRatio": 10.32,
+   "address": "0x47366e0f257ac009e82bd46fb74e2fb50826ce98",
+   "symbol": "AOBS",
+   "name": "Agent OBS",
+   "network": "robinhood",
+   "chain": "Robinhood Chain",
+   "mcapUsd": 489651.4417,
+   "liquidityUsd": 65333.1426,
+   "volume24hUsd": 1194570.77009758,
+   "buys": 3580,
+   "sells": 2573,
+   "buyers24h": 1590,
+   "createdAt": "2026-09-05T21:20:11+00:00",
+   "ageHours": 12.82,
+   "poolAddress": "0x66afd314846523485d2e9505e46871fa49b8dfe4090d0f48d2580e89412097a9",
+   "volumePerBuyerUsd": 751.3,
+   "volMcapRatio": 2.44,
    "holderCount": null,
    "growthPct": null,
    "growthBasis": "buyers24h",
    "growthStatus": "first sighting",
+   "positiveStreak": 0,
+   "growthConfirmed": false,
    "holderGrowthPct": null,
    "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 51004,
-   "liquidityEur": 19842,
-   "volume24hEur": 526305,
-   "dexscreener": "https://dexscreener.com/solana/6FWKoFmHtsds8TC9dQtNK4TJaD2fpPcay44tqiuR8Rz"
+   "mcapEur": 421623,
+   "liquidityEur": 56256,
+   "volume24hEur": 1028605,
+   "dexscreener": "https://dexscreener.com/robinhood/0x47366e0f257ac009e82bd46fb74e2fb50826ce98"
+  },
+  {
+   "address": "0xbb87378b58894338f0937b9691a5a6dc3a5a7777",
+   "symbol": "\u5b59\u5c0f\u5723",
+   "name": "\u5b59\u5c0f\u5723",
+   "network": "bsc",
+   "chain": "BNB Chain",
+   "mcapUsd": 210592.9366,
+   "liquidityUsd": 47081.4301,
+   "volume24hUsd": 159253.958078225,
+   "buys": 1541,
+   "sells": 2429,
+   "buyers24h": 905,
+   "createdAt": "2026-09-04T12:11:51+00:00",
+   "ageHours": 45.94,
+   "poolAddress": "0x38fd5142c556b5016e48edba9eee48dbc7c3fb72",
+   "volumePerBuyerUsd": 175.97,
+   "volMcapRatio": 0.76,
+   "holderCount": null,
+   "growthPct": null,
+   "growthBasis": "buyers24h",
+   "growthStatus": "first sighting",
+   "positiveStreak": 0,
+   "growthConfirmed": false,
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
+   "coingecko": {
+    "id": "little-sage",
+    "categories": [
+     "BNB Chain Ecosystem",
+     "Meme"
+    ],
+    "marketCapRank": 4467,
+    "priceChange24h": 71.50367,
+    "priceChange7d": null,
+    "athChangePct": -15.45817,
+    "twitterFollowers": null,
+    "url": "https://www.coingecko.com/en/coins/little-sage"
+   },
+   "mcapEur": 181335,
+   "liquidityEur": 40540,
+   "volume24hEur": 137128,
+   "dexscreener": "https://dexscreener.com/bsc/0xbb87378b58894338f0937b9691a5a6dc3a5a7777"
   }
  ],
  "diagnostics": [
   {
-   "stage": "solscan",
-   "message": "all auth styles rejected; check the key's plan covers /v2.0/token/meta"
+   "stage": "networks",
+   "message": "resolved Monad -> monad (Monad)"
+  },
+  {
+   "stage": "networks",
+   "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
   }
  ]
 }
