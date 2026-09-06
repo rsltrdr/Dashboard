@@ -35,9 +35,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T21:27:25.842390+00:00",
     "value": 388
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T22:28:01.346625+00:00",
+    "value": 366
    }
   ],
-  "lastSeen": "2026-09-06T21:27:25.842390+00:00",
+  "lastSeen": "2026-09-06T22:28:01.346625+00:00",
   "positiveStreak": 0,
   "symbol": "SIZE"
  },
@@ -181,11 +186,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-09-06T10:27:24.448424+00:00",
-    "value": 924
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-09-06T10:34:47.695668+00:00",
     "value": 934
    },
@@ -238,10 +238,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T20:29:17.893690+00:00",
     "value": 1232
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T22:28:01.346625+00:00",
+    "value": 1235
    }
   ],
-  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
-  "positiveStreak": 0,
+  "lastSeen": "2026-09-06T22:28:01.346625+00:00",
+  "positiveStreak": 1,
   "symbol": "\u5b59\u5c0f\u5723"
  },
  "0xc6e8c393d46b685c2fb2177f759f2b16eb7a7d54": {
@@ -292,10 +297,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T21:27:25.842390+00:00",
     "value": 892
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T22:28:01.346625+00:00",
+    "value": 903
    }
   ],
-  "lastSeen": "2026-09-06T21:27:25.842390+00:00",
-  "positiveStreak": 6,
+  "lastSeen": "2026-09-06T22:28:01.346625+00:00",
+  "positiveStreak": 7,
   "symbol": "BLUESCREEN"
  },
  "2R9VkKSwXpHTjmCcutzdCmY4Mw2h5yZ8GatRjTQppump": {
@@ -392,10 +402,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T20:29:17.893690+00:00",
     "value": 3554
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T22:28:01.346625+00:00",
+    "value": 3585
    }
   ],
-  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
-  "positiveStreak": 9,
+  "lastSeen": "2026-09-06T22:28:01.346625+00:00",
+  "positiveStreak": 10,
   "symbol": "zolana"
  },
  "8H5yfL1GoDETLDaLYZzrgQuZs37eiKJjdfP21b6ypump": {
@@ -436,9 +451,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T21:27:25.842390+00:00",
     "value": 1764
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T22:28:01.346625+00:00",
+    "value": 1726
    }
   ],
-  "lastSeen": "2026-09-06T21:27:25.842390+00:00",
+  "lastSeen": "2026-09-06T22:28:01.346625+00:00",
   "positiveStreak": 0,
   "symbol": "PUMPANY"
  },
