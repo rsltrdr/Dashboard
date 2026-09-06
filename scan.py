@@ -70,6 +70,7 @@ MAX_AGE_HOURS = 72            # but stay inside the early window
 MIN_DISTINCT_BUYERS = 15
 MAX_VOLUME_PER_BUYER_USD = 2_000
 
+PAGES_PER_ENDPOINT = 3        # depth of the new/trending sweep per chain
 MAX_CANDIDATES = 10           # what the dashboard shows
 
 COINGECKO_KEY = os.environ.get("COINGECKO_API_KEY", "").strip()
@@ -278,37 +279,49 @@ def parse_pool(item, included_by_id, network):
 
 
 def discover(network):
-    """New pools plus trending pools, deduplicated by token address."""
+    """
+    New pools plus trending pools, deduplicated by token address.
+
+    Paginated, because one page per endpoint left most of the in-band universe
+    unseen: the bulk of what comes back sits outside the market cap band, so
+    depth matters more than loosening the thresholds would.
+    """
     found = {}
     for endpoint in ("new_pools", "trending_pools"):
-        url = (f"https://api.geckoterminal.com/api/v2/networks/{network}/"
-               f"{endpoint}?include=base_token&page=1")
-        data, err = fetch(url, {"Accept": "application/json;version=20230302",
-                                "User-Agent": "meme-coin-radar/1.0"})
-        if err or not data:
-            note(f"discover:{network}:{endpoint}", err or "no data")
-            continue
+        for page in range(1, PAGES_PER_ENDPOINT + 1):
+            url = (f"https://api.geckoterminal.com/api/v2/networks/{network}/"
+                   f"{endpoint}?include=base_token&page={page}")
+            data, err = fetch(url, {"Accept": "application/json;version=20230302",
+                                    "User-Agent": "meme-coin-radar/1.0"})
+            if err or not data:
+                note(f"discover:{network}:{endpoint}:p{page}", err or "no data")
+                break
 
-        rows = data.get("data")
-        if not isinstance(rows, list):
-            note(f"discover:{network}:{endpoint}", f"unexpected shape, keys={list(data)[:5]}")
-            continue
+            rows = data.get("data")
+            if not isinstance(rows, list):
+                note(f"discover:{network}:{endpoint}:p{page}", f"unexpected shape, keys={list(data)[:5]}")
+                break
+            if not rows:
+                break  # ran off the end of this endpoint
 
-        included_by_id = {}
-        for inc in (data.get("included") or []):
-            if inc.get("id"):
-                included_by_id[inc["id"]] = inc
+            included_by_id = {}
+            for inc in (data.get("included") or []):
+                if inc.get("id"):
+                    included_by_id[inc["id"]] = inc
 
-        for item in rows:
-            pool = parse_pool(item, included_by_id, network)
-            if not pool["address"]:
-                continue
-            prev = found.get(pool["address"])
-            # keep whichever pool for this token holds the most liquidity
-            if not prev or pool["liquidityUsd"] > prev["liquidityUsd"]:
-                found[pool["address"]] = pool
+            for item in rows:
+                pool = parse_pool(item, included_by_id, network)
+                if not pool["address"]:
+                    continue
+                prev = found.get(pool["address"])
+                # keep whichever pool for this token holds the most liquidity
+                if not prev or pool["liquidityUsd"] > prev["liquidityUsd"]:
+                    found[pool["address"]] = pool
 
-        time.sleep(5)  # GeckoTerminal's free tier throttled us at 2.5s between calls
+            time.sleep(5)  # GeckoTerminal's free tier throttled us at 2.5s between calls
+
+            if len(rows) < 20:
+                break  # short page means there is no next one
 
     return list(found.values())
 
