@@ -29,13 +29,47 @@ from datetime import datetime, timezone
 
 # ---------------------------------------------------------------- settings
 
-NETWORKS = ["solana", "eth", "bsc", "base"]          # GeckoTerminal network ids
-NETWORK_LABEL = {"solana": "Solana", "eth": "Ethereum", "bsc": "BNB Chain", "base": "Base"}
+# Only chains the FOMO app can execute on, since that is where orders go.
+# FOMO routes swaps against on-chain liquidity rather than a curated token list,
+# so anything with real liquidity on these chains is tradeable there.
+FOMO_CHAINS = ["Solana", "Ethereum", "Base", "BNB Chain", "Monad", "Robinhood Chain"]
 
+# GeckoTerminal network ids for the ones that are stable and known. Anything not
+# listed here gets resolved by name against their networks endpoint at runtime,
+# so a new chain only needs adding to FOMO_CHAINS above.
+KNOWN_NETWORK_IDS = {
+    "Solana": "solana",
+    "Ethereum": "eth",
+    "Base": "base",
+    "BNB Chain": "bsc",
+}
+
+NETWORKS = []        # [(label, geckoterminal_id)], filled in at startup
+NETWORK_LABEL = {}   # geckoterminal_id -> label
+
+MIN_MCAP_USD = 20_000
 MAX_MCAP_USD = 550_000        # a little above the €500k screen so nothing borderline is lost early
-MIN_VOL_MCAP_RATIO = 2.0      # 24h volume must be at least 2x market cap
-MIN_LIQUIDITY_USD = 15_000    # below this it isn't reliably sellable
-MAX_AGE_DAYS = 7              # stay in the early window
+
+# Volume against market cap is a band, not a floor. Healthy micro-cap activity
+# runs roughly 20-80% of cap; sustained readings above 100% are a recognised
+# wash-trading signature rather than a bullish one. Tokens in their first day
+# get more room, because a genuine launch does spike.
+MIN_VOL_MCAP_RATIO = 0.5
+MAX_VOL_MCAP_RATIO = 3.0
+MAX_VOL_MCAP_RATIO_YOUNG = 10.0
+YOUNG_HOURS = 24
+
+MIN_LIQUIDITY_USD = 15_000    # absolute floor
+MIN_LIQUIDITY_PCT = 0.10      # and at least this share of market cap, or you can't exit
+
+MIN_AGE_HOURS = 6             # skip the launch-minute lottery
+MAX_AGE_HOURS = 72            # but stay inside the early window
+
+# Volume spread thin across many wallets is retail; the same volume concentrated
+# in a handful is bots cycling. This is the cheapest real/fake discriminator.
+MIN_DISTINCT_BUYERS = 15
+MAX_VOLUME_PER_BUYER_USD = 2_000
+
 MAX_CANDIDATES = 10           # what the dashboard shows
 
 COINGECKO_KEY = os.environ.get("COINGECKO_API_KEY", "").strip()
@@ -93,6 +127,61 @@ def as_float(v, default=0.0):
 
 
 # ---------------------------------------------------------------- FX
+
+def normalize(name):
+    return "".join(ch for ch in name.lower() if ch.isalnum())
+
+
+def resolve_networks(max_pages=6):
+    """
+    Turn FOMO_CHAINS into GeckoTerminal network ids. The well-known ones are
+    hardcoded; anything else is matched by name against their networks endpoint,
+    so adding a chain to FOMO_CHAINS is all that's needed when FOMO adds one.
+    """
+    resolved = []
+    unknown = [c for c in FOMO_CHAINS if c not in KNOWN_NETWORK_IDS]
+
+    for label in FOMO_CHAINS:
+        if label in KNOWN_NETWORK_IDS:
+            resolved.append((label, KNOWN_NETWORK_IDS[label]))
+
+    if not unknown:
+        return resolved
+
+    catalogue = {}
+    for page in range(1, max_pages + 1):
+        data, err = fetch(f"https://api.geckoterminal.com/api/v2/networks?page={page}",
+                          {"Accept": "application/json;version=20230302",
+                           "User-Agent": "meme-coin-radar/1.0"})
+        if err or not data or not data.get("data"):
+            if err:
+                note("networks", f"page {page}: {err}")
+            break
+        for row in data["data"]:
+            name = dig(row, "attributes", "name", default="")
+            if name and row.get("id"):
+                catalogue[normalize(name)] = (name, row["id"])
+        if len(data["data"]) < 50:
+            break
+        time.sleep(3)
+
+    for label in unknown:
+        key = normalize(label)
+        hit = catalogue.get(key)
+        if not hit:
+            # try a looser match, e.g. "Robinhood Chain" against "Robinhood"
+            for cat_key, val in catalogue.items():
+                if cat_key.startswith(key) or key.startswith(cat_key):
+                    hit = val
+                    break
+        if hit:
+            note("networks", f"resolved {label} -> {hit[1]} ({hit[0]})")
+            resolved.append((label, hit[1]))
+        else:
+            note("networks", f"{label} is not indexed by GeckoTerminal; skipped")
+
+    return resolved
+
 
 def usd_to_eur_rate():
     """Live rate from CoinGecko, falling back to a fixed approximation."""
@@ -219,11 +308,12 @@ SOLSCAN_AUTH_STYLES = [
     ("apikey header", lambda k: {"apikey": k}),
 ]
 _solscan_style = None
+_solscan_dead = False
 
 
 def solana_holder_count(address):
-    global _solscan_style
-    if not SOLSCAN_KEY:
+    global _solscan_style, _solscan_dead
+    if not SOLSCAN_KEY or _solscan_dead:
         return None
 
     url = f"https://pro-api.solscan.io/v2.0/token/meta?address={address}"
@@ -244,7 +334,10 @@ def solana_holder_count(address):
             note("solscan", err or "no data")
             return None
     else:
-        note("solscan", "all auth styles rejected; check the key's plan covers /v2.0/token/meta")
+        # Rejected once means rejected all run; stop hammering it per candidate.
+        _solscan_dead = True
+        note("solscan", "all auth styles rejected; falling back to buyer counts "
+                        "(the key's plan likely excludes /v2.0/token/meta)")
         return None
 
     if not data:
@@ -322,6 +415,19 @@ def apply_growth(candidate, state, now_iso):
             candidate["growthStatus"] = "first sighting"
         history.append({"ts": now_iso, "basis": basis, "value": value})
 
+    # One positive reading is noise. Track how many consecutive scans have shown
+    # growth, so the screen can insist on a trend rather than a blip.
+    streak = entry.get("positiveStreak", 0)
+    if candidate["growthPct"] is None:
+        pass                      # nothing measured, leave the streak untouched
+    elif candidate["growthPct"] > 0:
+        streak += 1
+    else:
+        streak = 0
+    entry["positiveStreak"] = streak
+    candidate["positiveStreak"] = streak
+    candidate["growthConfirmed"] = streak >= 2
+
     # kept for the dashboard, which scores an "adoption growth" number
     candidate["holderGrowthPct"] = candidate["growthPct"]
     candidate["holderGrowthStatus"] = candidate["growthStatus"]
@@ -367,32 +473,70 @@ def coingecko_enrich(candidate):
 # ---------------------------------------------------------------- main
 
 def main():
+    global NETWORKS, NETWORK_LABEL
     now = datetime.now(timezone.utc)
     now_iso = now.isoformat()
+
+    NETWORKS = resolve_networks()
+    NETWORK_LABEL = {net_id: label for label, net_id in NETWORKS}
+    print(f"scanning: {[f'{l} ({n})' for l, n in NETWORKS]}", file=sys.stderr)
+
     rate, rate_live = usd_to_eur_rate()
     state = load_state()
 
     raw = []
-    for network in NETWORKS:
+    for _label, network in NETWORKS:
         raw.extend(discover(network))
     print(f"discovered {len(raw)} pools across {len(NETWORKS)} networks", file=sys.stderr)
 
     # --- apply the screen -------------------------------------------------
     screened = []
+    rejects = {}
+
+    def reject(reason):
+        rejects[reason] = rejects.get(reason, 0) + 1
+
     for c in raw:
-        if c["mcapUsd"] <= 0 or c["mcapUsd"] > MAX_MCAP_USD:
+        age = c["ageHours"]
+
+        if c["mcapUsd"] <= 0 or not (MIN_MCAP_USD <= c["mcapUsd"] <= MAX_MCAP_USD):
+            reject("market cap outside band")
             continue
-        if c["liquidityUsd"] < MIN_LIQUIDITY_USD:
+
+        if c["liquidityUsd"] < max(MIN_LIQUIDITY_USD, c["mcapUsd"] * MIN_LIQUIDITY_PCT):
+            reject("liquidity too thin to exit")
             continue
-        if c["ageHours"] is not None and c["ageHours"] > MAX_AGE_DAYS * 24:
+
+        if age is None or not (MIN_AGE_HOURS <= age <= MAX_AGE_HOURS):
+            reject("outside the 6-72h window")
             continue
+
         ratio = c["volume24hUsd"] / c["mcapUsd"]
+        ceiling = MAX_VOL_MCAP_RATIO_YOUNG if age < YOUNG_HOURS else MAX_VOL_MCAP_RATIO
         if ratio < MIN_VOL_MCAP_RATIO:
+            reject("volume too low against cap")
             continue
+        if ratio > ceiling:
+            reject("volume implausibly high against cap")
+            continue
+
+        buyers = c.get("buyers24h")
+        if buyers is not None:
+            if buyers < MIN_DISTINCT_BUYERS:
+                reject("too few distinct buyers")
+                continue
+            per_buyer = c["volume24hUsd"] / buyers if buyers else 0
+            if per_buyer > MAX_VOLUME_PER_BUYER_USD:
+                reject("volume concentrated in few wallets")
+                continue
+            c["volumePerBuyerUsd"] = round(per_buyer, 2)
+        else:
+            c["volumePerBuyerUsd"] = None
+
         c["volMcapRatio"] = round(ratio, 2)
         screened.append(c)
 
-    print(f"{len(screened)} passed the cap/volume/liquidity screen", file=sys.stderr)
+    print(f"{len(screened)} passed the screen; rejected: {rejects}", file=sys.stderr)
 
     # strongest volume signal first, then check holders on a bounded shortlist
     screened.sort(key=lambda c: c["volMcapRatio"], reverse=True)
@@ -403,9 +547,13 @@ def main():
         if c["network"] == "solana" and SOLSCAN_KEY:
             time.sleep(1)
 
-    # participation growing, or not yet measurable; a confirmed decline drops out
+    # A confirmed decline drops out. Anything not yet measurable stays, flagged,
+    # so you can see it building a track record rather than having it hidden.
     keep = [c for c in shortlist if c["growthPct"] is None or c["growthPct"] > 0]
-    keep.sort(key=lambda c: (c["growthPct"] or 0, c["volMcapRatio"]), reverse=True)
+    # confirmed trends first, then size of growth, then activity
+    keep.sort(key=lambda c: (c.get("growthConfirmed", False),
+                             c["growthPct"] or 0,
+                             c["volMcapRatio"]), reverse=True)
     final = keep[:MAX_CANDIDATES]
 
     for c in final:
@@ -422,11 +570,17 @@ def main():
         "generatedAt": now_iso,
         "usdToEur": round(rate, 4),
         "usdToEurLive": rate_live,
+        "venue": "FOMO app",
+        "networksScanned": [label for label, _ in NETWORKS],
         "screen": {
-            "maxMcapUsd": MAX_MCAP_USD,
-            "minVolMcapRatio": MIN_VOL_MCAP_RATIO,
+            "mcapUsd": [MIN_MCAP_USD, MAX_MCAP_USD],
+            "volMcapRatio": [MIN_VOL_MCAP_RATIO, MAX_VOL_MCAP_RATIO],
+            "volMcapRatioUnder24h": [MIN_VOL_MCAP_RATIO, MAX_VOL_MCAP_RATIO_YOUNG],
             "minLiquidityUsd": MIN_LIQUIDITY_USD,
-            "maxAgeDays": MAX_AGE_DAYS,
+            "minLiquidityPctOfMcap": MIN_LIQUIDITY_PCT,
+            "ageHours": [MIN_AGE_HOURS, MAX_AGE_HOURS],
+            "minDistinctBuyers": MIN_DISTINCT_BUYERS,
+            "maxVolumePerBuyerUsd": MAX_VOLUME_PER_BUYER_USD,
         },
         "counts": {
             "discovered": len(raw),
@@ -434,6 +588,7 @@ def main():
             "shortlisted": len(shortlist),
             "returned": len(final),
         },
+        "rejectedBy": rejects,
         "candidates": final,
         "diagnostics": diagnostics[:20],
     }
