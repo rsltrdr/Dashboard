@@ -25,9 +25,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T19:26:34.666023+00:00",
     "value": 435
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T20:29:17.893690+00:00",
+    "value": 418
    }
   ],
-  "lastSeen": "2026-09-06T19:26:34.666023+00:00",
+  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
   "positiveStreak": 0,
   "symbol": "SIZE"
  },
@@ -52,10 +57,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T19:26:34.666023+00:00",
     "value": 2062
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T20:29:17.893690+00:00",
+    "value": 2088
    }
   ],
-  "lastSeen": "2026-09-06T19:26:34.666023+00:00",
-  "positiveStreak": 3,
+  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
+  "positiveStreak": 4,
   "symbol": "AOBS"
  },
  "0x5ec9cd905ff6695fc8b5943a5e1e83a23b610156": {
@@ -146,19 +156,19 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T19:26:34.666023+00:00",
     "value": 409
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T20:29:17.893690+00:00",
+    "value": 400
    }
   ],
-  "lastSeen": "2026-09-06T19:26:34.666023+00:00",
+  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
   "positiveStreak": 0,
   "symbol": "LEGS"
  },
  "0xbb87378b58894338f0937b9691a5a6dc3a5a7777": {
   "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T10:06:53.357465+00:00",
-    "value": 905
-   },
    {
     "basis": "buyers24h",
     "ts": "2026-09-06T10:27:24.448424+00:00",
@@ -213,10 +223,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T19:26:34.666023+00:00",
     "value": 1239
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T20:29:17.893690+00:00",
+    "value": 1232
    }
   ],
-  "lastSeen": "2026-09-06T19:26:34.666023+00:00",
-  "positiveStreak": 11,
+  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
+  "positiveStreak": 0,
   "symbol": "\u5b59\u5c0f\u5723"
  },
  "0xc6e8c393d46b685c2fb2177f759f2b16eb7a7d54": {
@@ -257,10 +272,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T19:26:34.666023+00:00",
     "value": 863
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T20:29:17.893690+00:00",
+    "value": 885
    }
   ],
-  "lastSeen": "2026-09-06T19:26:34.666023+00:00",
-  "positiveStreak": 4,
+  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
+  "positiveStreak": 5,
   "symbol": "BLUESCREEN"
  },
  "2R9VkKSwXpHTjmCcutzdCmY4Mw2h5yZ8GatRjTQppump": {
@@ -352,10 +372,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T19:26:34.666023+00:00",
     "value": 3522
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T20:29:17.893690+00:00",
+    "value": 3554
    }
   ],
-  "lastSeen": "2026-09-06T19:26:34.666023+00:00",
-  "positiveStreak": 8,
+  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
+  "positiveStreak": 9,
   "symbol": "zolana"
  },
  "8H5yfL1GoDETLDaLYZzrgQuZs37eiKJjdfP21b6ypump": {
@@ -477,10 +502,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T19:26:34.666023+00:00",
     "value": 3029
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T20:29:17.893690+00:00",
+    "value": 3069
    }
   ],
-  "lastSeen": "2026-09-06T19:26:34.666023+00:00",
-  "positiveStreak": 8,
+  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
+  "positiveStreak": 9,
   "symbol": "BABYZCAT"
  }
 }
