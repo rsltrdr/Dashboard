@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-06T09:28:36.897970+00:00",
- "usdToEur": 0.861,
+ "generatedAt": "2026-09-06T09:39:08.230037+00:00",
+ "usdToEur": 0.8611,
  "usdToEurLive": true,
  "screen": {
   "maxMcapUsd": 550000,
@@ -9,7 +9,7 @@
   "maxAgeDays": 7
  },
  "counts": {
-  "discovered": 91,
+  "discovered": 151,
   "passedScreen": 1,
   "shortlisted": 1,
   "returned": 1
@@ -21,41 +21,29 @@
    "name": "I'll Be Rich Later",
    "network": "solana",
    "chain": "Solana",
-   "mcapUsd": 64716.2644146963,
-   "liquidityUsd": 23967.089,
-   "volume24hUsd": 629190.560694432,
-   "buys": 8184,
-   "sells": 6619,
+   "mcapUsd": 62829.0079853813,
+   "liquidityUsd": 23960.6279,
+   "volume24hUsd": 620194.37568288,
+   "buys": 8029,
+   "sells": 6532,
    "createdAt": "2026-09-05T05:59:44+00:00",
-   "ageHours": 27.48,
+   "ageHours": 27.66,
    "poolAddress": "Dc8KWanHjLymndfZjsNJXt2a6dqjqus9SAFwLyRYK5vu",
-   "volMcapRatio": 9.72,
+   "volMcapRatio": 9.87,
    "holderCount": null,
    "holderGrowthPct": null,
    "holderGrowthStatus": "unavailable",
    "coingecko": null,
-   "mcapEur": 55724,
-   "liquidityEur": 20637,
-   "volume24hEur": 541761,
+   "mcapEur": 54099,
+   "liquidityEur": 20631,
+   "volume24hEur": 534023,
    "dexscreener": "https://dexscreener.com/solana/6FWKoFmHtsds8TC9dQtNK4TJaD2fpPcay44tqiuR8Rz"
   }
  ],
  "diagnostics": [
   {
-   "stage": "discover:bsc:trending_pools",
-   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/bsc/trending_pools"
-  },
-  {
-   "stage": "discover:base:new_pools",
-   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/base/new_pools"
-  },
-  {
-   "stage": "discover:base:trending_pools",
-   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/base/trending_pools"
-  },
-  {
    "stage": "solscan",
-   "message": "HTTP 401 for https://pro-api.solscan.io/v2.0/token/meta"
+   "message": "all auth styles rejected; check the key's plan covers /v2.0/token/meta"
   }
  ]
 }
