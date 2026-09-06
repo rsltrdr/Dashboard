@@ -89,6 +89,21 @@ def note(stage, message):
     diagnostics.append({"stage": stage, "message": str(message)[:300]})
 
 
+def post_json(url, payload, timeout=25):
+    body = json.dumps(payload).encode()
+    req = urllib.request.Request(url, data=body, headers={
+        "Content-Type": "application/json",
+        "User-Agent": "meme-coin-radar/1.0",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read().decode()), None
+    except urllib.error.HTTPError as e:
+        return None, f"HTTP {e.code} for {url}"
+    except Exception as e:
+        return None, f"{type(e).__name__}: {e}"
+
+
 def fetch(url, headers=None, timeout=25, retry_on_429=2):
     """
     GeckoTerminal's free tier throttles aggressively, so a 429 gets a patient
@@ -441,6 +456,132 @@ def apply_growth(candidate, state, now_iso):
 
 # ---------------------------------------------------------------- CoinGecko
 
+# ---------------------------------------------------------------- distribution
+
+HL_INFO_URL = "https://api.hyperliquid.xyz/info"
+DIST_MIN_DAY_VOLUME_USD = 5_000_000   # ignore markets too thin for the signal to mean anything
+DIST_MIN_RUNUP_PCT = 10.0             # it has to have actually run before it can distribute
+DIST_STATE_PATH = "state/perps.json"
+MAX_DISTRIBUTION = 10
+
+# Majors are not flow-driven the way meme coins and mid-cap alts are, so this
+# signal is mostly noise on them. Excluded rather than surfaced and ignored.
+DIST_EXCLUDE = {"BTC", "ETH", "SOL", "USDC", "USDT"}
+
+
+def load_perp_state():
+    try:
+        with open(DIST_STATE_PATH) as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_perp_state(state, now_iso):
+    os.makedirs(os.path.dirname(DIST_STATE_PATH), exist_ok=True)
+    for coin in list(state):
+        state[coin]["history"] = state[coin]["history"][-12:]
+    with open(DIST_STATE_PATH, "w") as f:
+        json.dump(state, f, indent=1, sort_keys=True)
+
+
+def distribution_watch(now_iso):
+    """
+    Look for crowded longs starting to unwind: something that has run hard,
+    where participation is now draining away while positioning stays heavy.
+
+    Hyperliquid publishes open interest and funding alongside price and volume,
+    which matter more than volume alone. Funding tells you who is paying to hold
+    the position, and open interest tells you whether they are still in it.
+    """
+    data, err = post_json(HL_INFO_URL, {"type": "metaAndAssetCtxs"})
+    if err or not isinstance(data, list) or len(data) < 2:
+        note("distribution", err or f"unexpected shape: {type(data).__name__}")
+        return []
+
+    universe = dig(data[0], "universe", default=[])
+    contexts = data[1]
+    if not isinstance(universe, list) or not isinstance(contexts, list):
+        note("distribution", "universe/contexts not both lists")
+        return []
+
+    state = load_perp_state()
+    rows = []
+
+    for i, market in enumerate(universe):
+        if i >= len(contexts):
+            break
+        name = (market or {}).get("name") or ""
+        ctx = contexts[i] or {}
+        if not name or name in DIST_EXCLUDE:
+            continue
+
+        volume = as_float(ctx.get("dayNtlVlm"))
+        mark = as_float(ctx.get("markPx"))
+        prev = as_float(ctx.get("prevDayPx"))
+        oi = as_float(ctx.get("openInterest"))
+        funding = as_float(ctx.get("funding"))
+
+        if volume < DIST_MIN_DAY_VOLUME_USD or mark <= 0 or prev <= 0:
+            continue
+
+        change24h = (mark - prev) / prev * 100
+
+        entry = state.get(name) or {"history": []}
+        history = entry["history"]
+        prior = history[-1] if history else None
+
+        row = {
+            "market": name,
+            "price": mark,
+            "change24hPct": round(change24h, 2),
+            "dayVolumeUsd": round(volume),
+            "openInterest": round(oi, 2),
+            "fundingRate": funding,
+            "signals": [],
+        }
+
+        if prior:
+            prior_vol = prior.get("volume") or 0
+            prior_oi = prior.get("oi") or 0
+            # A rolling 24h volume that falls hour over hour means the hour just
+            # added was quieter than the one that dropped off: participation draining.
+            if prior_vol > 0:
+                row["volumeChangePct"] = round((volume - prior_vol) / prior_vol * 100, 2)
+                if volume < prior_vol * 0.9:
+                    row["signals"].append("volume draining")
+            if prior_oi > 0:
+                row["oiChangePct"] = round((oi - prior_oi) / prior_oi * 100, 2)
+                # Positions still open while volume dries up is the trapped-holder shape.
+                if oi >= prior_oi * 0.97:
+                    row["signals"].append("open interest holding")
+            prior_price = prior.get("price") or 0
+            if prior_price > 0 and mark < prior_price:
+                row["signals"].append("price rolling over")
+
+        if change24h >= DIST_MIN_RUNUP_PCT:
+            row["signals"].append("ran up 24h")
+        if funding > 0:
+            row["signals"].append("longs paying funding")
+
+        row["signalCount"] = len(row["signals"])
+        row["observations"] = len(history) + 1
+
+        history.append({"ts": now_iso, "price": mark, "volume": volume, "oi": oi, "funding": funding})
+        entry["history"] = history
+        state[name] = entry
+
+        rows.append(row)
+
+    save_perp_state(state, now_iso)
+
+    # Needs the run-up plus at least two of the unwind signals to be worth showing.
+    flagged = [r for r in rows
+               if "ran up 24h" in r["signals"] and r["signalCount"] >= 3]
+    flagged.sort(key=lambda r: (r["signalCount"], r["change24hPct"]), reverse=True)
+    return flagged[:MAX_DISTRIBUTION]
+
+
 def coingecko_enrich(candidate):
     """
     Most brand-new meme coins are not listed on CoinGecko, so a miss here is
@@ -566,6 +707,9 @@ def main():
 
     save_state(state)
 
+    distribution = distribution_watch(now_iso)
+    print(f"{len(distribution)} distribution candidate(s)", file=sys.stderr)
+
     out = {
         "generatedAt": now_iso,
         "usdToEur": round(rate, 4),
@@ -590,6 +734,14 @@ def main():
         },
         "rejectedBy": rejects,
         "candidates": final,
+        "distribution": distribution,
+        "distributionScreen": {
+            "venue": "Hyperliquid perps (what FOMO routes to)",
+            "minDayVolumeUsd": DIST_MIN_DAY_VOLUME_USD,
+            "minRunUpPct": DIST_MIN_RUNUP_PCT,
+            "excluded": sorted(DIST_EXCLUDE),
+            "note": "Needs a 24h run-up plus at least two unwind signals. Majors are excluded because the signal is noise on them.",
+        },
         "diagnostics": diagnostics[:20],
     }
 
