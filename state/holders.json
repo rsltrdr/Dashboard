@@ -30,9 +30,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T20:29:17.893690+00:00",
     "value": 418
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T21:27:25.842390+00:00",
+    "value": 388
    }
   ],
-  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
+  "lastSeen": "2026-09-06T21:27:25.842390+00:00",
   "positiveStreak": 0,
   "symbol": "SIZE"
  },
@@ -99,10 +104,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T17:27:02.038609+00:00",
     "value": 1920
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T21:27:25.842390+00:00",
+    "value": 1350
    }
   ],
-  "lastSeen": "2026-09-06T17:27:02.038609+00:00",
-  "positiveStreak": 5,
+  "lastSeen": "2026-09-06T21:27:25.842390+00:00",
+  "positiveStreak": 0,
   "symbol": "PONINU"
  },
  "0x8fcf98e1348d3ddee46cdd15a5c7d9a8d423077d": {
@@ -277,10 +287,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T20:29:17.893690+00:00",
     "value": 885
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T21:27:25.842390+00:00",
+    "value": 892
    }
   ],
-  "lastSeen": "2026-09-06T20:29:17.893690+00:00",
-  "positiveStreak": 5,
+  "lastSeen": "2026-09-06T21:27:25.842390+00:00",
+  "positiveStreak": 6,
   "symbol": "BLUESCREEN"
  },
  "2R9VkKSwXpHTjmCcutzdCmY4Mw2h5yZ8GatRjTQppump": {
@@ -416,10 +431,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T18:30:30.535197+00:00",
     "value": 1833
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T21:27:25.842390+00:00",
+    "value": 1764
    }
   ],
-  "lastSeen": "2026-09-06T18:30:30.535197+00:00",
-  "positiveStreak": 1,
+  "lastSeen": "2026-09-06T21:27:25.842390+00:00",
+  "positiveStreak": 0,
   "symbol": "PUMPANY"
  },
  "A4j77ZgCEW3i4k94jBDQY5XwPikBB41WYi2vCQqSpump": {
