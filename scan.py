@@ -55,15 +55,24 @@ def note(stage, message):
     diagnostics.append({"stage": stage, "message": str(message)[:300]})
 
 
-def fetch(url, headers=None, timeout=25):
-    req = urllib.request.Request(url, headers=headers or {"User-Agent": "meme-coin-radar/1.0"})
-    try:
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return json.loads(r.read().decode()), None
-    except urllib.error.HTTPError as e:
-        return None, f"HTTP {e.code} for {url.split('?')[0]}"
-    except Exception as e:
-        return None, f"{type(e).__name__}: {e}"
+def fetch(url, headers=None, timeout=25, retry_on_429=2):
+    """
+    GeckoTerminal's free tier throttles aggressively, so a 429 gets a patient
+    retry rather than being treated as a dead end.
+    """
+    for attempt in range(retry_on_429 + 1):
+        req = urllib.request.Request(url, headers=headers or {"User-Agent": "meme-coin-radar/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return json.loads(r.read().decode()), None
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retry_on_429:
+                time.sleep(12 * (attempt + 1))
+                continue
+            return None, f"HTTP {e.code} for {url.split('?')[0]}"
+        except Exception as e:
+            return None, f"{type(e).__name__}: {e}"
+    return None, "retries exhausted"
 
 
 def dig(obj, *path, default=None):
@@ -190,23 +199,54 @@ def discover(network):
             if not prev or pool["liquidityUsd"] > prev["liquidityUsd"]:
                 found[pool["address"]] = pool
 
-        time.sleep(2.5)  # GeckoTerminal free tier is ~30 calls/min
+        time.sleep(5)  # GeckoTerminal's free tier throttled us at 2.5s between calls
 
     return list(found.values())
 
 
 # ---------------------------------------------------------------- holders
 
+# Solscan rejected the "token" header with a 401 on the first run, so we try
+# each documented auth style once and remember whichever is accepted.
+SOLSCAN_AUTH_STYLES = [
+    ("token header", lambda k: {"token": k}),
+    ("bearer", lambda k: {"Authorization": f"Bearer {k}"}),
+    ("apikey header", lambda k: {"apikey": k}),
+]
+_solscan_style = None
+
+
 def solana_holder_count(address):
+    global _solscan_style
     if not SOLSCAN_KEY:
         return None
+
     url = f"https://pro-api.solscan.io/v2.0/token/meta?address={address}"
-    data, err = fetch(url, {"token": SOLSCAN_KEY, "User-Agent": "meme-coin-radar/1.0"})
-    if err or not data:
-        note("solscan", err or "no data")
+    styles = [_solscan_style] if _solscan_style else SOLSCAN_AUTH_STYLES
+
+    data = None
+    for style in styles:
+        label, build = style
+        headers = build(SOLSCAN_KEY)
+        headers["User-Agent"] = "meme-coin-radar/1.0"
+        data, err = fetch(url, headers, retry_on_429=1)
+        if data:
+            if _solscan_style is None:
+                _solscan_style = style
+                note("solscan", f"auth accepted via {label}")
+            break
+        if _solscan_style:
+            note("solscan", err or "no data")
+            return None
+    else:
+        note("solscan", "all auth styles rejected; check the key's plan covers /v2.0/token/meta")
         return None
+
+    if not data:
+        return None
+
     body = data.get("data") if isinstance(data.get("data"), dict) else data
-    for key in ("holder", "holder_count", "holders"):
+    for key in ("holder", "holder_count", "holders", "holderCount"):
         if key in body:
             count = int(as_float(body[key]))
             if count > 0:
