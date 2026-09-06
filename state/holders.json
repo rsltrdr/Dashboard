@@ -17,10 +17,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T10:06:53.357465+00:00",
     "value": 905
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T10:27:24.448424+00:00",
+    "value": 924
    }
   ],
-  "lastSeen": "2026-09-06T10:06:53.357465+00:00",
-  "positiveStreak": 0,
+  "lastSeen": "2026-09-06T10:27:24.448424+00:00",
+  "positiveStreak": 1,
   "symbol": "\u5b59\u5c0f\u5723"
  },
  "6FWKoFmHtsds8TC9dQtNK4TJaD2fpPcay44tqiuR8Rz": {
