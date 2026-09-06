@@ -17,9 +17,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T10:34:47.695668+00:00",
     "value": 588
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T11:27:34.098568+00:00",
+    "value": 572
    }
   ],
-  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
+  "lastSeen": "2026-09-06T11:27:34.098568+00:00",
   "positiveStreak": 0,
   "symbol": "LEGS"
  },
@@ -39,10 +44,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T10:34:47.695668+00:00",
     "value": 934
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T11:27:34.098568+00:00",
+    "value": 963
    }
   ],
-  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
-  "positiveStreak": 2,
+  "lastSeen": "2026-09-06T11:27:34.098568+00:00",
+  "positiveStreak": 3,
   "symbol": "\u5b59\u5c0f\u5723"
  },
  "2R9VkKSwXpHTjmCcutzdCmY4Mw2h5yZ8GatRjTQppump": {
@@ -51,9 +61,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T10:34:47.695668+00:00",
     "value": 1031
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T11:27:34.098568+00:00",
+    "value": 995
    }
   ],
-  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
+  "lastSeen": "2026-09-06T11:27:34.098568+00:00",
   "positiveStreak": 0,
   "symbol": "CAT"
  },
@@ -74,10 +89,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T10:34:47.695668+00:00",
     "value": 3294
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T11:27:34.098568+00:00",
+    "value": 3330
    }
   ],
-  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
-  "positiveStreak": 0,
+  "lastSeen": "2026-09-06T11:27:34.098568+00:00",
+  "positiveStreak": 1,
   "symbol": "zolana"
  },
  "BYstjhZg4fijeUCt6Aq3eHVByRGBKpHzpQ7v53naL3Sb": {
@@ -86,10 +106,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T10:34:47.695668+00:00",
     "value": 2430
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T11:27:34.098568+00:00",
+    "value": 2478
    }
   ],
-  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
-  "positiveStreak": 0,
+  "lastSeen": "2026-09-06T11:27:34.098568+00:00",
+  "positiveStreak": 1,
   "symbol": "BABYZCAT"
  }
 }
