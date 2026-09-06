@@ -11,6 +11,18 @@
   "positiveStreak": 0,
   "symbol": "AOBS"
  },
+ "0x8fcf98e1348d3ddee46cdd15a5c7d9a8d423077d": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T10:34:47.695668+00:00",
+    "value": 588
+   }
+  ],
+  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
+  "positiveStreak": 0,
+  "symbol": "LEGS"
+ },
  "0xbb87378b58894338f0937b9691a5a6dc3a5a7777": {
   "history": [
    {
@@ -22,11 +34,28 @@
     "basis": "buyers24h",
     "ts": "2026-09-06T10:27:24.448424+00:00",
     "value": 924
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T10:34:47.695668+00:00",
+    "value": 934
    }
   ],
-  "lastSeen": "2026-09-06T10:27:24.448424+00:00",
-  "positiveStreak": 1,
+  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
+  "positiveStreak": 2,
   "symbol": "\u5b59\u5c0f\u5723"
+ },
+ "2R9VkKSwXpHTjmCcutzdCmY4Mw2h5yZ8GatRjTQppump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T10:34:47.695668+00:00",
+    "value": 1031
+   }
+  ],
+  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
+  "positiveStreak": 0,
+  "symbol": "CAT"
  },
  "6FWKoFmHtsds8TC9dQtNK4TJaD2fpPcay44tqiuR8Rz": {
   "history": [
@@ -38,5 +67,29 @@
   ],
   "lastSeen": "2026-09-06T09:46:49.803950+00:00",
   "symbol": "IBRL"
+ },
+ "752meQjs65b2c9wu49kd35tT9Y5AHMQ8haPLcyyd8XrT": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T10:34:47.695668+00:00",
+    "value": 3294
+   }
+  ],
+  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
+  "positiveStreak": 0,
+  "symbol": "zolana"
+ },
+ "BYstjhZg4fijeUCt6Aq3eHVByRGBKpHzpQ7v53naL3Sb": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-06T10:34:47.695668+00:00",
+    "value": 2430
+   }
+  ],
+  "lastSeen": "2026-09-06T10:34:47.695668+00:00",
+  "positiveStreak": 0,
+  "symbol": "BABYZCAT"
  }
 }
