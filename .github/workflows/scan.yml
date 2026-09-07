@@ -20,23 +20,29 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - uses: actions/checkout@v4
+      # v5/v6 run on Node 24. The older v4/v5 pair still works but throws a
+      # deprecation warning on every run, because they were built for Node 20,
+      # which is end of life.
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Run scan
         env:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
-          SOLSCAN_API_KEY: ${{ secrets.SOLSCAN_API_KEY }}
         run: python scan.py
 
       - name: Commit results
         run: |
           git config user.name "radar-bot"
           git config user.email "actions@github.com"
-          git add data/candidates.json state/holders.json
+          # state/perps.json MUST be committed: the distribution screen works by
+          # comparing this run's open interest and volume against the previous
+          # run's. Left unstaged, it is rebuilt and thrown away every time and
+          # the screen can never find a signal.
+          git add data/candidates.json state/holders.json state/perps.json
           if git diff --staged --quiet; then
             echo "nothing changed"
           else
