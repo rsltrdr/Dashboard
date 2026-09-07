@@ -230,10 +230,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T05:30:27.419469+00:00",
     "value": 684
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T06:39:52.343922+00:00",
+    "value": 699
    }
   ],
-  "lastSeen": "2026-09-07T05:30:27.419469+00:00",
-  "positiveStreak": 6,
+  "lastSeen": "2026-09-07T06:39:52.343922+00:00",
+  "positiveStreak": 7,
   "symbol": "UPS"
  },
  "0xbb87378b58894338f0937b9691a5a6dc3a5a7777": {
@@ -403,10 +408,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T01:29:11.126488+00:00",
     "value": 916
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T06:39:52.343922+00:00",
+    "value": 862
    }
   ],
-  "lastSeen": "2026-09-07T01:29:11.126488+00:00",
-  "positiveStreak": 10,
+  "lastSeen": "2026-09-07T06:39:52.343922+00:00",
+  "positiveStreak": 0,
   "symbol": "BLUESCREEN"
  },
  "2R9VkKSwXpHTjmCcutzdCmY4Mw2h5yZ8GatRjTQppump": {
@@ -530,11 +540,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-09-06T16:29:33.493907+00:00",
-    "value": 1846
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-09-06T17:27:02.038609+00:00",
     "value": 1831
    },
@@ -587,9 +592,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T05:30:27.419469+00:00",
     "value": 1538
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T06:39:52.343922+00:00",
+    "value": 1531
    }
   ],
-  "lastSeen": "2026-09-07T05:30:27.419469+00:00",
+  "lastSeen": "2026-09-07T06:39:52.343922+00:00",
   "positiveStreak": 0,
   "symbol": "PUMPANY"
  },
@@ -695,5 +705,17 @@
   "lastSeen": "2026-09-06T20:29:17.893690+00:00",
   "positiveStreak": 9,
   "symbol": "BABYZCAT"
+ },
+ "Y8kyGRvobqkptmXPH2PLepA9cgYm7tsdeGuikRrpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T06:39:52.343922+00:00",
+    "value": 18256
+   }
+  ],
+  "lastSeen": "2026-09-07T06:39:52.343922+00:00",
+  "positiveStreak": 0,
+  "symbol": "ULCAT"
  }
 }
