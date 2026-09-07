@@ -193,10 +193,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T00:41:50.872514+00:00",
     "value": 601
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T01:29:11.126488+00:00",
+    "value": 608
    }
   ],
-  "lastSeen": "2026-09-07T00:41:50.872514+00:00",
-  "positiveStreak": 1,
+  "lastSeen": "2026-09-07T01:29:11.126488+00:00",
+  "positiveStreak": 2,
   "symbol": "UPS"
  },
  "0xbb87378b58894338f0937b9691a5a6dc3a5a7777": {
@@ -277,10 +282,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T00:41:50.872514+00:00",
     "value": 1163
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T01:29:11.126488+00:00",
+    "value": 1176
    }
   ],
-  "lastSeen": "2026-09-07T00:41:50.872514+00:00",
-  "positiveStreak": 1,
+  "lastSeen": "2026-09-07T01:29:11.126488+00:00",
+  "positiveStreak": 2,
   "symbol": "BABYPONS"
  },
  "0xc6e8c393d46b685c2fb2177f759f2b16eb7a7d54": {
@@ -346,10 +356,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T00:41:50.872514+00:00",
     "value": 913
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T01:29:11.126488+00:00",
+    "value": 916
    }
   ],
-  "lastSeen": "2026-09-07T00:41:50.872514+00:00",
-  "positiveStreak": 9,
+  "lastSeen": "2026-09-07T01:29:11.126488+00:00",
+  "positiveStreak": 10,
   "symbol": "BLUESCREEN"
  },
  "2R9VkKSwXpHTjmCcutzdCmY4Mw2h5yZ8GatRjTQppump": {
@@ -510,9 +525,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T00:41:50.872514+00:00",
     "value": 1648
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T01:29:11.126488+00:00",
+    "value": 1626
    }
   ],
-  "lastSeen": "2026-09-07T00:41:50.872514+00:00",
+  "lastSeen": "2026-09-07T01:29:11.126488+00:00",
   "positiveStreak": 0,
   "symbol": "PUMPANY"
  },
