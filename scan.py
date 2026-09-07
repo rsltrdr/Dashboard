@@ -16,7 +16,6 @@ Screen:
 Sources:
   GeckoTerminal  new + trending pools per network      (free, no key)
   CoinGecko      live FX rate and listed-token data    (free demo key)
-  Solscan        Solana holder counts                  (your key)
 """
 
 import json
@@ -48,7 +47,7 @@ NETWORKS = []        # [(label, geckoterminal_id)], filled in at startup
 NETWORK_LABEL = {}   # geckoterminal_id -> label
 
 MIN_MCAP_USD = 20_000
-MAX_MCAP_USD = 550_000        # a little above the €500k screen so nothing borderline is lost early
+MAX_MCAP_USD = 950_000        # headroom above the €800k dashboard screen so nothing borderline is cut early
 
 # Volume against market cap is a band, not a floor. Healthy micro-cap activity
 # runs roughly 20-80% of cap; sustained readings above 100% are a recognised
@@ -80,7 +79,6 @@ PAGES_PER_ENDPOINT = 3        # depth of the new/trending sweep per chain
 MAX_CANDIDATES = 10           # what the dashboard shows
 
 COINGECKO_KEY = os.environ.get("COINGECKO_API_KEY", "").strip()
-SOLSCAN_KEY = os.environ.get("SOLSCAN_API_KEY", "").strip()
 
 # CoinGecko asset platform ids, for looking up a token by contract address
 CG_PLATFORM = {"solana": "solana", "eth": "ethereum", "bsc": "binance-smart-chain", "base": "base"}
@@ -237,8 +235,7 @@ def parse_pool(item, included_by_id, network):
     volume = as_float(dig(attrs, "volume_usd", "h24"))
     buys = int(as_float(dig(attrs, "transactions", "h24", "buys")))
     sells = int(as_float(dig(attrs, "transactions", "h24", "sells")))
-    # distinct wallets, not transaction count: the closest free stand-in for
-    # holder growth now that Solscan's holder endpoint is out of reach
+    # distinct wallets, not transaction count: the growth basis for every chain
     buyers = dig(attrs, "transactions", "h24", "buyers")
     buyers = int(as_float(buyers)) if buyers is not None else None
 
@@ -334,57 +331,23 @@ def discover(network):
 
 # ---------------------------------------------------------------- holders
 
-# Solscan rejected the "token" header with a 401 on the first run, so we try
-# each documented auth style once and remember whichever is accepted.
-SOLSCAN_AUTH_STYLES = [
-    ("token header", lambda k: {"token": k}),
-    ("bearer", lambda k: {"Authorization": f"Bearer {k}"}),
-    ("apikey header", lambda k: {"apikey": k}),
-]
-_solscan_style = None
-_solscan_dead = False
-
-
-def solana_holder_count(address):
-    global _solscan_style, _solscan_dead
-    if not SOLSCAN_KEY or _solscan_dead:
-        return None
-
-    url = f"https://pro-api.solscan.io/v2.0/token/meta?address={address}"
-    styles = [_solscan_style] if _solscan_style else SOLSCAN_AUTH_STYLES
-
-    data = None
-    for style in styles:
-        label, build = style
-        headers = build(SOLSCAN_KEY)
-        headers["User-Agent"] = "meme-coin-radar/1.0"
-        data, err = fetch(url, headers, retry_on_429=1)
-        if data:
-            if _solscan_style is None:
-                _solscan_style = style
-                note("solscan", f"auth accepted via {label}")
-            break
-        if _solscan_style:
-            note("solscan", err or "no data")
-            return None
-    else:
-        # Rejected once means rejected all run; stop hammering it per candidate.
-        _solscan_dead = True
-        note("solscan", "all auth styles rejected; falling back to buyer counts "
-                        "(the key's plan likely excludes /v2.0/token/meta)")
-        return None
-
-    if not data:
-        return None
-
-    body = data.get("data") if isinstance(data.get("data"), dict) else data
-    for key in ("holder", "holder_count", "holders", "holderCount"):
-        if key in body:
-            count = int(as_float(body[key]))
-            if count > 0:
-                return count
-    note("solscan", f"no holder field, keys={list(body)[:8]}")
-    return None
+# True holder counts are gone by choice, not by defeat.
+#
+# Solscan was the only source we had, and it covers Solana alone. Even working,
+# it would have scored Solana tokens on holder growth while every other chain
+# was scored on distinct-buyer growth, and the adoption factor treats those two
+# as the same number. Most of the board is Robinhood Chain and Base, so the
+# effect was a quiet cross-chain bias in a screen whose entire job is ranking
+# tokens against each other. One consistent proxy beats a better metric applied
+# to a quarter of the field.
+#
+# Distinct 24h buyers is now the sole growth basis, everywhere. It is weaker
+# than a holder count in a specific way worth remembering: it cannot tell one
+# buyer using twenty wallets from twenty buyers. volumePerBuyerUsd is the
+# partial guard against that.
+#
+# To restore real holder counts, the requirement is a source covering EVERY
+# FOMO chain, not another Solana-only key.
 
 
 def load_state():
@@ -418,7 +381,7 @@ def apply_growth(candidate, state, now_iso):
     time reports no growth yet. That is inherent, not a failure.
     """
     address = candidate["address"]
-    holders = solana_holder_count(address) if candidate["network"] == "solana" else None
+    holders = None  # no holder source covers every FOMO chain; see note above
     buyers = candidate.get("buyers24h")
 
     entry = state.get(address) or {"history": []}
@@ -733,8 +696,6 @@ def main():
 
     for c in shortlist:
         apply_growth(c, state, now_iso)
-        if c["network"] == "solana" and SOLSCAN_KEY:
-            time.sleep(1)
 
     # A confirmed decline drops out, EXCEPT when the token is moving hard on cap
     # or volume: buyer counts can dip in the hour a price move starts, and that
