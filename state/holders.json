@@ -46,6 +46,18 @@
   "positiveStreak": 0,
   "symbol": "SIZE"
  },
+ "0x157a752f3446fe891d6e2881006813703fbb3ad9": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T05:30:27.419469+00:00",
+    "value": 541
+   }
+  ],
+  "lastSeen": "2026-09-07T05:30:27.419469+00:00",
+  "positiveStreak": 0,
+  "symbol": "CATSTRO"
+ },
  "0x47366e0f257ac009e82bd46fb74e2fb50826ce98": {
   "history": [
    {
@@ -213,10 +225,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T04:31:41.500396+00:00",
     "value": 669
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T05:30:27.419469+00:00",
+    "value": 684
    }
   ],
-  "lastSeen": "2026-09-07T04:31:41.500396+00:00",
-  "positiveStreak": 5,
+  "lastSeen": "2026-09-07T05:30:27.419469+00:00",
+  "positiveStreak": 6,
   "symbol": "UPS"
  },
  "0xbb87378b58894338f0937b9691a5a6dc3a5a7777": {
@@ -513,11 +530,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-09-06T15:28:47.104238+00:00",
-    "value": 1878
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-09-06T16:29:33.493907+00:00",
     "value": 1846
    },
@@ -570,9 +582,14 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T04:31:41.500396+00:00",
     "value": 1548
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T05:30:27.419469+00:00",
+    "value": 1538
    }
   ],
-  "lastSeen": "2026-09-07T04:31:41.500396+00:00",
+  "lastSeen": "2026-09-07T05:30:27.419469+00:00",
   "positiveStreak": 0,
   "symbol": "PUMPANY"
  },
