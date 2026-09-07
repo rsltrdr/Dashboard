@@ -208,19 +208,19 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T03:31:50.901002+00:00",
     "value": 649
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T04:31:41.500396+00:00",
+    "value": 669
    }
   ],
-  "lastSeen": "2026-09-07T03:31:50.901002+00:00",
-  "positiveStreak": 4,
+  "lastSeen": "2026-09-07T04:31:41.500396+00:00",
+  "positiveStreak": 5,
   "symbol": "UPS"
  },
  "0xbb87378b58894338f0937b9691a5a6dc3a5a7777": {
   "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T13:28:00.401952+00:00",
-    "value": 1106
-   },
    {
     "basis": "buyers24h",
     "ts": "2026-09-06T14:28:59.768871+00:00",
@@ -275,10 +275,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T03:31:50.901002+00:00",
     "value": 1840
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T04:31:41.500396+00:00",
+    "value": 1880
    }
   ],
-  "lastSeen": "2026-09-07T03:31:50.901002+00:00",
-  "positiveStreak": 4,
+  "lastSeen": "2026-09-07T04:31:41.500396+00:00",
+  "positiveStreak": 5,
   "symbol": "\u5b59\u5c0f\u5723"
  },
  "0xbc7e5d630fc4ee095de2535d20e5af26958111a7": {
@@ -302,10 +307,15 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T03:31:50.901002+00:00",
     "value": 1197
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T04:31:41.500396+00:00",
+    "value": 1209
    }
   ],
-  "lastSeen": "2026-09-07T03:31:50.901002+00:00",
-  "positiveStreak": 3,
+  "lastSeen": "2026-09-07T04:31:41.500396+00:00",
+  "positiveStreak": 4,
   "symbol": "BABYPONS"
  },
  "0xc6e8c393d46b685c2fb2177f759f2b16eb7a7d54": {
@@ -555,11 +565,28 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T03:31:50.901002+00:00",
     "value": 1577
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T04:31:41.500396+00:00",
+    "value": 1548
    }
   ],
-  "lastSeen": "2026-09-07T03:31:50.901002+00:00",
+  "lastSeen": "2026-09-07T04:31:41.500396+00:00",
   "positiveStreak": 0,
   "symbol": "PUMPANY"
+ },
+ "9GJQUmiEZBpgSiEaqvi9hXXFs45crcfTwQ1vYY7Xgx6A": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T04:31:41.500396+00:00",
+    "value": 4043
+   }
+  ],
+  "lastSeen": "2026-09-07T04:31:41.500396+00:00",
+  "positiveStreak": 0,
+  "symbol": "401jk"
  },
  "A4j77ZgCEW3i4k94jBDQY5XwPikBB41WYi2vCQqSpump": {
   "history": [
