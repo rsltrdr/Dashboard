@@ -70,6 +70,12 @@ MAX_AGE_HOURS = 72            # but stay inside the early window
 MIN_DISTINCT_BUYERS = 15
 MAX_VOLUME_PER_BUYER_USD = 2_000
 
+# Movement thresholds: what counts as a candidate accelerating against itself,
+# measured between consecutive hourly scans.
+MOVE_MCAP_PCT = 25.0
+MOVE_VOLUME_PCT = 60.0
+MOVE_GROWTH_PCT = 8.0
+
 PAGES_PER_ENDPOINT = 3        # depth of the new/trending sweep per chain
 MAX_CANDIDATES = 10           # what the dashboard shows
 
@@ -443,6 +449,35 @@ def apply_growth(candidate, state, now_iso):
             candidate["growthStatus"] = "first sighting"
         history.append({"ts": now_iso, "basis": basis, "value": value})
 
+    # Movement against this token's own recent history. A candidate already on
+    # the board that suddenly accelerates never triggered anything before,
+    # because alerts only fired on new arrivals. AOBS ran 13x while sitting
+    # quietly in the file.
+    prev_snap = entry.get("lastSnapshot") or {}
+    moves = []
+    if prev_snap:
+        pm, pv = prev_snap.get("mcap") or 0, prev_snap.get("volume") or 0
+        if pm > 0:
+            mcap_chg = (candidate["mcapUsd"] - pm) / pm * 100
+            candidate["mcapChangePct"] = round(mcap_chg, 1)
+            if mcap_chg >= MOVE_MCAP_PCT:
+                moves.append(f"market cap +{mcap_chg:.0f}%")
+        if pv > 0:
+            vol_chg = (candidate["volume24hUsd"] - pv) / pv * 100
+            candidate["volumeChangePct"] = round(vol_chg, 1)
+            if vol_chg >= MOVE_VOLUME_PCT:
+                moves.append(f"volume +{vol_chg:.0f}%")
+        pg = prev_snap.get("growthPct")
+        if pg is not None and candidate.get("growthPct") is not None:
+            if candidate["growthPct"] >= MOVE_GROWTH_PCT and candidate["growthPct"] >= pg * 2:
+                moves.append(f"participation growth jumped to +{candidate['growthPct']:.1f}%")
+    entry["lastSnapshot"] = {
+        "ts": now_iso, "mcap": candidate["mcapUsd"],
+        "volume": candidate["volume24hUsd"], "growthPct": candidate.get("growthPct"),
+    }
+    candidate["moves"] = moves
+    candidate["isMover"] = bool(moves)
+
     # One positive reading is noise. Track how many consecutive scans have shown
     # growth, so the screen can insist on a trend rather than a blip.
     streak = entry.get("positiveStreak", 0)
@@ -701,9 +736,11 @@ def main():
         if c["network"] == "solana" and SOLSCAN_KEY:
             time.sleep(1)
 
-    # A confirmed decline drops out. Anything not yet measurable stays, flagged,
-    # so you can see it building a track record rather than having it hidden.
-    keep = [c for c in shortlist if c["growthPct"] is None or c["growthPct"] > 0]
+    # A confirmed decline drops out, EXCEPT when the token is moving hard on cap
+    # or volume: buyer counts can dip in the hour a price move starts, and that
+    # is the worst possible moment to hide something.
+    keep = [c for c in shortlist
+            if c["growthPct"] is None or c["growthPct"] > 0 or c.get("isMover")]
     # confirmed trends first, then size of growth, then activity
     keep.sort(key=lambda c: (c.get("growthConfirmed", False),
                              c["growthPct"] or 0,
@@ -747,6 +784,15 @@ def main():
         },
         "rejectedBy": rejects,
         "candidates": final,
+        "movers": [
+            {"symbol": c["symbol"], "chain": c["chain"], "address": c["address"],
+             "moves": c["moves"], "mcapEur": c.get("mcapEur"), "volMcapRatio": c.get("volMcapRatio"),
+             "growthPct": c.get("growthPct"), "ageHours": c.get("ageHours"),
+             "mcapChangePct": c.get("mcapChangePct"), "volumeChangePct": c.get("volumeChangePct"),
+             "dexscreener": c.get("dexscreener")}
+            for c in shortlist if c.get("isMover")
+        ],
+        "moveThresholds": {"mcapPct": MOVE_MCAP_PCT, "volumePct": MOVE_VOLUME_PCT, "growthPct": MOVE_GROWTH_PCT},
         "distribution": distribution,
         "distributionScreen": {
             "venue": "Hyperliquid perps (what FOMO routes to)",
