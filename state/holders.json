@@ -137,6 +137,24 @@
   "positiveStreak": 0,
   "symbol": "PONINU"
  },
+ "0x8e859dbdfbfd2df6a99870e2871eaa58e8784e05": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T08:17:27.716311+00:00",
+    "value": 705
+   }
+  ],
+  "lastSeen": "2026-09-07T08:17:27.716311+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 473095.875564533,
+   "ts": "2026-09-07T08:17:27.716311+00:00",
+   "volume": 714725.109093845
+  },
+  "positiveStreak": 0,
+  "symbol": "NEST"
+ },
  "0x8fcf98e1348d3ddee46cdd15a5c7d9a8d423077d": {
   "history": [
    {
@@ -245,10 +263,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T07:32:53.577931+00:00",
     "value": 703
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T08:17:27.716311+00:00",
+    "value": 732
    }
   ],
-  "lastSeen": "2026-09-07T07:32:53.577931+00:00",
-  "positiveStreak": 8,
+  "lastSeen": "2026-09-07T08:17:27.716311+00:00",
+  "lastSnapshot": {
+   "growthPct": 4.1,
+   "mcap": 332031.2408,
+   "ts": "2026-09-07T08:17:27.716311+00:00",
+   "volume": 727460.715585279
+  },
+  "positiveStreak": 9,
   "symbol": "UPS"
  },
  "0xbb87378b58894338f0937b9691a5a6dc3a5a7777": {
@@ -349,10 +378,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T07:32:53.577931+00:00",
     "value": 1232
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T08:17:27.716311+00:00",
+    "value": 1242
    }
   ],
-  "lastSeen": "2026-09-07T07:32:53.577931+00:00",
-  "positiveStreak": 5,
+  "lastSeen": "2026-09-07T08:17:27.716311+00:00",
+  "lastSnapshot": {
+   "growthPct": 0.8,
+   "mcap": 103726.7101,
+   "ts": "2026-09-07T08:17:27.716311+00:00",
+   "volume": 976431.657068747
+  },
+  "positiveStreak": 6,
   "symbol": "BABYPONS"
  },
  "0xc6e8c393d46b685c2fb2177f759f2b16eb7a7d54": {
@@ -369,11 +409,6 @@
  },
  "0xffe6510baf2a479ab567d76af8ec79d9f7d0366a": {
   "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T16:29:33.493907+00:00",
-    "value": 797
-   },
    {
     "basis": "buyers24h",
     "ts": "2026-09-06T17:27:02.038609+00:00",
@@ -428,9 +463,20 @@
     "basis": "buyers24h",
     "ts": "2026-09-07T07:32:53.577931+00:00",
     "value": 792
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-07T08:17:27.716311+00:00",
+    "value": 723
    }
   ],
-  "lastSeen": "2026-09-07T07:32:53.577931+00:00",
+  "lastSeen": "2026-09-07T08:17:27.716311+00:00",
+  "lastSnapshot": {
+   "growthPct": -8.7,
+   "mcap": 212998.0883,
+   "ts": "2026-09-07T08:17:27.716311+00:00",
+   "volume": 424664.342329082
+  },
   "positiveStreak": 0,
   "symbol": "BLUESCREEN"
  },
