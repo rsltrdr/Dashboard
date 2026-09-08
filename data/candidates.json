@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-08T10:32:09.456551+00:00",
- "usdToEur": 0.8609,
+ "generatedAt": "2026-09-08T11:30:31.754141+00:00",
+ "usdToEur": 0.8607,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,53 +34,20 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 559,
-  "passedScreen": 5,
-  "shortlisted": 5,
-  "returned": 1
+  "discovered": 554,
+  "passedScreen": 4,
+  "shortlisted": 4,
+  "returned": 0
  },
  "rejectedBy": {
-  "market cap outside band": 471,
-  "outside the 6-72h window": 47,
-  "liquidity too thin to exit": 26,
+  "market cap outside band": 463,
   "volume implausibly high against cap": 9,
-  "volume concentrated in few wallets": 1
+  "outside the 6-72h window": 53,
+  "liquidity too thin to exit": 23,
+  "volume concentrated in few wallets": 1,
+  "volume too low against cap": 1
  },
- "candidates": [
-  {
-   "address": "Cu49bzY6R1wXVqeZzJggYcZiz8fHb9P17mbEzutg4Pq1",
-   "symbol": "XRP",
-   "name": "Xtremely Retarded People",
-   "network": "solana",
-   "chain": "Solana",
-   "mcapUsd": 227234.9938,
-   "liquidityUsd": 42943.7964,
-   "volume24hUsd": 2201800.19099861,
-   "buys": 18959,
-   "sells": 15205,
-   "buyers24h": 5409,
-   "createdAt": "2026-09-08T03:20:49+00:00",
-   "ageHours": 7.21,
-   "poolAddress": "G37eVQh9vRnKKnraFtZMMqSm8EZYXx6MitTk6LcLv6de",
-   "volumePerBuyerUsd": 407.06,
-   "volMcapRatio": 9.69,
-   "holderCount": null,
-   "growthPct": null,
-   "growthBasis": "buyers24h",
-   "growthStatus": "first sighting",
-   "moves": [],
-   "isMover": false,
-   "positiveStreak": 0,
-   "growthConfirmed": false,
-   "holderGrowthPct": null,
-   "holderGrowthStatus": "first sighting",
-   "coingecko": null,
-   "mcapEur": 195619,
-   "liquidityEur": 36969,
-   "volume24hEur": 1895453,
-   "dexscreener": "https://dexscreener.com/solana/Cu49bzY6R1wXVqeZzJggYcZiz8fHb9P17mbEzutg4Pq1"
-  }
- ],
+ "candidates": [],
  "movers": [],
  "moveThresholds": {
   "mcapPct": 25.0,
@@ -89,29 +56,11 @@
  },
  "distribution": [
   {
-   "market": "AERO",
-   "price": 0.63909,
-   "change24hPct": 18.26,
-   "dayVolumeUsd": 14508206,
-   "openInterest": 32221642.0,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 1.9,
-   "oiChangePct": -1.0,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
    "market": "INJ",
-   "price": 6.2648,
-   "change24hPct": 10.26,
-   "dayVolumeUsd": 18204280,
-   "openInterest": 3862341.6,
+   "price": 6.2489,
+   "change24hPct": 10.36,
+   "dayVolumeUsd": 18197549,
+   "openInterest": 3855702.6,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
@@ -119,42 +68,42 @@
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -0.46,
-   "oiChangePct": 0.18,
+   "volumeChangePct": -0.04,
+   "oiChangePct": -0.17,
    "signalCount": 4,
    "observations": 13
   },
   {
-   "market": "XPL",
-   "price": 0.099462,
-   "change24hPct": 11.72,
-   "dayVolumeUsd": 14358007,
-   "openInterest": 554019366.0,
-   "fundingRate": 3.22902e-05,
+   "market": "SOPH",
+   "price": 0.010613,
+   "change24hPct": 111.16,
+   "dayVolumeUsd": 8671247,
+   "openInterest": 394968940.0,
+   "fundingRate": -0.0012126461,
    "signals": [
     "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
+    "price rolling over",
+    "ran up 24h"
    ],
-   "volumeChangePct": 14.71,
-   "oiChangePct": 2.53,
+   "volumeChangePct": -0.9,
+   "oiChangePct": -0.12,
    "signalCount": 3,
-   "observations": 13
+   "observations": 9
   },
   {
-   "market": "DOT",
-   "price": 1.089,
-   "change24hPct": 10.94,
-   "dayVolumeUsd": 7997094,
-   "openInterest": 5633675.6,
+   "market": "AERO",
+   "price": 0.65015,
+   "change24hPct": 20.37,
+   "dayVolumeUsd": 14778925,
+   "openInterest": 32100280.0,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 2.61,
-   "oiChangePct": -0.15,
+   "volumeChangePct": 1.87,
+   "oiChangePct": -0.38,
    "signalCount": 3,
    "observations": 13
   }
