@@ -84,16 +84,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-09T03:31:22.643668+00:00",
     "value": 1062
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-09T04:31:22.062496+00:00",
+    "value": 1092
    }
   ],
-  "lastSeen": "2026-09-09T03:31:22.643668+00:00",
+  "lastSeen": "2026-09-09T04:31:22.062496+00:00",
   "lastSnapshot": {
-   "growthPct": 3.0,
-   "mcap": 276701.4908,
-   "ts": "2026-09-09T03:31:22.643668+00:00",
-   "volume": 684852.024600895
+   "growthPct": 2.8,
+   "mcap": 263515.6946,
+   "ts": "2026-09-09T04:31:22.062496+00:00",
+   "volume": 690827.214247215
   },
-  "positiveStreak": 3,
+  "positiveStreak": 4,
   "symbol": "MarsCat"
  },
  "0x1c85e5fb478e91d8b769a509278f10e5e432754a": {
@@ -1530,6 +1535,24 @@
   "lastSeen": "2026-09-07T04:31:41.500396+00:00",
   "positiveStreak": 0,
   "symbol": "401jk"
+ },
+ "9RdsqgqtfkFkteNcWSu27wDGKcn6A9hTXoVet6TfS5H4": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-09T04:31:22.062496+00:00",
+    "value": 9017
+   }
+  ],
+  "lastSeen": "2026-09-09T04:31:22.062496+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 464932.769399989,
+   "ts": "2026-09-09T04:31:22.062496+00:00",
+   "volume": 3822781.81552836
+  },
+  "positiveStreak": 0,
+  "symbol": "Mooncoin"
  },
  "A4j77ZgCEW3i4k94jBDQY5XwPikBB41WYi2vCQqSpump": {
   "history": [
