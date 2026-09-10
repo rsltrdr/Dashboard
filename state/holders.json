@@ -1,4 +1,22 @@
 {
+ "0x0d11e308e40c15e1181aed4f4bbfc4744e9deeed": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-10T00:37:10.449882+00:00",
+    "value": 297
+   }
+  ],
+  "lastSeen": "2026-09-10T00:37:10.449882+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 172002.7408,
+   "ts": "2026-09-10T00:37:10.449882+00:00",
+   "volume": 196902.919433558
+  },
+  "positiveStreak": 0,
+  "symbol": "PYRE"
+ },
  "0x0f421d05e67b9e25d754e8e685af91b37bff6cef": {
   "history": [
    {
@@ -945,6 +963,24 @@
   "positiveStreak": 0,
   "symbol": "LEGS"
  },
+ "0x923cf92860f7e84f525051dfec371888be51ed6b": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-10T00:37:10.449882+00:00",
+    "value": 425
+   }
+  ],
+  "lastSeen": "2026-09-10T00:37:10.449882+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 144733.3795,
+   "ts": "2026-09-10T00:37:10.449882+00:00",
+   "volume": 410141.9402662
+  },
+  "positiveStreak": 0,
+  "symbol": "MOOF"
+ },
  "0x942e390b0d316c897336620da42a2f2a340f93ec": {
   "history": [
    {
@@ -1363,16 +1399,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-09T23:28:24.612221+00:00",
     "value": 1106
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-10T00:37:10.449882+00:00",
+    "value": 1118
    }
   ],
-  "lastSeen": "2026-09-09T23:28:24.612221+00:00",
+  "lastSeen": "2026-09-10T00:37:10.449882+00:00",
   "lastSnapshot": {
-   "growthPct": 0.5,
-   "mcap": 88031.38847,
-   "ts": "2026-09-09T23:28:24.612221+00:00",
-   "volume": 687898.953575032
+   "growthPct": 1.1,
+   "mcap": 77048.83309,
+   "ts": "2026-09-10T00:37:10.449882+00:00",
+   "volume": 694555.444767537
   },
-  "positiveStreak": 10,
+  "positiveStreak": 11,
   "symbol": "MAD"
  },
  "0xb97d9e5ad6244d27588fe0a624a8c78e512934ee": {
@@ -2514,14 +2555,19 @@
     "basis": "buyers24h",
     "ts": "2026-09-09T23:28:24.612221+00:00",
     "value": 8766
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-10T00:37:10.449882+00:00",
+    "value": 8670
    }
   ],
-  "lastSeen": "2026-09-09T23:28:24.612221+00:00",
+  "lastSeen": "2026-09-10T00:37:10.449882+00:00",
   "lastSnapshot": {
-   "growthPct": -3.6,
-   "mcap": 122683.6299,
-   "ts": "2026-09-09T23:28:24.612221+00:00",
-   "volume": 303975.031515093
+   "growthPct": -1.1,
+   "mcap": 122215.4746,
+   "ts": "2026-09-10T00:37:10.449882+00:00",
+   "volume": 251184.302481215
   },
   "positiveStreak": 0,
   "symbol": "CRACKTOP"
