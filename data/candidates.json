@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-10T04:31:32.108315+00:00",
+ "generatedAt": "2026-09-10T05:29:59.887445+00:00",
  "usdToEur": 0.8589,
  "usdToEurLive": true,
  "venue": "FOMO app",
@@ -34,16 +34,16 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 521,
-  "passedScreen": 4,
-  "shortlisted": 4,
-  "returned": 1
+  "discovered": 529,
+  "passedScreen": 5,
+  "shortlisted": 5,
+  "returned": 2
  },
  "rejectedBy": {
-  "market cap outside band": 427,
+  "market cap outside band": 446,
   "outside the 6-72h window": 45,
-  "liquidity too thin to exit": 37,
-  "volume implausibly high against cap": 8
+  "volume implausibly high against cap": 6,
+  "liquidity too thin to exit": 27
  },
  "candidates": [
   {
@@ -52,39 +52,94 @@
    "name": "KERMIT",
    "network": "robinhood",
    "chain": "Robinhood Chain",
-   "mcapUsd": 484727.8129,
-   "liquidityUsd": 56213.8412,
-   "volume24hUsd": 698467.29432672,
-   "buys": 2036,
-   "sells": 2202,
-   "buyers24h": 674,
+   "mcapUsd": 572961.351454695,
+   "liquidityUsd": 61151.3511,
+   "volume24hUsd": 726307.783578052,
+   "buys": 2172,
+   "sells": 2360,
+   "buyers24h": 716,
    "createdAt": "2026-09-09T20:19:46+00:00",
-   "ageHours": 8.31,
+   "ageHours": 9.29,
    "poolAddress": "0xa53e1fc004413094cb0a6a175b145ed085486a6ffa58bf61d55be48005f2cea2",
-   "volumePerBuyerUsd": 1036.3,
-   "volMcapRatio": 1.44,
+   "volumePerBuyerUsd": 1014.4,
+   "volMcapRatio": 1.27,
    "holderCount": null,
-   "growthPct": 5.0,
+   "growthPct": 6.2,
    "growthBasis": "buyers24h",
    "growthStatus": "measured",
-   "growthBefore": 642,
-   "growthBeforeAt": "2026-09-10T03:31:31.681524+00:00",
-   "mcapChangePct": 13.1,
-   "volumeChangePct": 6.3,
+   "growthBefore": 674,
+   "growthBeforeAt": "2026-09-10T04:31:32.108315+00:00",
+   "mcapChangePct": 18.2,
+   "volumeChangePct": 4.0,
    "moves": [],
    "isMover": false,
-   "positiveStreak": 2,
+   "positiveStreak": 3,
    "growthConfirmed": true,
-   "holderGrowthPct": 5.0,
+   "holderGrowthPct": 6.2,
    "holderGrowthStatus": "measured",
    "coingecko": null,
-   "mcapEur": 416335,
-   "liquidityEur": 48282,
-   "volume24hEur": 599917,
+   "mcapEur": 492109,
+   "liquidityEur": 52522,
+   "volume24hEur": 623816,
    "dexscreener": "https://dexscreener.com/robinhood/0xd111d37ba471fbe1c038976c8c51560bb0ee2335"
+  },
+  {
+   "address": "0x7f2673ba3d0679224a65b70aefe84f9e6a3cc376",
+   "symbol": "CLUBY",
+   "name": "Cluby Credit",
+   "network": "robinhood",
+   "chain": "Robinhood Chain",
+   "mcapUsd": 264681.652167625,
+   "liquidityUsd": 47592.7205,
+   "volume24hUsd": 980763.472650676,
+   "buys": 4289,
+   "sells": 3783,
+   "buyers24h": 1218,
+   "createdAt": "2026-09-09T17:38:29+00:00",
+   "ageHours": 11.98,
+   "poolAddress": "0x459c1b3043b2969b0c15207bee8617efa09c5e9e1bd04c45324b2de11129c1d7",
+   "volumePerBuyerUsd": 805.22,
+   "volMcapRatio": 3.71,
+   "holderCount": null,
+   "growthPct": 2.4,
+   "growthBasis": "buyers24h",
+   "growthStatus": "measured",
+   "growthBefore": 1189,
+   "growthBeforeAt": "2026-09-10T03:31:31.681524+00:00",
+   "mcapChangePct": 32.1,
+   "volumeChangePct": 4.6,
+   "moves": [
+    "market cap +32%"
+   ],
+   "isMover": true,
+   "positiveStreak": 3,
+   "growthConfirmed": true,
+   "holderGrowthPct": 2.4,
+   "holderGrowthStatus": "measured",
+   "coingecko": null,
+   "mcapEur": 227332,
+   "liquidityEur": 40877,
+   "volume24hEur": 842365,
+   "dexscreener": "https://dexscreener.com/robinhood/0x7f2673ba3d0679224a65b70aefe84f9e6a3cc376"
   }
  ],
- "movers": [],
+ "movers": [
+  {
+   "symbol": "CLUBY",
+   "chain": "Robinhood Chain",
+   "address": "0x7f2673ba3d0679224a65b70aefe84f9e6a3cc376",
+   "moves": [
+    "market cap +32%"
+   ],
+   "mcapEur": 227332,
+   "volMcapRatio": 3.71,
+   "growthPct": 2.4,
+   "ageHours": 11.98,
+   "mcapChangePct": 32.1,
+   "volumeChangePct": 4.6,
+   "dexscreener": "https://dexscreener.com/robinhood/0x7f2673ba3d0679224a65b70aefe84f9e6a3cc376"
+  }
+ ],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -112,6 +167,10 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
+  },
+  {
+   "stage": "discover:solana:new_pools:p3",
+   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/new_pools"
   }
  ]
 }
