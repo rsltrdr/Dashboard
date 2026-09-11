@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-11T16:31:12.769597+00:00",
- "usdToEur": 0.8614,
+ "generatedAt": "2026-09-11T17:29:06.581563+00:00",
+ "usdToEur": 0.862,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,16 +34,16 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 578,
-  "passedScreen": 4,
-  "shortlisted": 4,
-  "returned": 2
+  "discovered": 560,
+  "passedScreen": 7,
+  "shortlisted": 7,
+  "returned": 3
  },
  "rejectedBy": {
-  "market cap outside band": 475,
-  "liquidity too thin to exit": 39,
-  "outside the 6-72h window": 51,
-  "volume implausibly high against cap": 9
+  "market cap outside band": 461,
+  "liquidity too thin to exit": 42,
+  "outside the 6-72h window": 43,
+  "volume implausibly high against cap": 7
  },
  "candidates": [
   {
@@ -52,36 +52,76 @@
    "name": "Fuse",
    "network": "eth",
    "chain": "Ethereum",
-   "mcapUsd": 360897.3159,
-   "liquidityUsd": 72974.1352,
-   "volume24hUsd": 312359.658776472,
-   "buys": 770,
-   "sells": 474,
-   "buyers24h": 324,
+   "mcapUsd": 314469.2017,
+   "liquidityUsd": 68342.405,
+   "volume24hUsd": 323816.129209532,
+   "buys": 801,
+   "sells": 497,
+   "buyers24h": 336,
    "createdAt": "2026-09-10T23:00:47+00:00",
-   "ageHours": 17.55,
+   "ageHours": 18.51,
    "poolAddress": "0x90a64ed1c47392829a39df15ff25401c21818ea2db9e2538c9c25182f76b7c1e",
-   "volumePerBuyerUsd": 964.07,
-   "volMcapRatio": 0.87,
+   "volumePerBuyerUsd": 963.74,
+   "volMcapRatio": 1.03,
    "holderCount": null,
-   "growthPct": 12.1,
+   "growthPct": 3.7,
    "growthBasis": "buyers24h",
    "growthStatus": "measured",
-   "growthBefore": 289,
-   "growthBeforeAt": "2026-09-11T15:30:34.214007+00:00",
-   "mcapChangePct": -3.0,
-   "volumeChangePct": 48.2,
+   "growthBefore": 324,
+   "growthBeforeAt": "2026-09-11T16:31:12.769597+00:00",
+   "mcapChangePct": -12.9,
+   "volumeChangePct": 3.7,
    "moves": [],
    "isMover": false,
-   "positiveStreak": 1,
-   "growthConfirmed": false,
-   "holderGrowthPct": 12.1,
+   "positiveStreak": 2,
+   "growthConfirmed": true,
+   "holderGrowthPct": 3.7,
    "holderGrowthStatus": "measured",
    "coingecko": null,
-   "mcapEur": 310876,
-   "liquidityEur": 62860,
-   "volume24hEur": 269065,
+   "mcapEur": 271057,
+   "liquidityEur": 58908,
+   "volume24hEur": 279114,
    "dexscreener": "https://dexscreener.com/eth/0x126f5ece91d971f8ad62fa4fc1054456b8bd1111"
+  },
+  {
+   "address": "0xa43a9b6eedd8204f445237bf72775ed9b1723d45",
+   "symbol": "ND4",
+   "name": "ND4.eth",
+   "network": "robinhood",
+   "chain": "Robinhood Chain",
+   "mcapUsd": 608090.269264472,
+   "liquidityUsd": 71670.474,
+   "volume24hUsd": 1224963.1268346,
+   "buys": 3202,
+   "sells": 3118,
+   "buyers24h": 1289,
+   "createdAt": "2026-09-09T16:03:16+00:00",
+   "ageHours": 49.56,
+   "poolAddress": "0x3c8b091a934fb769da969e84fffc3eb09e69ad389d3a20617ea34f87dc3ea022",
+   "volumePerBuyerUsd": 950.32,
+   "volMcapRatio": 2.01,
+   "holderCount": null,
+   "growthPct": 31.1,
+   "growthBasis": "buyers24h",
+   "growthStatus": "measured",
+   "growthBefore": 983,
+   "growthBeforeAt": "2026-09-11T15:30:34.214007+00:00",
+   "mcapChangePct": -15.7,
+   "volumeChangePct": 60.1,
+   "moves": [
+    "volume +60%",
+    "participation growth jumped to +31.1%"
+   ],
+   "isMover": true,
+   "positiveStreak": 1,
+   "growthConfirmed": false,
+   "holderGrowthPct": 31.1,
+   "holderGrowthStatus": "measured",
+   "coingecko": null,
+   "mcapEur": 524145,
+   "liquidityEur": 61777,
+   "volume24hEur": 1055859,
+   "dexscreener": "https://dexscreener.com/robinhood/0xa43a9b6eedd8204f445237bf72775ed9b1723d45"
   },
   {
    "address": "0xb83fc6010c8dcf628abe787a161c619fcc543117",
@@ -89,54 +129,70 @@
    "name": "PENPE",
    "network": "robinhood",
    "chain": "Robinhood Chain",
-   "mcapUsd": 203437.702314,
-   "liquidityUsd": 36670.8066,
-   "volume24hUsd": 226274.596911025,
-   "buys": 1447,
-   "sells": 1818,
-   "buyers24h": 442,
+   "mcapUsd": 311351.559552,
+   "liquidityUsd": 45181.8116,
+   "volume24hUsd": 202820.002763092,
+   "buys": 1215,
+   "sells": 1628,
+   "buyers24h": 386,
    "createdAt": "2026-09-10T14:57:06+00:00",
-   "ageHours": 25.69,
+   "ageHours": 26.66,
    "poolAddress": "0xb299893eaf009c9325b788a84c1dd85501a24f78228e4a94769be52326f0919b",
-   "volumePerBuyerUsd": 511.93,
-   "volMcapRatio": 1.11,
+   "volumePerBuyerUsd": 525.44,
+   "volMcapRatio": 0.65,
    "holderCount": null,
-   "growthPct": -20.5,
+   "growthPct": -12.7,
    "growthBasis": "buyers24h",
    "growthStatus": "measured",
-   "growthBefore": 556,
-   "growthBeforeAt": "2026-09-11T15:30:34.214007+00:00",
-   "mcapChangePct": 47.9,
-   "volumeChangePct": -36.0,
+   "growthBefore": 442,
+   "growthBeforeAt": "2026-09-11T16:31:12.769597+00:00",
+   "mcapChangePct": 53.0,
+   "volumeChangePct": -10.4,
    "moves": [
-    "market cap +48%"
+    "market cap +53%"
    ],
    "isMover": true,
    "positiveStreak": 0,
    "growthConfirmed": false,
-   "holderGrowthPct": -20.5,
+   "holderGrowthPct": -12.7,
    "holderGrowthStatus": "measured",
    "coingecko": null,
-   "mcapEur": 175240,
-   "liquidityEur": 31588,
-   "volume24hEur": 194912,
+   "mcapEur": 268370,
+   "liquidityEur": 38945,
+   "volume24hEur": 174821,
    "dexscreener": "https://dexscreener.com/robinhood/0xb83fc6010c8dcf628abe787a161c619fcc543117"
   }
  ],
  "movers": [
   {
+   "symbol": "ND4",
+   "chain": "Robinhood Chain",
+   "address": "0xa43a9b6eedd8204f445237bf72775ed9b1723d45",
+   "moves": [
+    "volume +60%",
+    "participation growth jumped to +31.1%"
+   ],
+   "mcapEur": 524145,
+   "volMcapRatio": 2.01,
+   "growthPct": 31.1,
+   "ageHours": 49.56,
+   "mcapChangePct": -15.7,
+   "volumeChangePct": 60.1,
+   "dexscreener": "https://dexscreener.com/robinhood/0xa43a9b6eedd8204f445237bf72775ed9b1723d45"
+  },
+  {
    "symbol": "PENPE",
    "chain": "Robinhood Chain",
    "address": "0xb83fc6010c8dcf628abe787a161c619fcc543117",
    "moves": [
-    "market cap +48%"
+    "market cap +53%"
    ],
-   "mcapEur": 175240,
-   "volMcapRatio": 1.11,
-   "growthPct": -20.5,
-   "ageHours": 25.69,
-   "mcapChangePct": 47.9,
-   "volumeChangePct": -36.0,
+   "mcapEur": 268370,
+   "volMcapRatio": 0.65,
+   "growthPct": -12.7,
+   "ageHours": 26.66,
+   "mcapChangePct": 53.0,
+   "volumeChangePct": -10.4,
    "dexscreener": "https://dexscreener.com/robinhood/0xb83fc6010c8dcf628abe787a161c619fcc543117"
   }
  ],
@@ -148,20 +204,21 @@
  "distribution": [
   {
    "market": "MET",
-   "price": 0.27708,
-   "change24hPct": 26.97,
-   "dayVolumeUsd": 6164263,
-   "openInterest": 19627274.0,
+   "price": 0.26789,
+   "change24hPct": 21.23,
+   "dayVolumeUsd": 6540827,
+   "openInterest": 20720912.0,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 2.28,
-   "oiChangePct": -1.33,
-   "signalCount": 3,
-   "observations": 5
+   "volumeChangePct": 6.11,
+   "oiChangePct": 5.57,
+   "signalCount": 4,
+   "observations": 6
   }
  ],
  "distributionScreen": {
@@ -185,6 +242,10 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
+  },
+  {
+   "stage": "discover:solana:new_pools:p3",
+   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/new_pools"
   }
  ]
 }
