@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-16T01:28:58.695585+00:00",
- "usdToEur": 0.8665,
+ "generatedAt": "2026-09-16T02:30:57.530822+00:00",
+ "usdToEur": 0.8662,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,108 +34,19 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 491,
-  "passedScreen": 4,
-  "shortlisted": 4,
-  "returned": 2
+  "discovered": 490,
+  "passedScreen": 2,
+  "shortlisted": 2,
+  "returned": 0
  },
  "rejectedBy": {
-  "market cap outside band": 417,
-  "outside the 6-72h window": 28,
-  "liquidity too thin to exit": 36,
-  "volume implausibly high against cap": 6
+  "market cap outside band": 415,
+  "outside the 6-72h window": 30,
+  "liquidity too thin to exit": 34,
+  "volume implausibly high against cap": 9
  },
- "candidates": [
-  {
-   "address": "0xcc50404bd4219245eae40415d6bab679180f7f7e",
-   "symbol": "Metapad",
-   "name": "Metapad",
-   "network": "robinhood",
-   "chain": "Robinhood Chain",
-   "mcapUsd": 380068.5257,
-   "liquidityUsd": 54877.3025,
-   "volume24hUsd": 1206110.98866476,
-   "buys": 6783,
-   "sells": 6479,
-   "buyers24h": 1228,
-   "createdAt": "2026-09-15T02:32:05+00:00",
-   "ageHours": 23.06,
-   "poolAddress": "0xe052e30aab03360c62acc51561b84a7a04056164ca1aafb5f244958c6cd00056",
-   "volumePerBuyerUsd": 982.18,
-   "volMcapRatio": 3.17,
-   "holderCount": null,
-   "growthPct": 1.5,
-   "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 1210,
-   "growthBeforeAt": "2026-09-16T00:36:47.097042+00:00",
-   "mcapChangePct": 74.3,
-   "volumeChangePct": 3.0,
-   "moves": [
-    "market cap +74%"
-   ],
-   "isMover": true,
-   "positiveStreak": 12,
-   "growthConfirmed": true,
-   "holderGrowthPct": 1.5,
-   "holderGrowthStatus": "measured",
-   "coingecko": null,
-   "mcapEur": 329315,
-   "liquidityEur": 47549,
-   "volume24hEur": 1045049,
-   "dexscreener": "https://dexscreener.com/robinhood/0xcc50404bd4219245eae40415d6bab679180f7f7e"
-  },
-  {
-   "address": "0xdf09edb6b7c7de7c8472e243d78681b71aced3de",
-   "symbol": "FREN",
-   "name": "fren",
-   "network": "robinhood",
-   "chain": "Robinhood Chain",
-   "mcapUsd": 247925.3154,
-   "liquidityUsd": 42730.9087,
-   "volume24hUsd": 1837696.59366632,
-   "buys": 7622,
-   "sells": 7138,
-   "buyers24h": 1871,
-   "createdAt": "2026-09-15T19:27:15+00:00",
-   "ageHours": 6.14,
-   "poolAddress": "0x0bca8b92ebd747eabac5add200f068e30cda1bd9a4ba3b5caad04f5f17383dc3",
-   "volumePerBuyerUsd": 982.2,
-   "volMcapRatio": 7.41,
-   "holderCount": null,
-   "growthPct": null,
-   "growthBasis": "buyers24h",
-   "growthStatus": "first sighting",
-   "moves": [],
-   "isMover": false,
-   "positiveStreak": 0,
-   "growthConfirmed": false,
-   "holderGrowthPct": null,
-   "holderGrowthStatus": "first sighting",
-   "coingecko": null,
-   "mcapEur": 214818,
-   "liquidityEur": 37025,
-   "volume24hEur": 1592294,
-   "dexscreener": "https://dexscreener.com/robinhood/0xdf09edb6b7c7de7c8472e243d78681b71aced3de"
-  }
- ],
- "movers": [
-  {
-   "symbol": "Metapad",
-   "chain": "Robinhood Chain",
-   "address": "0xcc50404bd4219245eae40415d6bab679180f7f7e",
-   "moves": [
-    "market cap +74%"
-   ],
-   "mcapEur": 329315,
-   "volMcapRatio": 3.17,
-   "growthPct": 1.5,
-   "ageHours": 23.06,
-   "mcapChangePct": 74.3,
-   "volumeChangePct": 3.0,
-   "dexscreener": "https://dexscreener.com/robinhood/0xcc50404bd4219245eae40415d6bab679180f7f7e"
-  }
- ],
+ "candidates": [],
+ "movers": [],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -144,18 +55,18 @@
  "distribution": [
   {
    "market": "ARB",
-   "price": 0.1508,
-   "change24hPct": 12.39,
-   "dayVolumeUsd": 44262618,
-   "openInterest": 150339790.0,
+   "price": 0.15282,
+   "change24hPct": 14.28,
+   "dayVolumeUsd": 44991124,
+   "openInterest": 150982574.8,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -0.92,
-   "oiChangePct": 0.59,
+   "volumeChangePct": 1.65,
+   "oiChangePct": 0.43,
    "signalCount": 3,
    "observations": 13
   }
