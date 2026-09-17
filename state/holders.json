@@ -511,16 +511,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T18:34:26.471466+00:00",
     "value": 3782
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T19:28:17.555772+00:00",
+    "value": 3828
    }
   ],
-  "lastSeen": "2026-09-17T18:34:26.471466+00:00",
+  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 593439.6063,
-   "ts": "2026-09-17T18:34:26.471466+00:00",
-   "volume": 1853826.18130703
+   "growthPct": 1.2,
+   "mcap": 596151.2899,
+   "ts": "2026-09-17T19:28:17.555772+00:00",
+   "volume": 1876783.57726452
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "\u6c38\u751f\u679c\u8747"
  },
  "0x22d141f768b4dc6108c1e8712b10aca9a5c603dc": {
@@ -5161,16 +5166,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T18:34:26.471466+00:00",
     "value": 134
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T19:28:17.555772+00:00",
+    "value": 134
    }
   ],
-  "lastSeen": "2026-09-17T18:34:26.471466+00:00",
+  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
   "lastSnapshot": {
-   "growthPct": 1.5,
-   "mcap": 155828.292113519,
-   "ts": "2026-09-17T18:34:26.471466+00:00",
+   "growthPct": 0.0,
+   "mcap": 157113.621167825,
+   "ts": "2026-09-17T19:28:17.555772+00:00",
    "volume": 142021.469521912
   },
-  "positiveStreak": 1,
+  "positiveStreak": 0,
   "symbol": "STBU"
  },
  "0xec48d60d9078edea7f37b6bd309d9f8e2fdf60cc": {
@@ -6235,6 +6245,24 @@
   "positiveStreak": 2,
   "symbol": "SONS"
  },
+ "3giB8yXeWxQp911BEjLrwBc5YFJCqMqB7uf9keijKASp": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T19:28:17.555772+00:00",
+    "value": 3470
+   }
+  ],
+  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 126827.6058,
+   "ts": "2026-09-17T19:28:17.555772+00:00",
+   "volume": 1002551.64753143
+  },
+  "positiveStreak": 0,
+  "symbol": "Lilly"
+ },
  "3nkVw4JwdDLGM23Wzqpy2ptAPV5YgMnokEBgijDBpump": {
   "history": [
    {
@@ -6564,16 +6592,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T18:34:26.471466+00:00",
     "value": 5029
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T19:28:17.555772+00:00",
+    "value": 5060
    }
   ],
-  "lastSeen": "2026-09-17T18:34:26.471466+00:00",
+  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
   "lastSnapshot": {
-   "growthPct": 1.2,
-   "mcap": 262244.6395,
-   "ts": "2026-09-17T18:34:26.471466+00:00",
-   "volume": 1772702.26396129
+   "growthPct": 0.6,
+   "mcap": 277707.8438,
+   "ts": "2026-09-17T19:28:17.555772+00:00",
+   "volume": 1801941.40374968
   },
-  "positiveStreak": 7,
+  "positiveStreak": 8,
   "symbol": "WISH"
  },
  "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump": {
@@ -7478,16 +7511,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T18:34:26.471466+00:00",
     "value": 1906
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T19:28:17.555772+00:00",
+    "value": 1941
    }
   ],
-  "lastSeen": "2026-09-17T18:34:26.471466+00:00",
+  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
   "lastSnapshot": {
-   "growthPct": 2.6,
-   "mcap": 158175.577220415,
-   "ts": "2026-09-17T18:34:26.471466+00:00",
-   "volume": 686808.71405114
+   "growthPct": 1.8,
+   "mcap": 156218.588303338,
+   "ts": "2026-09-17T19:28:17.555772+00:00",
+   "volume": 717864.615852546
   },
-  "positiveStreak": 6,
+  "positiveStreak": 7,
   "symbol": "DONO"
  },
  "9LAcK5XfutibvzXAqNMjVCL5FRuSTv2TVNxnLK5QExUt": {
@@ -8992,16 +9030,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T18:34:26.471466+00:00",
     "value": 2375
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T19:28:17.555772+00:00",
+    "value": 2418
    }
   ],
-  "lastSeen": "2026-09-17T18:34:26.471466+00:00",
+  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
   "lastSnapshot": {
-   "growthPct": 2.7,
-   "mcap": 203538.858810302,
-   "ts": "2026-09-17T18:34:26.471466+00:00",
-   "volume": 696179.259941378
+   "growthPct": 1.8,
+   "mcap": 145898.137516613,
+   "ts": "2026-09-17T19:28:17.555772+00:00",
+   "volume": 729432.14955165
   },
-  "positiveStreak": 2,
+  "positiveStreak": 3,
   "symbol": "KEVIN"
  },
  "H1q6vF9X2ewo7XxqJ2qb2uTdwkjDLAWF1Y3SefRAUTGZ": {
@@ -9505,16 +9548,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T18:34:26.471466+00:00",
     "value": 2327
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T19:28:17.555772+00:00",
+    "value": 2538
    }
   ],
-  "lastSeen": "2026-09-17T18:34:26.471466+00:00",
+  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
   "lastSnapshot": {
-   "growthPct": 8.7,
-   "mcap": 448774.3352,
-   "ts": "2026-09-17T18:34:26.471466+00:00",
-   "volume": 1544283.57213468
+   "growthPct": 9.1,
+   "mcap": 646832.0108,
+   "ts": "2026-09-17T19:28:17.555772+00:00",
+   "volume": 1712940.68394894
   },
-  "positiveStreak": 5,
+  "positiveStreak": 6,
   "symbol": "xp"
  },
  "xcoio7guTWKAS38GY6TjcxmkTgsNBgri1geQAkGd2WJ": {
