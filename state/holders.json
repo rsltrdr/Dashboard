@@ -516,16 +516,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T19:28:17.555772+00:00",
     "value": 3828
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T20:30:16.252569+00:00",
+    "value": 3866
    }
   ],
-  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
+  "lastSeen": "2026-09-17T20:30:16.252569+00:00",
   "lastSnapshot": {
-   "growthPct": 1.2,
-   "mcap": 596151.2899,
-   "ts": "2026-09-17T19:28:17.555772+00:00",
-   "volume": 1876783.57726452
+   "growthPct": 1.0,
+   "mcap": 614968.1867,
+   "ts": "2026-09-17T20:30:16.252569+00:00",
+   "volume": 1897236.29131705
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "\u6c38\u751f\u679c\u8747"
  },
  "0x22d141f768b4dc6108c1e8712b10aca9a5c603dc": {
@@ -6597,16 +6602,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T19:28:17.555772+00:00",
     "value": 5060
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T20:30:16.252569+00:00",
+    "value": 5087
    }
   ],
-  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
+  "lastSeen": "2026-09-17T20:30:16.252569+00:00",
   "lastSnapshot": {
-   "growthPct": 0.6,
-   "mcap": 277707.8438,
-   "ts": "2026-09-17T19:28:17.555772+00:00",
-   "volume": 1801941.40374968
+   "growthPct": 0.5,
+   "mcap": 277927.538,
+   "ts": "2026-09-17T20:30:16.252569+00:00",
+   "volume": 1815148.18873623
   },
-  "positiveStreak": 8,
+  "positiveStreak": 9,
   "symbol": "WISH"
  },
  "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump": {
@@ -9035,16 +9045,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-17T19:28:17.555772+00:00",
     "value": 2418
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-17T20:30:16.252569+00:00",
+    "value": 2456
    }
   ],
-  "lastSeen": "2026-09-17T19:28:17.555772+00:00",
+  "lastSeen": "2026-09-17T20:30:16.252569+00:00",
   "lastSnapshot": {
-   "growthPct": 1.8,
-   "mcap": 145898.137516613,
-   "ts": "2026-09-17T19:28:17.555772+00:00",
-   "volume": 729432.14955165
+   "growthPct": 1.6,
+   "mcap": 121320.877294186,
+   "ts": "2026-09-17T20:30:16.252569+00:00",
+   "volume": 748772.229382912
   },
-  "positiveStreak": 3,
+  "positiveStreak": 4,
   "symbol": "KEVIN"
  },
  "H1q6vF9X2ewo7XxqJ2qb2uTdwkjDLAWF1Y3SefRAUTGZ": {
