@@ -1,15 +1,13 @@
 {
- "generatedAt": "2026-09-18T08:31:12.425954+00:00",
- "usdToEur": 0.87,
+ "generatedAt": "2026-09-18T09:30:25.419585+00:00",
+ "usdToEur": 0.8702,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
   "Solana",
   "Ethereum",
   "Base",
-  "BNB Chain",
-  "Monad",
-  "Robinhood Chain"
+  "BNB Chain"
  ],
  "screen": {
   "mcapUsd": [
@@ -34,139 +32,50 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 515,
-  "passedScreen": 4,
-  "shortlisted": 4,
-  "returned": 3
+  "discovered": 283,
+  "passedScreen": 1,
+  "shortlisted": 1,
+  "returned": 1
  },
  "rejectedBy": {
-  "market cap outside band": 428,
-  "liquidity too thin to exit": 37,
-  "outside the 6-72h window": 36,
-  "volume implausibly high against cap": 10
+  "market cap outside band": 239,
+  "outside the 6-72h window": 26,
+  "liquidity too thin to exit": 9,
+  "volume implausibly high against cap": 8
  },
  "candidates": [
   {
-   "address": "0x225ad472938d116f957bf86fb6b611da144f7777",
-   "symbol": "\u6c38\u751f\u679c\u8747",
-   "name": "\u6c38\u751f\u679c\u8747",
-   "network": "bsc",
-   "chain": "BNB Chain",
-   "mcapUsd": 549075.300132789,
-   "liquidityUsd": 78969.9998,
-   "volume24hUsd": 3175815.11160791,
-   "buys": 18750,
-   "sells": 13539,
-   "buyers24h": 5852,
-   "createdAt": "2026-09-17T12:11:38+00:00",
-   "ageHours": 20.37,
-   "poolAddress": "0xd7632dd04e030f17532a2b9524280f0c55f2ce9d",
-   "volumePerBuyerUsd": 542.69,
-   "volMcapRatio": 5.78,
-   "holderCount": null,
-   "growthPct": 1.2,
-   "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 5780,
-   "growthBeforeAt": "2026-09-18T07:29:53.821553+00:00",
-   "mcapChangePct": -9.6,
-   "volumeChangePct": 1.0,
-   "moves": [],
-   "isMover": false,
-   "positiveStreak": 12,
-   "growthConfirmed": true,
-   "holderGrowthPct": 1.2,
-   "holderGrowthStatus": "measured",
-   "coingecko": {
-    "id": "immortal-fruit-fly",
-    "categories": [
-     "BNB Chain Ecosystem"
-    ],
-    "marketCapRank": null,
-    "priceChange24h": null,
-    "priceChange7d": null,
-    "athChangePct": -16.39022,
-    "twitterFollowers": null,
-    "url": "https://www.coingecko.com/en/coins/immortal-fruit-fly"
-   },
-   "mcapEur": 477708,
-   "liquidityEur": 68706,
-   "volume24hEur": 2763029,
-   "dexscreener": "https://dexscreener.com/bsc/0x225ad472938d116f957bf86fb6b611da144f7777"
-  },
-  {
-   "address": "9U1f18idDeySFnYrurxqT1f5n5nE4g4Uk5LLzP69bh1",
-   "symbol": "SOLCAT",
-   "name": "Solana Cat",
+   "address": "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA",
+   "symbol": "CALI",
+   "name": "CALI",
    "network": "solana",
    "chain": "Solana",
-   "mcapUsd": 889810.435444389,
-   "liquidityUsd": 99408.256,
-   "volume24hUsd": 8525969.21147329,
-   "buys": 56002,
-   "sells": 47741,
-   "buyers24h": 14586,
-   "createdAt": "2026-09-17T19:15:42+00:00",
-   "ageHours": 13.26,
-   "poolAddress": "9Hr6NXw5WSffxNQnqxwZyhRw81uz3PpB7RF9J3i9nMt1",
-   "volumePerBuyerUsd": 584.53,
-   "volMcapRatio": 9.58,
+   "mcapUsd": 370946.689210943,
+   "liquidityUsd": 52964.6263,
+   "volume24hUsd": 780445.890861078,
+   "buys": 5628,
+   "sells": 4894,
+   "buyers24h": 2604,
+   "createdAt": "2026-09-17T12:12:59+00:00",
+   "ageHours": 21.31,
+   "poolAddress": "2i2iULr7UwK1SDRB17T5FUtiMnFQL7fyy7rh69brZihc",
+   "volumePerBuyerUsd": 299.71,
+   "volMcapRatio": 2.1,
    "holderCount": null,
-   "growthPct": 0.5,
+   "growthPct": null,
    "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 14513,
-   "growthBeforeAt": "2026-09-18T07:29:53.821553+00:00",
-   "mcapChangePct": 0.7,
-   "volumeChangePct": 0.8,
+   "growthStatus": "first sighting",
    "moves": [],
    "isMover": false,
-   "positiveStreak": 4,
-   "growthConfirmed": true,
-   "holderGrowthPct": 0.5,
-   "holderGrowthStatus": "measured",
+   "positiveStreak": 0,
+   "growthConfirmed": false,
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 774155,
-   "liquidityEur": 86487,
-   "volume24hEur": 7417781,
-   "dexscreener": "https://dexscreener.com/solana/9U1f18idDeySFnYrurxqT1f5n5nE4g4Uk5LLzP69bh1"
-  },
-  {
-   "address": "0xe0f9efe76a0d0fb4e63c25a7283f220fc90e2364",
-   "symbol": "SHR",
-   "name": "Shares",
-   "network": "robinhood",
-   "chain": "Robinhood Chain",
-   "mcapUsd": 61342.61601,
-   "liquidityUsd": 23446.8453,
-   "volume24hUsd": 484180.714473357,
-   "buys": 3018,
-   "sells": 1857,
-   "buyers24h": 825,
-   "createdAt": "2026-09-17T16:43:42+00:00",
-   "ageHours": 15.86,
-   "poolAddress": "0x42f604012f3e188000826cf48dece3924e093e4055ccb94666c94a31ebf685bf",
-   "volumePerBuyerUsd": 586.89,
-   "volMcapRatio": 7.89,
-   "holderCount": null,
-   "growthPct": 0.5,
-   "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 821,
-   "growthBeforeAt": "2026-09-18T07:29:53.821553+00:00",
-   "mcapChangePct": -12.8,
-   "volumeChangePct": 1.0,
-   "moves": [],
-   "isMover": false,
-   "positiveStreak": 4,
-   "growthConfirmed": true,
-   "holderGrowthPct": 0.5,
-   "holderGrowthStatus": "measured",
-   "coingecko": null,
-   "mcapEur": 53369,
-   "liquidityEur": 20399,
-   "volume24hEur": 421248,
-   "dexscreener": "https://dexscreener.com/robinhood/0xe0f9efe76a0d0fb4e63c25a7283f220fc90e2364"
+   "mcapEur": 322804,
+   "liquidityEur": 46091,
+   "volume24hEur": 679158,
+   "dexscreener": "https://dexscreener.com/solana/8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA"
   }
  ],
  "movers": [],
@@ -177,29 +86,29 @@
  },
  "distribution": [
   {
-   "market": "NEAR",
-   "price": 3.44096,
-   "change24hPct": 25.62,
-   "dayVolumeUsd": 205951826,
-   "openInterest": 73394586.8,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 3.51,
-   "oiChangePct": -1.02,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
    "market": "ARB",
-   "price": 0.20848,
-   "change24hPct": 24.76,
-   "dayVolumeUsd": 59727428,
-   "openInterest": 161925261.4,
+   "price": 0.20822,
+   "change24hPct": 25.9,
+   "dayVolumeUsd": 60342116,
+   "openInterest": 163098656.2,
+   "fundingRate": 1.93096e-05,
+   "signals": [
+    "open interest holding",
+    "price rolling over",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 1.03,
+   "oiChangePct": 0.72,
+   "signalCount": 4,
+   "observations": 13
+  },
+  {
+   "market": "AERO",
+   "price": 0.62716,
+   "change24hPct": 12.49,
+   "dayVolumeUsd": 5164564,
+   "openInterest": 29037464.0,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
@@ -207,131 +116,144 @@
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 2.6,
-   "oiChangePct": 0.5,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
-   "market": "WLD",
-   "price": 0.43177,
-   "change24hPct": 14.73,
-   "dayVolumeUsd": 18782271,
-   "openInterest": 103292284.6,
-   "fundingRate": 6.26034e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 12.6,
-   "oiChangePct": 5.7,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
-   "market": "JUP",
-   "price": 0.25415,
-   "change24hPct": 12.71,
-   "dayVolumeUsd": 7219112,
-   "openInterest": 45756946.0,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 1.63,
-   "oiChangePct": 0.02,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
-   "market": "CHIP",
-   "price": 0.042586,
-   "change24hPct": 10.81,
-   "dayVolumeUsd": 5597048,
-   "openInterest": 317293796.0,
-   "fundingRate": 2.05135e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -5.3,
-   "oiChangePct": 1.17,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
-   "market": "ETHFI",
-   "price": 0.66925,
-   "change24hPct": 10.7,
-   "dayVolumeUsd": 5565110,
-   "openInterest": 30640425.8,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 3.57,
-   "oiChangePct": -1.0,
+   "volumeChangePct": 0.68,
+   "oiChangePct": -0.35,
    "signalCount": 4,
    "observations": 13
   },
   {
    "market": "UNI",
-   "price": 8.8255,
-   "change24hPct": 25.87,
-   "dayVolumeUsd": 141321426,
-   "openInterest": 9498473.6,
-   "fundingRate": 1.25e-05,
+   "price": 9.0058,
+   "change24hPct": 30.78,
+   "dayVolumeUsd": 143624050,
+   "openInterest": 9770826.2,
+   "fundingRate": 5.75761e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -0.23,
-   "oiChangePct": 0.72,
+   "volumeChangePct": 1.63,
+   "oiChangePct": 2.87,
    "signalCount": 3,
    "observations": 13
   },
   {
-   "market": "AERO",
-   "price": 0.63309,
-   "change24hPct": 14.35,
-   "dayVolumeUsd": 5129750,
-   "openInterest": 29138884.0,
+   "market": "STRK",
+   "price": 0.0363,
+   "change24hPct": 29.23,
+   "dayVolumeUsd": 8313557,
+   "openInterest": 262423009.4,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -1.47,
-   "oiChangePct": -2.85,
+   "volumeChangePct": 13.96,
+   "oiChangePct": -1.85,
+   "signalCount": 3,
+   "observations": 2
+  },
+  {
+   "market": "NEAR",
+   "price": 3.4472,
+   "change24hPct": 21.87,
+   "dayVolumeUsd": 201379166,
+   "openInterest": 73566763.4,
+   "fundingRate": 3.74982e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": -2.22,
+   "oiChangePct": 0.23,
    "signalCount": 3,
    "observations": 13
   },
   {
-   "market": "PONS",
-   "price": 0.73345,
-   "change24hPct": 11.7,
-   "dayVolumeUsd": 61741954,
-   "openInterest": 96258132.0,
+   "market": "WLD",
+   "price": 0.43286,
+   "change24hPct": 15.57,
+   "dayVolumeUsd": 19936485,
+   "openInterest": 106862033.6,
+   "fundingRate": 6.4985e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 6.15,
+   "oiChangePct": 3.46,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "ETHFI",
+   "price": 0.68082,
+   "change24hPct": 12.71,
+   "dayVolumeUsd": 5672470,
+   "openInterest": 30866854.8,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -5.81,
-   "oiChangePct": -1.09,
+   "volumeChangePct": 1.93,
+   "oiChangePct": 0.74,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "JUP",
+   "price": 0.25513,
+   "change24hPct": 12.58,
+   "dayVolumeUsd": 7243061,
+   "openInterest": 46463292.0,
+   "fundingRate": 1.25e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 0.33,
+   "oiChangePct": 1.54,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "CHIP",
+   "price": 0.043851,
+   "change24hPct": 10.77,
+   "dayVolumeUsd": 5422722,
+   "openInterest": 319849994.0,
+   "fundingRate": 2.00907e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": -3.11,
+   "oiChangePct": 0.81,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "ONDO",
+   "price": 0.38944,
+   "change24hPct": 10.43,
+   "dayVolumeUsd": 16227190,
+   "openInterest": 72346984.0,
+   "fundingRate": 1.25e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 6.17,
+   "oiChangePct": -0.38,
    "signalCount": 3,
    "observations": 13
   }
@@ -352,11 +274,23 @@
  "diagnostics": [
   {
    "stage": "networks",
-   "message": "resolved Monad -> monad (Monad)"
+   "message": "page 1: TimeoutError: The read operation timed out"
   },
   {
    "stage": "networks",
-   "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
+   "message": "Monad is not indexed by GeckoTerminal; skipped"
+  },
+  {
+   "stage": "networks",
+   "message": "Robinhood Chain is not indexed by GeckoTerminal; skipped"
+  },
+  {
+   "stage": "discover:eth:new_pools:p2",
+   "message": "TimeoutError: The read operation timed out"
+  },
+  {
+   "stage": "discover:base:new_pools:p2",
+   "message": "TimeoutError: The read operation timed out"
   }
  ]
 }

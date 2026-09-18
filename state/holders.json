@@ -7499,6 +7499,24 @@
   "positiveStreak": 0,
   "symbol": "DONALD"
  },
+ "8k4sBtEeK4pf26noKqApv8NBTnuSJcbdwpKYknk5PbAA": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-18T09:30:25.419585+00:00",
+    "value": 2604
+   }
+  ],
+  "lastSeen": "2026-09-18T09:30:25.419585+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 370946.689210943,
+   "ts": "2026-09-18T09:30:25.419585+00:00",
+   "volume": 780445.890861078
+  },
+  "positiveStreak": 0,
+  "symbol": "CALI"
+ },
  "8krV6qsF2PwKCDhw2B6Jn8A8FfSMLawLpvA8MTePpump": {
   "history": [
    {
