@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-19T02:29:19.509044+00:00",
+ "generatedAt": "2026-09-19T03:29:20.312819+00:00",
  "usdToEur": 0.8702,
  "usdToEurLive": true,
  "venue": "FOMO app",
@@ -34,16 +34,16 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 519,
+  "discovered": 516,
   "passedScreen": 2,
   "shortlisted": 2,
   "returned": 0
  },
  "rejectedBy": {
-  "market cap outside band": 434,
-  "liquidity too thin to exit": 30,
-  "outside the 6-72h window": 43,
-  "volume implausibly high against cap": 10
+  "market cap outside band": 425,
+  "outside the 6-72h window": 47,
+  "liquidity too thin to exit": 31,
+  "volume implausibly high against cap": 11
  },
  "candidates": [],
  "movers": [],
@@ -54,174 +54,176 @@
  },
  "distribution": [
   {
-   "market": "XMR",
-   "price": 579.29,
-   "change24hPct": 11.63,
-   "dayVolumeUsd": 62420109,
-   "openInterest": 132613.2,
-   "fundingRate": 6.53048e-05,
+   "market": "INJ",
+   "price": 6.8258,
+   "change24hPct": 16.95,
+   "dayVolumeUsd": 8531200,
+   "openInterest": 3427953.4,
+   "fundingRate": 1.54295e-05,
    "signals": [
     "open interest holding",
     "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 1.62,
-   "oiChangePct": -0.58,
+   "volumeChangePct": -3.28,
+   "oiChangePct": 0.04,
    "signalCount": 4,
    "observations": 13
   },
   {
-   "market": "USELESS",
-   "price": 0.29731,
-   "change24hPct": 10.91,
-   "dayVolumeUsd": 14965780,
-   "openInterest": 41242238.0,
-   "fundingRate": 0.0002081656,
+   "market": "VVV",
+   "price": 28.2033,
+   "change24hPct": 12.0,
+   "dayVolumeUsd": 47720409,
+   "openInterest": 2412747.54,
+   "fundingRate": 3.47434e-05,
    "signals": [
     "open interest holding",
     "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 0.99,
-   "oiChangePct": -0.51,
+   "volumeChangePct": 1.38,
+   "oiChangePct": -0.32,
+   "signalCount": 4,
+   "observations": 13
+  },
+  {
+   "market": "NEAR",
+   "price": 3.7856,
+   "change24hPct": 10.77,
+   "dayVolumeUsd": 234878648,
+   "openInterest": 71542211.6,
+   "fundingRate": 4.19907e-05,
+   "signals": [
+    "open interest holding",
+    "price rolling over",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": -4.61,
+   "oiChangePct": 1.62,
+   "signalCount": 4,
+   "observations": 13
+  },
+  {
+   "market": "XMR",
+   "price": 567.57,
+   "change24hPct": 10.04,
+   "dayVolumeUsd": 63162179,
+   "openInterest": 132672.42,
+   "fundingRate": 3.65258e-05,
+   "signals": [
+    "open interest holding",
+    "price rolling over",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 1.19,
+   "oiChangePct": 0.04,
    "signalCount": 4,
    "observations": 13
   },
   {
    "market": "STRK",
-   "price": 0.04264,
-   "change24hPct": 44.59,
-   "dayVolumeUsd": 20748441,
-   "openInterest": 283008363.6,
-   "fundingRate": 0.0001846683,
+   "price": 0.04404,
+   "change24hPct": 42.02,
+   "dayVolumeUsd": 20934786,
+   "openInterest": 286837436.2,
+   "fundingRate": 0.0001898994,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 2.25,
-   "oiChangePct": 1.97,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "INJ",
-   "price": 6.88431,
-   "change24hPct": 19.86,
-   "dayVolumeUsd": 8820475,
-   "openInterest": 3426628.0,
-   "fundingRate": 1.96184e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -0.02,
-   "oiChangePct": -0.08,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "NEAR",
-   "price": 3.8883,
-   "change24hPct": 18.56,
-   "dayVolumeUsd": 246236333,
-   "openInterest": 70398793.2,
-   "fundingRate": 3.17886e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -1.38,
-   "oiChangePct": 1.15,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "VVV",
-   "price": 29.3725,
-   "change24hPct": 15.52,
-   "dayVolumeUsd": 47071552,
-   "openInterest": 2420516.14,
-   "fundingRate": 0.0001733869,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 0.09,
-   "oiChangePct": 1.02,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "UNI",
-   "price": 9.0522,
-   "change24hPct": 13.92,
-   "dayVolumeUsd": 138032472,
-   "openInterest": 11273192.6,
-   "fundingRate": 4.42636e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 0.08,
-   "oiChangePct": 0.26,
+   "volumeChangePct": 0.9,
+   "oiChangePct": 1.35,
    "signalCount": 3,
    "observations": 13
   },
   {
    "market": "PURR",
-   "price": 0.129086,
-   "change24hPct": 13.04,
-   "dayVolumeUsd": 5525628,
-   "openInterest": 111986800.0,
+   "price": 0.12954,
+   "change24hPct": 12.39,
+   "dayVolumeUsd": 5550669,
+   "openInterest": 111811678.0,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 0.95,
-   "oiChangePct": -0.14,
+   "volumeChangePct": 0.45,
+   "oiChangePct": -0.16,
    "signalCount": 3,
-   "observations": 6
+   "observations": 7
   },
   {
-   "market": "ETHFI",
-   "price": 0.72829,
-   "change24hPct": 12.87,
-   "dayVolumeUsd": 8517943,
-   "openInterest": 29199085.0,
-   "fundingRate": 1.25e-05,
+   "market": "JUP",
+   "price": 0.27449,
+   "change24hPct": 11.08,
+   "dayVolumeUsd": 9455344,
+   "openInterest": 48869804.0,
+   "fundingRate": 2.8791e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -0.21,
-   "oiChangePct": 0.75,
+   "volumeChangePct": 10.43,
+   "oiChangePct": 3.44,
    "signalCount": 3,
    "observations": 13
   },
   {
-   "market": "JUP",
-   "price": 0.27109,
-   "change24hPct": 12.51,
-   "dayVolumeUsd": 8562593,
-   "openInterest": 47246584.0,
+   "market": "ENA",
+   "price": 0.1818,
+   "change24hPct": 10.93,
+   "dayVolumeUsd": 34848796,
+   "openInterest": 444323536.0,
+   "fundingRate": 0.0001659202,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 8.85,
+   "oiChangePct": 6.52,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "ETHFI",
+   "price": 0.72934,
+   "change24hPct": 10.85,
+   "dayVolumeUsd": 8458751,
+   "openInterest": 29245815.2,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -1.13,
-   "oiChangePct": -0.14,
+   "volumeChangePct": -0.69,
+   "oiChangePct": 0.16,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "CHIP",
+   "price": 0.047561,
+   "change24hPct": 10.56,
+   "dayVolumeUsd": 5694255,
+   "openInterest": 339329462.0,
+   "fundingRate": 0.000108713,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": -2.38,
+   "oiChangePct": 0.42,
    "signalCount": 3,
    "observations": 13
   }
