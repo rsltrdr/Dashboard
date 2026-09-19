@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-19T06:34:09.366812+00:00",
+ "generatedAt": "2026-09-19T07:28:06.796665+00:00",
  "usdToEur": 0.8701,
  "usdToEurLive": true,
  "venue": "FOMO app",
@@ -34,15 +34,15 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 498,
+  "discovered": 501,
   "passedScreen": 2,
   "shortlisted": 2,
   "returned": 0
  },
  "rejectedBy": {
-  "market cap outside band": 410,
-  "outside the 6-72h window": 37,
-  "liquidity too thin to exit": 36,
+  "market cap outside band": 401,
+  "outside the 6-72h window": 44,
+  "liquidity too thin to exit": 41,
   "volume implausibly high against cap": 12,
   "volume too low against cap": 1
  },
@@ -55,71 +55,54 @@
  },
  "distribution": [
   {
-   "market": "ETHFI",
-   "price": 0.73675,
-   "change24hPct": 11.77,
-   "dayVolumeUsd": 8448104,
-   "openInterest": 29269658.4,
-   "fundingRate": 1.25e-05,
+   "market": "STRK",
+   "price": 0.03988,
+   "change24hPct": 26.72,
+   "dayVolumeUsd": 27362283,
+   "openInterest": 297848289.4,
+   "fundingRate": 4.59417e-05,
    "signals": [
     "open interest holding",
     "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 1.44,
-   "oiChangePct": 0.09,
+   "volumeChangePct": 0.6,
+   "oiChangePct": 1.01,
    "signalCount": 4,
    "observations": 13
   },
   {
-   "market": "STRK",
-   "price": 0.04124,
-   "change24hPct": 32.52,
-   "dayVolumeUsd": 27199458,
-   "openInterest": 294859218.8,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 2.53,
-   "oiChangePct": -0.07,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
    "market": "INJ",
-   "price": 7.3324,
-   "change24hPct": 22.84,
-   "dayVolumeUsd": 9037071,
-   "openInterest": 3422413.8,
+   "price": 7.5815,
+   "change24hPct": 25.12,
+   "dayVolumeUsd": 9939174,
+   "openInterest": 3412032.8,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 12.49,
-   "oiChangePct": -0.39,
+   "volumeChangePct": 9.98,
+   "oiChangePct": -0.3,
    "signalCount": 3,
    "observations": 13
   },
   {
-   "market": "VVV",
-   "price": 28.399,
-   "change24hPct": 12.36,
-   "dayVolumeUsd": 46236560,
-   "openInterest": 2390110.8,
+   "market": "ETHFI",
+   "price": 0.73871,
+   "change24hPct": 11.72,
+   "dayVolumeUsd": 8395008,
+   "openInterest": 29288006.8,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 0.42,
-   "oiChangePct": -0.6,
+   "volumeChangePct": -0.63,
+   "oiChangePct": 0.06,
    "signalCount": 3,
    "observations": 13
   }
