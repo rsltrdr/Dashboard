@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-19T08:30:17.833927+00:00",
+ "generatedAt": "2026-09-19T09:28:56.000360+00:00",
  "usdToEur": 0.8705,
  "usdToEurLive": true,
  "venue": "FOMO app",
@@ -34,18 +34,52 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 510,
+  "discovered": 500,
   "passedScreen": 2,
   "shortlisted": 2,
-  "returned": 0
+  "returned": 1
  },
  "rejectedBy": {
-  "market cap outside band": 420,
-  "outside the 6-72h window": 45,
+  "outside the 6-72h window": 44,
+  "market cap outside band": 409,
   "liquidity too thin to exit": 32,
-  "volume implausibly high against cap": 11
+  "volume implausibly high against cap": 13
  },
- "candidates": [],
+ "candidates": [
+  {
+   "address": "0xd17c81cb01d44cc6e822936e8f098960001b47d2",
+   "symbol": "HOODCATS",
+   "name": "Hood Cats",
+   "network": "robinhood",
+   "chain": "Robinhood Chain",
+   "mcapUsd": 231771.6849,
+   "liquidityUsd": 40345.5085,
+   "volume24hUsd": 392005.944073043,
+   "buys": 2362,
+   "sells": 1936,
+   "buyers24h": 1403,
+   "createdAt": "2026-09-19T03:23:52+00:00",
+   "ageHours": 6.19,
+   "poolAddress": "0xc19d1d77bfdaeb66c285a17286d325062c1cd0c7ce88c1fe60ef70797ee8f215",
+   "volumePerBuyerUsd": 279.41,
+   "volMcapRatio": 1.69,
+   "holderCount": null,
+   "growthPct": null,
+   "growthBasis": "buyers24h",
+   "growthStatus": "first sighting",
+   "moves": [],
+   "isMover": false,
+   "positiveStreak": 0,
+   "growthConfirmed": false,
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
+   "coingecko": null,
+   "mcapEur": 201759,
+   "liquidityEur": 35121,
+   "volume24hEur": 341244,
+   "dexscreener": "https://dexscreener.com/robinhood/0xd17c81cb01d44cc6e822936e8f098960001b47d2"
+  }
+ ],
  "movers": [],
  "moveThresholds": {
   "mcapPct": 25.0,
@@ -55,70 +89,72 @@
  "distribution": [
   {
    "market": "STRK",
-   "price": 0.04262,
-   "change24hPct": 21.22,
-   "dayVolumeUsd": 21888795,
-   "openInterest": 317884664.6,
-   "fundingRate": 8.02636e-05,
+   "price": 0.04227,
+   "change24hPct": 20.53,
+   "dayVolumeUsd": 21698689,
+   "openInterest": 320072580.8,
+   "fundingRate": 3.8144e-05,
    "signals": [
-    "volume draining",
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -20.0,
-   "oiChangePct": 6.73,
+   "volumeChangePct": -0.87,
+   "oiChangePct": 0.69,
    "signalCount": 4,
    "observations": 13
   },
   {
    "market": "INJ",
-   "price": 7.6805,
-   "change24hPct": 24.0,
-   "dayVolumeUsd": 10620438,
-   "openInterest": 3411333.0,
-   "fundingRate": 1.25e-05,
+   "price": 7.459,
+   "change24hPct": 17.39,
+   "dayVolumeUsd": 10778085,
+   "openInterest": 3437050.0,
+   "fundingRate": 1.74543e-05,
    "signals": [
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 6.85,
-   "oiChangePct": -0.02,
-   "signalCount": 3,
+   "volumeChangePct": 1.48,
+   "oiChangePct": 0.75,
+   "signalCount": 4,
    "observations": 13
   },
   {
    "market": "ENA",
-   "price": 0.18919,
-   "change24hPct": 12.58,
-   "dayVolumeUsd": 43295758,
-   "openInterest": 471809868.0,
-   "fundingRate": 6.98692e-05,
+   "price": 0.18809,
+   "change24hPct": 12.83,
+   "dayVolumeUsd": 46775340,
+   "openInterest": 469437188.0,
+   "fundingRate": 7.9229e-05,
    "signals": [
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 2.78,
-   "oiChangePct": -0.06,
-   "signalCount": 3,
+   "volumeChangePct": 8.04,
+   "oiChangePct": -0.5,
+   "signalCount": 4,
    "observations": 13
   },
   {
-   "market": "ETHFI",
-   "price": 0.74402,
-   "change24hPct": 10.38,
-   "dayVolumeUsd": 8133813,
-   "openInterest": 29329922.0,
+   "market": "AVAX",
+   "price": 8.9349,
+   "change24hPct": 12.39,
+   "dayVolumeUsd": 9277023,
+   "openInterest": 2133669.3,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": -3.11,
-   "oiChangePct": 0.14,
+   "volumeChangePct": 13.43,
+   "oiChangePct": 1.28,
    "signalCount": 3,
    "observations": 13
   }
