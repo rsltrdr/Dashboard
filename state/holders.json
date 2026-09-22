@@ -1991,11 +1991,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-09-21T21:29:22.639001+00:00",
-    "value": 651
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-09-21T22:29:39.876432+00:00",
     "value": 640
    },
@@ -2048,14 +2043,19 @@
     "basis": "buyers24h",
     "ts": "2026-09-22T08:31:33.866078+00:00",
     "value": 546
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-22T09:29:34.819261+00:00",
+    "value": 535
    }
   ],
-  "lastSeen": "2026-09-22T08:31:33.866078+00:00",
+  "lastSeen": "2026-09-22T09:29:34.819261+00:00",
   "lastSnapshot": {
-   "growthPct": -1.4,
-   "mcap": 243877.057258216,
-   "ts": "2026-09-22T08:31:33.866078+00:00",
-   "volume": 500781.041235731
+   "growthPct": -2.0,
+   "mcap": 233004.289798243,
+   "ts": "2026-09-22T09:29:34.819261+00:00",
+   "volume": 481872.33464435
   },
   "positiveStreak": 0,
   "symbol": "JEV"
@@ -4213,6 +4213,24 @@
   },
   "positiveStreak": 0,
   "symbol": "FUSECAT"
+ },
+ "0x9411673acad2ff68810713cbc04e029c8d636fe6": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-22T09:29:34.819261+00:00",
+    "value": 859
+   }
+  ],
+  "lastSeen": "2026-09-22T09:29:34.819261+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 250752.7863,
+   "ts": "2026-09-22T09:29:34.819261+00:00",
+   "volume": 552047.274574575
+  },
+  "positiveStreak": 0,
+  "symbol": "CATWIFFEATHER"
  },
  "0x942e390b0d316c897336620da42a2f2a340f93ec": {
   "history": [
@@ -8403,6 +8421,24 @@
   "positiveStreak": 0,
   "symbol": "MIZO"
  },
+ "5tYcEEKvN63RrzpomgF2jWMxJMHmr4Zo19RX1mXipump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-22T09:29:34.819261+00:00",
+    "value": 16037
+   }
+  ],
+  "lastSeen": "2026-09-22T09:29:34.819261+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 732641.768608836,
+   "ts": "2026-09-22T09:29:34.819261+00:00",
+   "volume": 4019562.76583746
+  },
+  "positiveStreak": 0,
+  "symbol": "LOOONGCAT"
+ },
  "5zNmPYCm724a7HLE8FXB2d6R3BbsuPSjzNAxBmkHpump": {
   "history": [
    {
@@ -10807,14 +10843,19 @@
     "basis": "buyers24h",
     "ts": "2026-09-22T08:31:33.866078+00:00",
     "value": 1810
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-22T09:29:34.819261+00:00",
+    "value": 1716
    }
   ],
-  "lastSeen": "2026-09-22T08:31:33.866078+00:00",
+  "lastSeen": "2026-09-22T09:29:34.819261+00:00",
   "lastSnapshot": {
-   "growthPct": -4.5,
-   "mcap": 588009.407301005,
-   "ts": "2026-09-22T08:31:33.866078+00:00",
-   "volume": 1585087.30881822
+   "growthPct": -5.2,
+   "mcap": 560975.183691931,
+   "ts": "2026-09-22T09:29:34.819261+00:00",
+   "volume": 1497726.79528898
   },
   "positiveStreak": 0,
   "symbol": "Stamp"
