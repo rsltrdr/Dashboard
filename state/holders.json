@@ -4240,16 +4240,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-22T11:29:39.661660+00:00",
     "value": 870
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-22T21:28:27.868520+00:00",
+    "value": 501
    }
   ],
-  "lastSeen": "2026-09-22T11:29:39.661660+00:00",
+  "lastSeen": "2026-09-22T21:28:27.868520+00:00",
   "lastSnapshot": {
-   "growthPct": 0.6,
-   "mcap": 288541.5514,
-   "ts": "2026-09-22T11:29:39.661660+00:00",
-   "volume": 563795.427291511
+   "growthPct": -42.4,
+   "mcap": 562179.4273,
+   "ts": "2026-09-22T21:28:27.868520+00:00",
+   "volume": 383041.063936465
   },
-  "positiveStreak": 2,
+  "positiveStreak": 0,
   "symbol": "CATWIFFEATHER"
  },
  "0x942e390b0d316c897336620da42a2f2a340f93ec": {
@@ -9667,16 +9672,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-22T17:29:06.301532+00:00",
     "value": 3432
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-22T21:28:27.868520+00:00",
+    "value": 3539
    }
   ],
-  "lastSeen": "2026-09-22T17:29:06.301532+00:00",
+  "lastSeen": "2026-09-22T21:28:27.868520+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 158995.3103,
-   "ts": "2026-09-22T17:29:06.301532+00:00",
-   "volume": 1401568.20795052
+   "growthPct": 3.1,
+   "mcap": 189690.8031,
+   "ts": "2026-09-22T21:28:27.868520+00:00",
+   "volume": 1523833.78933531
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "JOLLYBOT"
  },
  "9n8rBV1L917EUSVDa9KTX2uMxvPfKZxLLtwKnYs8pump": {
@@ -10425,16 +10435,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-22T20:29:24.161856+00:00",
     "value": 17086
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-22T21:28:27.868520+00:00",
+    "value": 18735
    }
   ],
-  "lastSeen": "2026-09-22T20:29:24.161856+00:00",
+  "lastSeen": "2026-09-22T21:28:27.868520+00:00",
   "lastSnapshot": {
-   "growthPct": 0.2,
-   "mcap": 894333.354660878,
-   "ts": "2026-09-22T20:29:24.161856+00:00",
-   "volume": 4263291.8199845
+   "growthPct": 9.7,
+   "mcap": 754790.929703497,
+   "ts": "2026-09-22T21:28:27.868520+00:00",
+   "volume": 4402697.76657539
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "CATEWALK"
  },
  "BP4Wic5LNKsqpmiREW6uNVEC16juvFCSd4WzVBatpump": {
