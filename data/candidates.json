@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-22T23:27:43.372690+00:00",
- "usdToEur": 0.8735,
+ "generatedAt": "2026-09-23T00:35:29.993976+00:00",
+ "usdToEur": 0.8734,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,88 +34,19 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 578,
+  "discovered": 600,
   "passedScreen": 1,
   "shortlisted": 1,
-  "returned": 1
+  "returned": 0
  },
  "rejectedBy": {
-  "market cap outside band": 473,
-  "outside the 6-72h window": 58,
-  "liquidity too thin to exit": 39,
-  "volume implausibly high against cap": 7
+  "market cap outside band": 502,
+  "outside the 6-72h window": 56,
+  "liquidity too thin to exit": 35,
+  "volume implausibly high against cap": 6
  },
- "candidates": [
-  {
-   "address": "EKtmPPLaCbEEKiwoHHtV7TsRsmPXs5CMGtQtZFSiinsc",
-   "symbol": "Stamp",
-   "name": "Zcash Shielded Assets",
-   "network": "solana",
-   "chain": "Solana",
-   "mcapUsd": 730836.882569319,
-   "liquidityUsd": 116826.6871,
-   "volume24hUsd": 434894.817834928,
-   "buys": 1704,
-   "sells": 1087,
-   "buyers24h": 669,
-   "createdAt": "2026-09-20T18:44:10+00:00",
-   "ageHours": 52.74,
-   "poolAddress": "Bgf45Fjqeobgd5viMX8P8AfhiydRewEFKPd7nmcFNQRb",
-   "volumePerBuyerUsd": 650.07,
-   "volMcapRatio": 0.6,
-   "holderCount": null,
-   "growthPct": -4.6,
-   "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 701,
-   "growthBeforeAt": "2026-09-22T18:34:25.361199+00:00",
-   "mcapChangePct": 33.2,
-   "volumeChangePct": -14.1,
-   "moves": [
-    "market cap +33%"
-   ],
-   "isMover": true,
-   "positiveStreak": 0,
-   "growthConfirmed": false,
-   "holderGrowthPct": -4.6,
-   "holderGrowthStatus": "measured",
-   "coingecko": {
-    "id": "zcash-shielded-assets",
-    "categories": [
-     "Solana Ecosystem",
-     "Launchpad",
-     "Pump.fun Ecosystem"
-    ],
-    "marketCapRank": 3435,
-    "priceChange24h": -3.81902,
-    "priceChange7d": null,
-    "athChangePct": -54.22494,
-    "twitterFollowers": null,
-    "url": "https://www.coingecko.com/en/coins/zcash-shielded-assets"
-   },
-   "mcapEur": 638392,
-   "liquidityEur": 102049,
-   "volume24hEur": 379884,
-   "dexscreener": "https://dexscreener.com/solana/EKtmPPLaCbEEKiwoHHtV7TsRsmPXs5CMGtQtZFSiinsc"
-  }
- ],
- "movers": [
-  {
-   "symbol": "Stamp",
-   "chain": "Solana",
-   "address": "EKtmPPLaCbEEKiwoHHtV7TsRsmPXs5CMGtQtZFSiinsc",
-   "moves": [
-    "market cap +33%"
-   ],
-   "mcapEur": 638392,
-   "volMcapRatio": 0.6,
-   "growthPct": -4.6,
-   "ageHours": 52.74,
-   "mcapChangePct": 33.2,
-   "volumeChangePct": -14.1,
-   "dexscreener": "https://dexscreener.com/solana/EKtmPPLaCbEEKiwoHHtV7TsRsmPXs5CMGtQtZFSiinsc"
-  }
- ],
+ "candidates": [],
+ "movers": [],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -124,139 +55,124 @@
  "distribution": [
   {
    "market": "USELESS",
-   "price": 0.34985,
-   "change24hPct": 24.02,
-   "dayVolumeUsd": 21265014,
-   "openInterest": 50597298.0,
-   "fundingRate": 0.0001515221,
+   "price": 0.34474,
+   "change24hPct": 18.14,
+   "dayVolumeUsd": 21782202,
+   "openInterest": 50261342.0,
+   "fundingRate": 0.0001205145,
    "signals": [
     "open interest holding",
     "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 0.92,
-   "oiChangePct": -0.86,
+   "volumeChangePct": 2.43,
+   "oiChangePct": -0.66,
+   "signalCount": 4,
+   "observations": 13
+  },
+  {
+   "market": "ZRO",
+   "price": 1.3882,
+   "change24hPct": 17.04,
+   "dayVolumeUsd": 18978921,
+   "openInterest": 35029552.4,
+   "fundingRate": 6.48077e-05,
+   "signals": [
+    "open interest holding",
+    "price rolling over",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 2.75,
+   "oiChangePct": 0.47,
+   "signalCount": 4,
+   "observations": 13
+  },
+  {
+   "market": "PONS",
+   "price": 0.69915,
+   "change24hPct": 14.38,
+   "dayVolumeUsd": 45270529,
+   "openInterest": 107138622.0,
+   "fundingRate": 1.25e-05,
+   "signals": [
+    "open interest holding",
+    "price rolling over",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 4.11,
+   "oiChangePct": -0.67,
    "signalCount": 4,
    "observations": 13
   },
   {
    "market": "PENGU",
-   "price": 0.01013,
-   "change24hPct": 15.69,
-   "dayVolumeUsd": 21712478,
-   "openInterest": 1775791794.0,
-   "fundingRate": 0.0001146427,
+   "price": 0.010034,
+   "change24hPct": 12.25,
+   "dayVolumeUsd": 21448411,
+   "openInterest": 1775887608.0,
+   "fundingRate": 9.35509e-05,
    "signals": [
     "open interest holding",
     "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 0.69,
-   "oiChangePct": 0.88,
+   "volumeChangePct": -1.22,
+   "oiChangePct": 0.01,
    "signalCount": 4,
    "observations": 13
   },
   {
    "market": "BCH",
-   "price": 344.87,
-   "change24hPct": 28.05,
-   "dayVolumeUsd": 53040337,
-   "openInterest": 34893.35,
-   "fundingRate": 4.59694e-05,
+   "price": 345.08,
+   "change24hPct": 27.65,
+   "dayVolumeUsd": 54136113,
+   "openInterest": 35277.15,
+   "fundingRate": 3.2414e-05,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 1.98,
-   "oiChangePct": -1.48,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "ZRO",
-   "price": 1.3992,
-   "change24hPct": 19.13,
-   "dayVolumeUsd": 18471531,
-   "openInterest": 34865553.0,
-   "fundingRate": 3.54431e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 2.71,
-   "oiChangePct": 0.38,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "PONS",
-   "price": 0.72021,
-   "change24hPct": 17.6,
-   "dayVolumeUsd": 43484491,
-   "openInterest": 107855898.0,
-   "fundingRate": 3.88186e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 7.25,
-   "oiChangePct": -2.03,
+   "volumeChangePct": 2.07,
+   "oiChangePct": 1.1,
    "signalCount": 3,
    "observations": 13
   },
   {
    "market": "NIL",
-   "price": 0.08062,
-   "change24hPct": 17.31,
-   "dayVolumeUsd": 5426863,
-   "openInterest": 69615602.0,
-   "fundingRate": 0.0001289914,
+   "price": 0.085411,
+   "change24hPct": 23.88,
+   "dayVolumeUsd": 5428081,
+   "openInterest": 70816714.0,
+   "fundingRate": 0.0001208247,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 1.21,
-   "oiChangePct": -0.17,
+   "volumeChangePct": 0.02,
+   "oiChangePct": 1.73,
    "signalCount": 3,
    "observations": 13
   },
   {
    "market": "UNI",
-   "price": 10.076,
-   "change24hPct": 11.9,
-   "dayVolumeUsd": 110663048,
-   "openInterest": 11095028.8,
-   "fundingRate": 0.0001326172,
+   "price": 10.333,
+   "change24hPct": 12.73,
+   "dayVolumeUsd": 116454755,
+   "openInterest": 11513335.8,
+   "fundingRate": 0.0001758084,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 7.86,
-   "oiChangePct": 1.38,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "ZEC",
-   "price": 1632.0757,
-   "change24hPct": 10.87,
-   "dayVolumeUsd": 550371152,
-   "openInterest": 543572.64,
-   "fundingRate": 2.60809e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 31.9,
-   "oiChangePct": -0.29,
+   "volumeChangePct": 5.23,
+   "oiChangePct": 3.77,
    "signalCount": 3,
    "observations": 13
   }
