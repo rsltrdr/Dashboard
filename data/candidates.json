@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-27T21:29:30.129236+00:00",
+ "generatedAt": "2026-09-27T22:29:58.730347+00:00",
  "usdToEur": 0.8783,
  "usdToEurLive": true,
  "venue": "FOMO app",
@@ -34,17 +34,18 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 527,
-  "passedScreen": 5,
-  "shortlisted": 5,
-  "returned": 2
+  "discovered": 517,
+  "passedScreen": 3,
+  "shortlisted": 3,
+  "returned": 1
  },
  "rejectedBy": {
-  "market cap outside band": 420,
-  "outside the 6-72h window": 68,
-  "liquidity too thin to exit": 23,
-  "volume implausibly high against cap": 10,
-  "volume concentrated in few wallets": 1
+  "market cap outside band": 432,
+  "liquidity too thin to exit": 35,
+  "outside the 6-72h window": 40,
+  "volume implausibly high against cap": 4,
+  "volume concentrated in few wallets": 2,
+  "volume too low against cap": 1
  },
  "candidates": [
   {
@@ -53,94 +54,39 @@
    "name": "Potatchi",
    "network": "robinhood",
    "chain": "Robinhood Chain",
-   "mcapUsd": 897063.8751,
-   "liquidityUsd": 90057.4976,
-   "volume24hUsd": 1088016.46984749,
-   "buys": 8227,
-   "sells": 4433,
-   "buyers24h": 658,
+   "mcapUsd": 881566.3644,
+   "liquidityUsd": 90957.5293,
+   "volume24hUsd": 1093492.81986664,
+   "buys": 8278,
+   "sells": 4467,
+   "buyers24h": 664,
    "createdAt": "2026-09-27T07:49:42+00:00",
-   "ageHours": 13.77,
+   "ageHours": 14.77,
    "poolAddress": "0x7d6436da4505ad6fc9c2876bedf2b40b465e3b6ebe6c39c3de31675a034d54d5",
-   "volumePerBuyerUsd": 1653.52,
-   "volMcapRatio": 1.21,
+   "volumePerBuyerUsd": 1646.83,
+   "volMcapRatio": 1.24,
    "holderCount": null,
-   "growthPct": 3.6,
+   "growthPct": 0.9,
    "growthBasis": "buyers24h",
    "growthStatus": "measured",
-   "growthBefore": 635,
-   "growthBeforeAt": "2026-09-27T18:33:32.727119+00:00",
-   "mcapChangePct": 4.6,
-   "volumeChangePct": 2.9,
+   "growthBefore": 658,
+   "growthBeforeAt": "2026-09-27T21:29:30.129236+00:00",
+   "mcapChangePct": -1.7,
+   "volumeChangePct": 0.5,
    "moves": [],
    "isMover": false,
-   "positiveStreak": 4,
+   "positiveStreak": 5,
    "growthConfirmed": true,
-   "holderGrowthPct": 3.6,
+   "holderGrowthPct": 0.9,
    "holderGrowthStatus": "measured",
    "coingecko": null,
-   "mcapEur": 787854,
-   "liquidityEur": 79094,
-   "volume24hEur": 955559,
+   "mcapEur": 774308,
+   "liquidityEur": 79891,
+   "volume24hEur": 960450,
    "dexscreener": "https://dexscreener.com/robinhood/0xfad17d7cc41d9c9ca4a459da798a4446dd217974"
-  },
-  {
-   "address": "0x4da3916d3ae6feece32ec8a2c4856d4abeb41bfd",
-   "symbol": "SCROOGE",
-   "name": "SCROOGE",
-   "network": "robinhood",
-   "chain": "Robinhood Chain",
-   "mcapUsd": 614676.0921,
-   "liquidityUsd": 72071.7925,
-   "volume24hUsd": 459202.39718863,
-   "buys": 1873,
-   "sells": 1705,
-   "buyers24h": 430,
-   "createdAt": "2026-09-26T16:52:08+00:00",
-   "ageHours": 28.73,
-   "poolAddress": "0x487a11b00b9c552a085e126be4ad8766ac19b97289aded03525c5ba4f1f4f186",
-   "volumePerBuyerUsd": 1067.91,
-   "volMcapRatio": 0.75,
-   "holderCount": null,
-   "growthPct": -6.9,
-   "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 462,
-   "growthBeforeAt": "2026-09-27T20:29:46.155738+00:00",
-   "mcapChangePct": 40.3,
-   "volumeChangePct": -9.8,
-   "moves": [
-    "market cap +40%"
-   ],
-   "isMover": true,
-   "positiveStreak": 0,
-   "growthConfirmed": false,
-   "holderGrowthPct": -6.9,
-   "holderGrowthStatus": "measured",
-   "coingecko": null,
-   "mcapEur": 539844,
-   "liquidityEur": 63298,
-   "volume24hEur": 403298,
-   "dexscreener": "https://dexscreener.com/robinhood/0x4da3916d3ae6feece32ec8a2c4856d4abeb41bfd"
   }
  ],
- "movers": [
-  {
-   "symbol": "SCROOGE",
-   "chain": "Robinhood Chain",
-   "address": "0x4da3916d3ae6feece32ec8a2c4856d4abeb41bfd",
-   "moves": [
-    "market cap +40%"
-   ],
-   "mcapEur": 539844,
-   "volMcapRatio": 0.75,
-   "growthPct": -6.9,
-   "ageHours": 28.73,
-   "mcapChangePct": 40.3,
-   "volumeChangePct": -9.8,
-   "dexscreener": "https://dexscreener.com/robinhood/0x4da3916d3ae6feece32ec8a2c4856d4abeb41bfd"
-  }
- ],
+ "movers": [],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -149,10 +95,10 @@
  "distribution": [
   {
    "market": "W",
-   "price": 0.01568,
-   "change24hPct": 21.27,
-   "dayVolumeUsd": 7775297,
-   "openInterest": 365804131.4,
+   "price": 0.01554,
+   "change24hPct": 19.81,
+   "dayVolumeUsd": 7846907,
+   "openInterest": 361456111.0,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
@@ -160,60 +106,45 @@
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 3.89,
-   "oiChangePct": -2.0,
+   "volumeChangePct": 0.92,
+   "oiChangePct": -1.19,
    "signalCount": 4,
    "observations": 13
   },
   {
-   "market": "GRASS",
-   "price": 0.6819,
-   "change24hPct": 17.06,
-   "dayVolumeUsd": 10093722,
-   "openInterest": 50781028.6,
-   "fundingRate": 7.06521e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 8.04,
-   "oiChangePct": -0.45,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
    "market": "PUMP",
-   "price": 0.005061,
-   "change24hPct": 15.39,
-   "dayVolumeUsd": 86096577,
-   "openInterest": 40768578458.0,
-   "fundingRate": 5.64165e-05,
+   "price": 0.005034,
+   "change24hPct": 15.56,
+   "dayVolumeUsd": 97809451,
+   "openInterest": 40505541052.0,
+   "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 2.03,
-   "oiChangePct": 1.75,
-   "signalCount": 3,
+   "volumeChangePct": 13.6,
+   "oiChangePct": -0.65,
+   "signalCount": 4,
    "observations": 13
   },
   {
    "market": "NEAR",
-   "price": 5.5502,
-   "change24hPct": 13.05,
-   "dayVolumeUsd": 297748818,
-   "openInterest": 79996199.2,
-   "fundingRate": 6.79628e-05,
+   "price": 5.4576,
+   "change24hPct": 10.47,
+   "dayVolumeUsd": 303304875,
+   "openInterest": 78280811.0,
+   "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 1.78,
-   "oiChangePct": 0.56,
-   "signalCount": 3,
+   "volumeChangePct": 1.87,
+   "oiChangePct": -2.14,
+   "signalCount": 4,
    "observations": 13
   }
  ],
@@ -240,8 +171,8 @@
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
   },
   {
-   "stage": "discover:robinhood:trending_pools:p2",
-   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/robinhood/trending_pools"
+   "stage": "discover:solana:trending_pools:p1",
+   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/trending_pools"
   }
  ]
 }
