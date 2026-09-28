@@ -3010,11 +3010,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-09-27T12:35:35.871477+00:00",
-    "value": 648
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-09-27T13:29:22.900087+00:00",
     "value": 656
    },
@@ -3067,16 +3062,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-27T23:28:37.336021+00:00",
     "value": 412
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 416
    }
   ],
-  "lastSeen": "2026-09-27T23:28:37.336021+00:00",
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
   "lastSnapshot": {
    "growthPct": 1.0,
-   "mcap": 717816.3867,
-   "ts": "2026-09-27T23:28:37.336021+00:00",
-   "volume": 492708.259663404
+   "mcap": 779252.267,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 507298.027696143
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "SCROOGE"
  },
  "0x4e0026b2a27f60cd7ed8bb71f9489501b1f87777": {
@@ -5128,6 +5128,24 @@
   "positiveStreak": 1,
   "symbol": "NEST"
  },
+ "0x8f23191a2a697df832acb9fe9fcb7a23e75ca184": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 601
+   }
+  ],
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 150863.2209,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 285371.495816421
+  },
+  "positiveStreak": 0,
+  "symbol": "HOODIE"
+ },
  "0x8fcf98e1348d3ddee46cdd15a5c7d9a8d423077d": {
   "history": [
    {
@@ -6158,16 +6176,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-27T23:28:37.336021+00:00",
     "value": 1064
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 1074
    }
   ],
-  "lastSeen": "2026-09-27T23:28:37.336021+00:00",
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 318055.0951,
-   "ts": "2026-09-27T23:28:37.336021+00:00",
-   "volume": 970661.735775956
+   "growthPct": 0.9,
+   "mcap": 288352.1787,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 978738.115982545
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "INVSTMNT"
  },
  "0xa9da3c77ec7cdc4dfaa1fe142af583543d1c540f": {
@@ -7914,11 +7937,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-09-26T22:29:20.718598+00:00",
-    "value": 4441
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-09-26T23:28:03.490534+00:00",
     "value": 4240
    },
@@ -7971,14 +7989,19 @@
     "basis": "buyers24h",
     "ts": "2026-09-27T23:28:37.336021+00:00",
     "value": 521
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 430
    }
   ],
-  "lastSeen": "2026-09-27T23:28:37.336021+00:00",
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
   "lastSnapshot": {
-   "growthPct": -12.6,
-   "mcap": 78381.3086823775,
-   "ts": "2026-09-27T23:28:37.336021+00:00",
-   "volume": 234261.644419192
+   "growthPct": -17.5,
+   "mcap": 75140.9834727154,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 216785.24045627
   },
   "positiveStreak": 0,
   "symbol": "TALIS"
@@ -10005,6 +10028,24 @@
   "positiveStreak": 0,
   "symbol": "Lilly"
  },
+ "3iUTyNYW6xKv5kZUjtbrEDTsuJTrSVwvB3bQtxkLpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 8452
+   }
+  ],
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 807255.5612,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 5217325.45715808
+  },
+  "positiveStreak": 0,
+  "symbol": "bukangi"
+ },
  "3nkVw4JwdDLGM23Wzqpy2ptAPV5YgMnokEBgijDBpump": {
   "history": [
    {
@@ -10625,16 +10666,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-27T23:28:37.336021+00:00",
     "value": 869
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 888
    }
   ],
-  "lastSeen": "2026-09-27T23:28:37.336021+00:00",
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
   "lastSnapshot": {
-   "growthPct": -4.1,
-   "mcap": 134518.933971066,
-   "ts": "2026-09-27T23:28:37.336021+00:00",
-   "volume": 362579.92641558
+   "growthPct": 2.2,
+   "mcap": 124638.949028764,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 354894.01095313
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "Bagwork"
  },
  "5Zspimi8VD6LctJLtaSjLqaSUvmh3Rs849iPtGocpump": {
@@ -11678,6 +11724,24 @@
   "lastSeen": "2026-09-06T15:28:47.104238+00:00",
   "positiveStreak": 0,
   "symbol": "SAAR"
+ },
+ "8HnLRKJ6XkeGq1tpmKPqn3yB5ruqbSR5LR5nVCNAshop": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 5569
+   }
+  ],
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 376383.909502088,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 2499882.59836221
+  },
+  "positiveStreak": 0,
+  "symbol": "REGULARS"
  },
  "8RDq8d3uD9mD5K75f1dEGyubN6jGArDMZaA8J4MNpump": {
   "history": [
@@ -13320,11 +13384,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-09-27T10:29:34.031291+00:00",
-    "value": 1339
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-09-27T11:29:34.561627+00:00",
     "value": 1293
    },
@@ -13377,16 +13436,21 @@
     "basis": "buyers24h",
     "ts": "2026-09-27T23:28:37.336021+00:00",
     "value": 1332
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-09-28T00:40:48.955000+00:00",
+    "value": 1413
    }
   ],
-  "lastSeen": "2026-09-27T23:28:37.336021+00:00",
+  "lastSeen": "2026-09-28T00:40:48.955000+00:00",
   "lastSnapshot": {
-   "growthPct": -1.1,
-   "mcap": 94500.8625659798,
-   "ts": "2026-09-27T23:28:37.336021+00:00",
-   "volume": 52930.0526436139
+   "growthPct": 6.1,
+   "mcap": 94469.8990893987,
+   "ts": "2026-09-28T00:40:48.955000+00:00",
+   "volume": 56034.670969678
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "JIANCO"
  },
  "C3b3fpyRWsJf3bo6vay2vo1bQ7CezwumZwTrP82Lpump": {
