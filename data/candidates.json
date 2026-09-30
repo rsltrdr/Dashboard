@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T14:37:11.258713+00:00",
- "usdToEur": 0.8803,
+ "generatedAt": "2026-09-30T15:36:34.251467+00:00",
+ "usdToEur": 0.8799,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,58 +34,88 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 513,
-  "passedScreen": 5,
-  "shortlisted": 5,
+  "discovered": 526,
+  "passedScreen": 3,
+  "shortlisted": 3,
   "returned": 1
  },
  "rejectedBy": {
-  "market cap outside band": 416,
-  "outside the 6-72h window": 57,
-  "liquidity too thin to exit": 21,
-  "volume implausibly high against cap": 13,
+  "market cap outside band": 428,
+  "outside the 6-72h window": 47,
+  "liquidity too thin to exit": 32,
+  "volume implausibly high against cap": 15,
   "volume concentrated in few wallets": 1
  },
  "candidates": [
   {
-   "address": "9aqmJjCnnMQv42TXLk921ceUkN35nea2QP969n1caqjj",
-   "symbol": "SI",
-   "name": "Super Intelligence",
+   "address": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE",
+   "symbol": "HOOKED",
+   "name": "Hooked",
    "network": "solana",
    "chain": "Solana",
-   "mcapUsd": 825841.607445046,
-   "liquidityUsd": 93388.2181,
-   "volume24hUsd": 5276083.06692557,
-   "buys": 41574,
-   "sells": 29728,
-   "buyers24h": 9553,
-   "createdAt": "2026-09-29T22:44:37+00:00",
-   "ageHours": 15.9,
-   "poolAddress": "7Nj7mBE7iVmjvnBHNvjgaz6G3ZktTHFNbf7aQDfZ7iNR",
-   "volumePerBuyerUsd": 552.3,
-   "volMcapRatio": 6.39,
+   "mcapUsd": 800193.094485184,
+   "liquidityUsd": 86315.7781,
+   "volume24hUsd": 1074396.24079564,
+   "buys": 4283,
+   "sells": 3747,
+   "buyers24h": 1420,
+   "createdAt": "2026-09-28T20:05:16+00:00",
+   "ageHours": 43.54,
+   "poolAddress": "C7r9jXWiVYmBYR2Jj5YSLiEitUGJPjQXWeg7HPU8NwUk",
+   "volumePerBuyerUsd": 756.62,
+   "volMcapRatio": 1.34,
    "holderCount": null,
-   "growthPct": 5.5,
+   "growthPct": -1.9,
    "growthBasis": "buyers24h",
    "growthStatus": "measured",
-   "growthBefore": 9058,
-   "growthBeforeAt": "2026-09-30T12:43:24.276669+00:00",
-   "mcapChangePct": -12.7,
-   "volumeChangePct": 6.8,
-   "moves": [],
-   "isMover": false,
-   "positiveStreak": 1,
+   "growthBefore": 1448,
+   "growthBeforeAt": "2026-09-30T14:37:11.258713+00:00",
+   "mcapChangePct": 31.9,
+   "volumeChangePct": -2.7,
+   "moves": [
+    "market cap +32%"
+   ],
+   "isMover": true,
+   "positiveStreak": 0,
    "growthConfirmed": false,
-   "holderGrowthPct": 5.5,
+   "holderGrowthPct": -1.9,
    "holderGrowthStatus": "measured",
-   "coingecko": null,
-   "mcapEur": 727004,
-   "liquidityEur": 82211,
-   "volume24hEur": 4644636,
-   "dexscreener": "https://dexscreener.com/solana/9aqmJjCnnMQv42TXLk921ceUkN35nea2QP969n1caqjj"
+   "coingecko": {
+    "id": "hooked",
+    "categories": [
+     "Solana Ecosystem",
+     "Launchpad"
+    ],
+    "marketCapRank": 3244,
+    "priceChange24h": -50.78284,
+    "priceChange7d": null,
+    "athChangePct": -59.09412,
+    "twitterFollowers": null,
+    "url": "https://www.coingecko.com/en/coins/hooked"
+   },
+   "mcapEur": 704061,
+   "liquidityEur": 75946,
+   "volume24hEur": 945323,
+   "dexscreener": "https://dexscreener.com/solana/C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE"
   }
  ],
- "movers": [],
+ "movers": [
+  {
+   "symbol": "HOOKED",
+   "chain": "Solana",
+   "address": "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE",
+   "moves": [
+    "market cap +32%"
+   ],
+   "mcapEur": 704061,
+   "volMcapRatio": 1.34,
+   "growthPct": -1.9,
+   "ageHours": 43.54,
+   "mcapChangePct": 31.9,
+   "volumeChangePct": -2.7,
+   "dexscreener": "https://dexscreener.com/solana/C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE"
+  }
+ ],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
