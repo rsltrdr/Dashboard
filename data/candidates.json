@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T21:33:27.206811+00:00",
- "usdToEur": 0.8821,
+ "generatedAt": "2026-09-30T22:32:46.366263+00:00",
+ "usdToEur": 0.8822,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,15 +34,15 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 572,
-  "passedScreen": 3,
-  "shortlisted": 3,
+  "discovered": 571,
+  "passedScreen": 4,
+  "shortlisted": 4,
   "returned": 0
  },
  "rejectedBy": {
-  "market cap outside band": 472,
-  "outside the 6-72h window": 55,
-  "liquidity too thin to exit": 31,
+  "market cap outside band": 480,
+  "liquidity too thin to exit": 27,
+  "outside the 6-72h window": 49,
   "volume implausibly high against cap": 11
  },
  "candidates": [],
@@ -55,18 +55,35 @@
  "distribution": [
   {
    "market": "MON",
-   "price": 0.029849,
-   "change24hPct": 10.76,
-   "dayVolumeUsd": 10905517,
-   "openInterest": 1596950810.0,
-   "fundingRate": 8.81785e-05,
+   "price": 0.03034,
+   "change24hPct": 11.68,
+   "dayVolumeUsd": 11655045,
+   "openInterest": 1620301110.0,
+   "fundingRate": 0.000117056,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 7.32,
-   "oiChangePct": 2.02,
+   "volumeChangePct": 6.87,
+   "oiChangePct": 1.46,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "WLD",
+   "price": 0.53934,
+   "change24hPct": 10.27,
+   "dayVolumeUsd": 53574329,
+   "openInterest": 150047000.2,
+   "fundingRate": 1.25e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 4.55,
+   "oiChangePct": 1.2,
    "signalCount": 3,
    "observations": 13
   }
