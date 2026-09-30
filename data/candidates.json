@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T22:32:46.366263+00:00",
- "usdToEur": 0.8822,
+ "generatedAt": "2026-09-30T23:30:19.663335+00:00",
+ "usdToEur": 0.8821,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,19 +34,75 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 571,
+  "discovered": 563,
   "passedScreen": 4,
   "shortlisted": 4,
-  "returned": 0
+  "returned": 1
  },
  "rejectedBy": {
-  "market cap outside band": 480,
-  "liquidity too thin to exit": 27,
+  "market cap outside band": 462,
   "outside the 6-72h window": 49,
-  "volume implausibly high against cap": 11
+  "liquidity too thin to exit": 38,
+  "volume implausibly high against cap": 10
  },
- "candidates": [],
- "movers": [],
+ "candidates": [
+  {
+   "address": "3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump",
+   "symbol": "SI",
+   "name": "Stupid Inu",
+   "network": "solana",
+   "chain": "Solana",
+   "mcapUsd": 915184.279198055,
+   "liquidityUsd": 97281.9432,
+   "volume24hUsd": 2741906.5363356,
+   "buys": 12272,
+   "sells": 9609,
+   "buyers24h": 4434,
+   "createdAt": "2026-09-29T19:10:32+00:00",
+   "ageHours": 28.35,
+   "poolAddress": "GnpvosiacUQbkxPPTFo2C79CX2qTuKgXAwHekyLJoDbe",
+   "volumePerBuyerUsd": 618.38,
+   "volMcapRatio": 3.0,
+   "holderCount": null,
+   "growthPct": 28.9,
+   "growthBasis": "buyers24h",
+   "growthStatus": "measured",
+   "growthBefore": 3440,
+   "growthBeforeAt": "2026-09-30T17:33:06.501806+00:00",
+   "mcapChangePct": 5.5,
+   "volumeChangePct": 92.2,
+   "moves": [
+    "volume +92%"
+   ],
+   "isMover": true,
+   "positiveStreak": 1,
+   "growthConfirmed": false,
+   "holderGrowthPct": 28.9,
+   "holderGrowthStatus": "measured",
+   "coingecko": null,
+   "mcapEur": 807292,
+   "liquidityEur": 85813,
+   "volume24hEur": 2418660,
+   "dexscreener": "https://dexscreener.com/solana/3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump"
+  }
+ ],
+ "movers": [
+  {
+   "symbol": "SI",
+   "chain": "Solana",
+   "address": "3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump",
+   "moves": [
+    "volume +92%"
+   ],
+   "mcapEur": 807292,
+   "volMcapRatio": 3.0,
+   "growthPct": 28.9,
+   "ageHours": 28.35,
+   "mcapChangePct": 5.5,
+   "volumeChangePct": 92.2,
+   "dexscreener": "https://dexscreener.com/solana/3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump"
+  }
+ ],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -54,36 +110,55 @@
  },
  "distribution": [
   {
-   "market": "MON",
-   "price": 0.03034,
-   "change24hPct": 11.68,
-   "dayVolumeUsd": 11655045,
-   "openInterest": 1620301110.0,
-   "fundingRate": 0.000117056,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 6.87,
-   "oiChangePct": 1.46,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
    "market": "WLD",
-   "price": 0.53934,
-   "change24hPct": 10.27,
-   "dayVolumeUsd": 53574329,
-   "openInterest": 150047000.2,
+   "price": 0.53704,
+   "change24hPct": 12.26,
+   "dayVolumeUsd": 50897014,
+   "openInterest": 150718452.6,
    "fundingRate": 1.25e-05,
    "signals": [
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 4.55,
-   "oiChangePct": 1.2,
+   "volumeChangePct": -5.0,
+   "oiChangePct": 0.45,
+   "signalCount": 4,
+   "observations": 13
+  },
+  {
+   "market": "NEAR",
+   "price": 5.3767,
+   "change24hPct": 10.66,
+   "dayVolumeUsd": 349819749,
+   "openInterest": 64227468.8,
+   "fundingRate": 1.25e-05,
+   "signals": [
+    "open interest holding",
+    "price rolling over",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": -2.2,
+   "oiChangePct": -0.16,
+   "signalCount": 4,
+   "observations": 13
+  },
+  {
+   "market": "MON",
+   "price": 0.031269,
+   "change24hPct": 17.29,
+   "dayVolumeUsd": 12287286,
+   "openInterest": 1635870784.0,
+   "fundingRate": 6.9043e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 5.42,
+   "oiChangePct": 0.96,
    "signalCount": 3,
    "observations": 13
   }
