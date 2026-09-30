@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T16:35:19.642060+00:00",
- "usdToEur": 0.8816,
+ "generatedAt": "2026-09-30T17:33:06.501806+00:00",
+ "usdToEur": 0.8815,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,84 +34,82 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 536,
+  "discovered": 539,
   "passedScreen": 5,
   "shortlisted": 5,
   "returned": 2
  },
  "rejectedBy": {
-  "outside the 6-72h window": 47,
-  "market cap outside band": 438,
-  "liquidity too thin to exit": 33,
-  "volume implausibly high against cap": 13
+  "market cap outside band": 442,
+  "liquidity too thin to exit": 28,
+  "outside the 6-72h window": 50,
+  "volume implausibly high against cap": 14
  },
  "candidates": [
   {
-   "address": "2d79yirWWZmzf249y7B4DMvgaSb7jgrCxrwTcweFpump",
-   "symbol": "STOCK",
-   "name": "Stockenized",
+   "address": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+   "symbol": "DJT",
+   "name": "Trump Media &amp; Technology Group Corp. Common Stock - Backpack Securities",
    "network": "solana",
    "chain": "Solana",
-   "mcapUsd": 416012.595816153,
-   "liquidityUsd": 63358.9905,
-   "volume24hUsd": 1235262.60497504,
-   "buys": 9860,
-   "sells": 7073,
-   "buyers24h": 6482,
-   "createdAt": "2026-09-28T23:26:41+00:00",
-   "ageHours": 41.16,
-   "poolAddress": "9UqFNPpyCzjhJKWnEXBUxFSsgA6g9HLa8yU19mAmcUnE",
-   "volumePerBuyerUsd": 190.57,
-   "volMcapRatio": 2.97,
+   "mcapUsd": 828409.849201366,
+   "liquidityUsd": 123087.0648,
+   "volume24hUsd": 4482381.33237182,
+   "buys": 21571,
+   "sells": 26174,
+   "buyers24h": 7433,
+   "createdAt": "2026-09-30T03:40:33+00:00",
+   "ageHours": 13.9,
+   "poolAddress": "BoEM6zfdAKAXGMF2abSqYvJLk5jbC8RwV1Kr4ViBehr7",
+   "volumePerBuyerUsd": 603.04,
+   "volMcapRatio": 5.41,
    "holderCount": null,
-   "growthPct": 7.8,
+   "growthPct": null,
    "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 6014,
-   "growthBeforeAt": "2026-09-30T14:37:11.258713+00:00",
-   "mcapChangePct": -6.6,
-   "volumeChangePct": 7.2,
+   "growthStatus": "first sighting",
    "moves": [],
    "isMover": false,
-   "positiveStreak": 1,
+   "positiveStreak": 0,
    "growthConfirmed": false,
-   "holderGrowthPct": 7.8,
-   "holderGrowthStatus": "measured",
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
    "coingecko": {
-    "id": "stockenized",
+    "id": "trump-media-technology-group-corp-common-stock-backpack-securities",
     "categories": [
+     "Tokenized Assets",
      "Solana Ecosystem",
-     "Pump.fun Ecosystem"
+     "Real World Assets (RWA)",
+     "Backpack Securities Ecosystem"
     ],
-    "marketCapRank": 3964,
-    "priceChange24h": null,
-    "priceChange7d": null,
-    "athChangePct": -16.48861,
+    "marketCapRank": 3200,
+    "priceChange24h": 1.53971,
+    "priceChange7d": 2.55601,
+    "athChangePct": -6.18653,
     "twitterFollowers": null,
-    "url": "https://www.coingecko.com/en/coins/stockenized"
+    "url": "https://www.coingecko.com/en/coins/trump-media-technology-group-corp-common-stock-backpack-securities"
    },
-   "mcapEur": 366767,
-   "liquidityEur": 55859,
-   "volume24hEur": 1089038,
-   "dexscreener": "https://dexscreener.com/solana/2d79yirWWZmzf249y7B4DMvgaSb7jgrCxrwTcweFpump"
+   "mcapEur": 730219,
+   "liquidityEur": 108498,
+   "volume24hEur": 3951089,
+   "dexscreener": "https://dexscreener.com/solana/DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF"
   },
   {
-   "address": "6ZG6fMHaE7NpubJr16G8nFLBg91rH5kU5SVpqUmQpump",
-   "symbol": "AIRPAD",
-   "name": "AirPad",
+   "address": "3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump",
+   "symbol": "SI",
+   "name": "Stupid Inu",
    "network": "solana",
    "chain": "Solana",
-   "mcapUsd": 744629.517695215,
-   "liquidityUsd": 89103.8808,
-   "volume24hUsd": 5844855.61132473,
-   "buys": 84236,
-   "sells": 45821,
-   "buyers24h": 11717,
-   "createdAt": "2026-09-30T03:08:37+00:00",
-   "ageHours": 13.46,
-   "poolAddress": "4ApFQYGn4X18tCFwXV6PVWYmfvvJPm2jTs5yhdYvdSeM",
-   "volumePerBuyerUsd": 498.84,
-   "volMcapRatio": 7.85,
+   "mcapUsd": 867124.846239527,
+   "liquidityUsd": 91791.0688,
+   "volume24hUsd": 1426260.44769183,
+   "buys": 10367,
+   "sells": 8806,
+   "buyers24h": 3440,
+   "createdAt": "2026-09-29T19:10:32+00:00",
+   "ageHours": 22.4,
+   "poolAddress": "GnpvosiacUQbkxPPTFo2C79CX2qTuKgXAwHekyLJoDbe",
+   "volumePerBuyerUsd": 414.61,
+   "volMcapRatio": 1.64,
    "holderCount": null,
    "growthPct": null,
    "growthBasis": "buyers24h",
@@ -123,10 +121,10 @@
    "holderGrowthPct": null,
    "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 656484,
-   "liquidityEur": 78556,
-   "volume24hEur": 5152971,
-   "dexscreener": "https://dexscreener.com/solana/6ZG6fMHaE7NpubJr16G8nFLBg91rH5kU5SVpqUmQpump"
+   "mcapEur": 764345,
+   "liquidityEur": 80911,
+   "volume24hEur": 1257207,
+   "dexscreener": "https://dexscreener.com/solana/3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump"
   }
  ],
  "movers": [],
@@ -135,42 +133,7 @@
   "volumePct": 60.0,
   "growthPct": 8.0
  },
- "distribution": [
-  {
-   "market": "WLD",
-   "price": 0.54315,
-   "change24hPct": 10.22,
-   "dayVolumeUsd": 50579365,
-   "openInterest": 148448781.6,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 1.1,
-   "oiChangePct": 0.45,
-   "signalCount": 3,
-   "observations": 13
-  },
-  {
-   "market": "NEAR",
-   "price": 5.4309,
-   "change24hPct": 10.13,
-   "dayVolumeUsd": 345240393,
-   "openInterest": 63144595.0,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -0.16,
-   "oiChangePct": 1.49,
-   "signalCount": 3,
-   "observations": 13
-  }
- ],
+ "distribution": [],
  "distributionScreen": {
   "venue": "Hyperliquid perps (what FOMO routes to)",
   "minDayVolumeUsd": 5000000,
@@ -192,6 +155,10 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
+  },
+  {
+   "stage": "discover:solana:new_pools:p3",
+   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/new_pools"
   }
  ]
 }
