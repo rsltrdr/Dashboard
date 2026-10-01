@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-09-30T23:30:19.663335+00:00",
- "usdToEur": 0.8821,
+ "generatedAt": "2026-10-01T00:43:22.656832+00:00",
+ "usdToEur": 0.882,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,75 +34,71 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 563,
-  "passedScreen": 4,
-  "shortlisted": 4,
+  "discovered": 557,
+  "passedScreen": 3,
+  "shortlisted": 3,
   "returned": 1
  },
  "rejectedBy": {
-  "market cap outside band": 462,
-  "outside the 6-72h window": 49,
-  "liquidity too thin to exit": 38,
+  "market cap outside band": 457,
+  "liquidity too thin to exit": 30,
+  "outside the 6-72h window": 57,
   "volume implausibly high against cap": 10
  },
  "candidates": [
   {
-   "address": "3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump",
-   "symbol": "SI",
-   "name": "Stupid Inu",
+   "address": "5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump",
+   "symbol": "swordcat",
+   "name": "cat wif sword",
    "network": "solana",
    "chain": "Solana",
-   "mcapUsd": 915184.279198055,
-   "liquidityUsd": 97281.9432,
-   "volume24hUsd": 2741906.5363356,
-   "buys": 12272,
-   "sells": 9609,
-   "buyers24h": 4434,
-   "createdAt": "2026-09-29T19:10:32+00:00",
-   "ageHours": 28.35,
-   "poolAddress": "GnpvosiacUQbkxPPTFo2C79CX2qTuKgXAwHekyLJoDbe",
-   "volumePerBuyerUsd": 618.38,
-   "volMcapRatio": 3.0,
+   "mcapUsd": 698850.331648543,
+   "liquidityUsd": 91707.9797,
+   "volume24hUsd": 980274.852791772,
+   "buys": 5675,
+   "sells": 5835,
+   "buyers24h": 2112,
+   "createdAt": "2026-09-28T09:13:09+00:00",
+   "ageHours": 63.52,
+   "poolAddress": "8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d",
+   "volumePerBuyerUsd": 464.15,
+   "volMcapRatio": 1.4,
    "holderCount": null,
-   "growthPct": 28.9,
+   "growthPct": 2.7,
    "growthBasis": "buyers24h",
    "growthStatus": "measured",
-   "growthBefore": 3440,
-   "growthBeforeAt": "2026-09-30T17:33:06.501806+00:00",
-   "mcapChangePct": 5.5,
-   "volumeChangePct": 92.2,
-   "moves": [
-    "volume +92%"
-   ],
-   "isMover": true,
+   "growthBefore": 2057,
+   "growthBeforeAt": "2026-09-30T23:30:19.663335+00:00",
+   "mcapChangePct": 20.2,
+   "volumeChangePct": 2.6,
+   "moves": [],
+   "isMover": false,
    "positiveStreak": 1,
    "growthConfirmed": false,
-   "holderGrowthPct": 28.9,
+   "holderGrowthPct": 2.7,
    "holderGrowthStatus": "measured",
-   "coingecko": null,
-   "mcapEur": 807292,
-   "liquidityEur": 85813,
-   "volume24hEur": 2418660,
-   "dexscreener": "https://dexscreener.com/solana/3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump"
+   "coingecko": {
+    "id": "cat-wif-sword-2",
+    "categories": [
+     "Solana Ecosystem",
+     "Meme",
+     "Solana Meme",
+     "Cat-Themed"
+    ],
+    "marketCapRank": 3384,
+    "priceChange24h": -23.36142,
+    "priceChange7d": null,
+    "athChangePct": -25.32213,
+    "twitterFollowers": null,
+    "url": "https://www.coingecko.com/en/coins/cat-wif-sword-2"
+   },
+   "mcapEur": 616355,
+   "liquidityEur": 80882,
+   "volume24hEur": 864559,
+   "dexscreener": "https://dexscreener.com/solana/5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump"
   }
  ],
- "movers": [
-  {
-   "symbol": "SI",
-   "chain": "Solana",
-   "address": "3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump",
-   "moves": [
-    "volume +92%"
-   ],
-   "mcapEur": 807292,
-   "volMcapRatio": 3.0,
-   "growthPct": 28.9,
-   "ageHours": 28.35,
-   "mcapChangePct": 5.5,
-   "volumeChangePct": 92.2,
-   "dexscreener": "https://dexscreener.com/solana/3VPoXaRcXxju8qgkVRN87UuXZxbdBD7zyaXPDqqmpump"
-  }
- ],
+ "movers": [],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -110,55 +106,36 @@
  },
  "distribution": [
   {
-   "market": "WLD",
-   "price": 0.53704,
-   "change24hPct": 12.26,
-   "dayVolumeUsd": 50897014,
-   "openInterest": 150718452.6,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -5.0,
-   "oiChangePct": 0.45,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
-   "market": "NEAR",
-   "price": 5.3767,
-   "change24hPct": 10.66,
-   "dayVolumeUsd": 349819749,
-   "openInterest": 64227468.8,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -2.2,
-   "oiChangePct": -0.16,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
    "market": "MON",
-   "price": 0.031269,
-   "change24hPct": 17.29,
-   "dayVolumeUsd": 12287286,
-   "openInterest": 1635870784.0,
-   "fundingRate": 6.9043e-05,
+   "price": 0.032465,
+   "change24hPct": 19.74,
+   "dayVolumeUsd": 17657103,
+   "openInterest": 1741741948.0,
+   "fundingRate": 0.00013799,
    "signals": [
     "open interest holding",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 5.42,
-   "oiChangePct": 0.96,
+   "volumeChangePct": 43.7,
+   "oiChangePct": 6.47,
+   "signalCount": 3,
+   "observations": 13
+  },
+  {
+   "market": "WLD",
+   "price": 0.54211,
+   "change24hPct": 10.56,
+   "dayVolumeUsd": 50808926,
+   "openInterest": 153433911.0,
+   "fundingRate": 3.15852e-05,
+   "signals": [
+    "open interest holding",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": -0.17,
+   "oiChangePct": 1.8,
    "signalCount": 3,
    "observations": 13
   }
