@@ -1510,11 +1510,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-10-05T21:34:01.594352+00:00",
-    "value": 853
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-10-05T22:31:26.196988+00:00",
     "value": 865
    },
@@ -1567,16 +1562,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-06T08:35:35.933476+00:00",
     "value": 419
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 423
    }
   ],
-  "lastSeen": "2026-10-06T08:35:35.933476+00:00",
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
   "lastSnapshot": {
-   "growthPct": -0.9,
-   "mcap": 119007.9322,
-   "ts": "2026-10-06T08:35:35.933476+00:00",
-   "volume": 118519.753588784
+   "growthPct": 1.0,
+   "mcap": 134215.5979,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 121009.499096875
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "SI"
  },
  "0x218d0dc56476b05f131bd6cc82b80c7b052fa9b1": {
@@ -2224,14 +2224,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-06T08:35:35.933476+00:00",
     "value": 1338
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 1250
    }
   ],
-  "lastSeen": "2026-10-06T08:35:35.933476+00:00",
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
   "lastSnapshot": {
-   "growthPct": -28.1,
-   "mcap": 502059.77262,
-   "ts": "2026-10-06T08:35:35.933476+00:00",
-   "volume": 262491.71518756
+   "growthPct": -6.6,
+   "mcap": 494645.22279,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 261062.14903181
   },
   "positiveStreak": 0,
   "symbol": "PAWS"
@@ -5877,16 +5882,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-06T08:35:35.933476+00:00",
     "value": 532
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 542
    }
   ],
-  "lastSeen": "2026-10-06T08:35:35.933476+00:00",
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 240318.6002,
-   "ts": "2026-10-06T08:35:35.933476+00:00",
-   "volume": 485324.587132704
+   "growthPct": 1.9,
+   "mcap": 229814.9304,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 493376.162439577
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "CORES"
  },
  "0x8aefd0a905f59be969e989c87e4ac817195995a7": {
@@ -8090,16 +8100,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-06T08:35:35.933476+00:00",
     "value": 2610
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 2625
    }
   ],
-  "lastSeen": "2026-10-06T08:35:35.933476+00:00",
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
   "lastSnapshot": {
-   "growthPct": 1.0,
-   "mcap": 861403.8963,
-   "ts": "2026-10-06T08:35:35.933476+00:00",
-   "volume": 3788545.89614282
+   "growthPct": 0.6,
+   "mcap": 856352.0165,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 3811912.36928812
   },
-  "positiveStreak": 9,
+  "positiveStreak": 10,
   "symbol": "CZ"
  },
  "0xb1f8bafb97d40a011715c1ba8a822030b20bbd81": {
@@ -15992,16 +16007,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-06T08:35:35.933476+00:00",
     "value": 3214
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 3230
    }
   ],
-  "lastSeen": "2026-10-06T08:35:35.933476+00:00",
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
   "lastSnapshot": {
-   "growthPct": 3.9,
-   "mcap": 655281.185068148,
-   "ts": "2026-10-06T08:35:35.933476+00:00",
-   "volume": 1570377.46609321
+   "growthPct": 0.5,
+   "mcap": 563591.640665779,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 1576502.59915723
   },
-  "positiveStreak": 4,
+  "positiveStreak": 5,
   "symbol": "GOMO"
  },
  "9aqmJjCnnMQv42TXLk921ceUkN35nea2QP969n1caqjj": {
@@ -16410,11 +16430,6 @@
   "history": [
    {
     "basis": "buyers24h",
-    "ts": "2026-10-05T18:40:45.530717+00:00",
-    "value": 635
-   },
-   {
-    "basis": "buyers24h",
     "ts": "2026-10-05T21:34:01.594352+00:00",
     "value": 638
    },
@@ -16467,16 +16482,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-06T08:35:35.933476+00:00",
     "value": 2554
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 2566
    }
   ],
-  "lastSeen": "2026-10-06T08:35:35.933476+00:00",
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
   "lastSnapshot": {
-   "growthPct": 1.3,
-   "mcap": 56442.6118439805,
-   "ts": "2026-10-06T08:35:35.933476+00:00",
-   "volume": 61329.8616531986
+   "growthPct": 0.5,
+   "mcap": 55731.0986846298,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 61324.8028051912
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "CARNAGE"
  },
  "AXC2XcQiVx6UfCgLHjpRBU4nupF4WdsptydKQCvxsRuU": {
@@ -17470,6 +17490,24 @@
   "positiveStreak": 15,
   "symbol": "ELON"
  },
+ "BrUimx7KncgRNTggAdZdaX2s5XUqQyR6XMRmEg4mpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 11644
+   }
+  ],
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 773016.763649614,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 5316398.97214116
+  },
+  "positiveStreak": 0,
+  "symbol": "MINTRO"
+ },
  "C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": {
   "history": [
    {
@@ -17678,16 +17716,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-06T08:35:35.933476+00:00",
     "value": 11079
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-06T09:35:36.272484+00:00",
+    "value": 11234
    }
   ],
-  "lastSeen": "2026-10-06T08:35:35.933476+00:00",
+  "lastSeen": "2026-10-06T09:35:36.272484+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 712590.885108961,
-   "ts": "2026-10-06T08:35:35.933476+00:00",
-   "volume": 6543458.88009348
+   "growthPct": 1.4,
+   "mcap": 690040.550867763,
+   "ts": "2026-10-06T09:35:36.272484+00:00",
+   "volume": 6638786.00039607
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "phubber"
  },
  "CC5D6puFmcsnGaJh7kNXeAcRpL2SZzQfoQezvx45uKjt": {
