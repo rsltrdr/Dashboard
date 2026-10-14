@@ -5569,6 +5569,24 @@
   "positiveStreak": 10,
   "symbol": "LLM"
  },
+ "0x710a0414dc599112987515ac8d76e0cd28546bc1": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-14T07:44:35.964483+00:00",
+    "value": 304
+   }
+  ],
+  "lastSeen": "2026-10-14T07:44:35.964483+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 159483.1171,
+   "ts": "2026-10-14T07:44:35.964483+00:00",
+   "volume": 149754.686685334
+  },
+  "positiveStreak": 0,
+  "symbol": "MORROW"
+ },
  "0x7210afea4a4df412e9275a7153d091ce7612a55d": {
   "history": [
    {
@@ -11514,16 +11532,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-14T01:57:34.205247+00:00",
     "value": 601
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-14T07:44:35.964483+00:00",
+    "value": 653
    }
   ],
-  "lastSeen": "2026-10-14T01:57:34.205247+00:00",
+  "lastSeen": "2026-10-14T07:44:35.964483+00:00",
   "lastSnapshot": {
-   "growthPct": 3.4,
-   "mcap": 33745.94922,
-   "ts": "2026-10-14T01:57:34.205247+00:00",
-   "volume": 151864.273243407
+   "growthPct": 8.7,
+   "mcap": 27718.88257,
+   "ts": "2026-10-14T07:44:35.964483+00:00",
+   "volume": 165116.334216055
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "TKSU"
  },
  "0xe34259e30076904f5f30020f135f584633b83100": {
@@ -21291,16 +21314,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-14T01:57:34.205247+00:00",
     "value": 1916
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-14T07:44:35.964483+00:00",
+    "value": 2011
    }
   ],
-  "lastSeen": "2026-10-14T01:57:34.205247+00:00",
+  "lastSeen": "2026-10-14T07:44:35.964483+00:00",
   "lastSnapshot": {
-   "growthPct": 2.2,
-   "mcap": 302986.12096849,
-   "ts": "2026-10-14T01:57:34.205247+00:00",
-   "volume": 773712.190777409
+   "growthPct": 5.0,
+   "mcap": 275237.245015554,
+   "ts": "2026-10-14T07:44:35.964483+00:00",
+   "volume": 828099.365001691
   },
-  "positiveStreak": 2,
+  "positiveStreak": 3,
   "symbol": "YILONGMA"
  },
  "GWGUDFY1dDxQoAMsWfg6zfhvYNF1toKPHMVT3DFBwMJq": {
