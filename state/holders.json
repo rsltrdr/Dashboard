@@ -4659,6 +4659,24 @@
   "positiveStreak": 5,
   "symbol": "GCAT"
  },
+ "0x5199ea953d71d6a5413be1b2efecd26aacab0000": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-15T22:25:13.106520+00:00",
+    "value": 1128
+   }
+  ],
+  "lastSeen": "2026-10-15T22:25:13.106520+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 888225.8582,
+   "ts": "2026-10-15T22:25:13.106520+00:00",
+   "volume": 1510067.46083658
+  },
+  "positiveStreak": 0,
+  "symbol": "WOLFPACK"
+ },
  "0x535b61dd65baf00c75c0b218c791657e69eb529e": {
   "history": [
    {
@@ -5377,6 +5395,24 @@
   },
   "positiveStreak": 2,
   "symbol": "SPIRAL"
+ },
+ "0x6adb9cd443f4653572101e2f91b35ea1ed5f6b69": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-15T22:25:13.106520+00:00",
+    "value": 127
+   }
+  ],
+  "lastSeen": "2026-10-15T22:25:13.106520+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 124329.2573,
+   "ts": "2026-10-15T22:25:13.106520+00:00",
+   "volume": 69412.9864197426
+  },
+  "positiveStreak": 0,
+  "symbol": "SEED"
  },
  "0x6b1ca8209a695b27835964c00ac398f5d4f87a22": {
   "history": [
@@ -10105,16 +10141,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-15T18:21:44.688144+00:00",
     "value": 142
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-15T22:25:13.106520+00:00",
+    "value": 150
    }
   ],
-  "lastSeen": "2026-10-15T18:21:44.688144+00:00",
+  "lastSeen": "2026-10-15T22:25:13.106520+00:00",
   "lastSnapshot": {
-   "growthPct": -13.9,
-   "mcap": 54894.4043773546,
-   "ts": "2026-10-15T18:21:44.688144+00:00",
-   "volume": 61358.0100435381
+   "growthPct": 5.6,
+   "mcap": 33554.6535232709,
+   "ts": "2026-10-15T22:25:13.106520+00:00",
+   "volume": 52652.8303269069
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "VEIL"
  },
  "0xc00899951d84ee5afb1bf22df1d91d5206457d86": {
@@ -18030,14 +18071,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-15T18:21:44.688144+00:00",
     "value": 3402
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-15T22:25:13.106520+00:00",
+    "value": 2948
    }
   ],
-  "lastSeen": "2026-10-15T18:21:44.688144+00:00",
+  "lastSeen": "2026-10-15T22:25:13.106520+00:00",
   "lastSnapshot": {
-   "growthPct": -59.0,
-   "mcap": 625725.562492382,
-   "ts": "2026-10-15T18:21:44.688144+00:00",
-   "volume": 1365550.39588641
+   "growthPct": -13.3,
+   "mcap": 617895.393691596,
+   "ts": "2026-10-15T22:25:13.106520+00:00",
+   "volume": 1231392.81449815
   },
   "positiveStreak": 0,
   "symbol": "SAINDRA"
