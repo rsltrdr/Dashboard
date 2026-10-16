@@ -2280,6 +2280,24 @@
   "positiveStreak": 2,
   "symbol": "IPO"
  },
+ "0x28e3c0c404088f1a5d739221072ddf6ab4431022": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-16T12:31:27.335981+00:00",
+    "value": 427
+   }
+  ],
+  "lastSeen": "2026-10-16T12:31:27.335981+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 177316.4136,
+   "ts": "2026-10-16T12:31:27.335981+00:00",
+   "volume": 189115.060552775
+  },
+  "positiveStreak": 0,
+  "symbol": "IRIDIUS"
+ },
  "0x2a6347b604b0183dc6239e255f9328cfc62d8de7": {
   "history": [
    {
@@ -4670,14 +4688,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-16T07:17:05.808955+00:00",
     "value": 895
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-16T12:31:27.335981+00:00",
+    "value": 795
    }
   ],
-  "lastSeen": "2026-10-16T07:17:05.808955+00:00",
+  "lastSeen": "2026-10-16T12:31:27.335981+00:00",
   "lastSnapshot": {
-   "growthPct": -20.7,
-   "mcap": 768521.8126,
-   "ts": "2026-10-16T07:17:05.808955+00:00",
-   "volume": 961035.473704226
+   "growthPct": -11.2,
+   "mcap": 893878.5364,
+   "ts": "2026-10-16T12:31:27.335981+00:00",
+   "volume": 807426.944059793
   },
   "positiveStreak": 0,
   "symbol": "WOLFPACK"
@@ -9408,6 +9431,24 @@
   "positiveStreak": 0,
   "symbol": "FTR"
  },
+ "0xb39619059eff1f992e157d32ff3e21407ca3233a": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-16T12:31:27.335981+00:00",
+    "value": 611
+   }
+  ],
+  "lastSeen": "2026-10-16T12:31:27.335981+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 82035.50734,
+   "ts": "2026-10-16T12:31:27.335981+00:00",
+   "volume": 419488.487576032
+  },
+  "positiveStreak": 0,
+  "symbol": "BURROW"
+ },
  "0xb462a5039a540883508ee37b5cf3999647557ba3": {
   "history": [
    {
@@ -11397,16 +11438,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-16T07:17:05.808955+00:00",
     "value": 287
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-16T12:31:27.335981+00:00",
+    "value": 294
    }
   ],
-  "lastSeen": "2026-10-16T07:17:05.808955+00:00",
+  "lastSeen": "2026-10-16T12:31:27.335981+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 28600.79327,
-   "ts": "2026-10-16T07:17:05.808955+00:00",
-   "volume": 93824.0111139221
+   "growthPct": 2.4,
+   "mcap": 32517.95812,
+   "ts": "2026-10-16T12:31:27.335981+00:00",
+   "volume": 98036.5545199144
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "NOUS"
  },
  "0xda2fd814da34a489051c3471c0169c936aa37777": {
@@ -13287,14 +13333,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-15T18:21:44.688144+00:00",
     "value": 4208
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-16T12:31:27.335981+00:00",
+    "value": 885
    }
   ],
-  "lastSeen": "2026-10-15T18:21:44.688144+00:00",
+  "lastSeen": "2026-10-16T12:31:27.335981+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 220921.9817,
-   "ts": "2026-10-15T18:21:44.688144+00:00",
-   "volume": 2098388.02173992
+   "growthPct": -79.0,
+   "mcap": 124064.425168724,
+   "ts": "2026-10-16T12:31:27.335981+00:00",
+   "volume": 361428.457549042
   },
   "positiveStreak": 0,
   "symbol": "CyberAxe"
@@ -18132,14 +18183,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-16T07:17:05.808955+00:00",
     "value": 2241
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-16T12:31:27.335981+00:00",
+    "value": 1679
    }
   ],
-  "lastSeen": "2026-10-16T07:17:05.808955+00:00",
+  "lastSeen": "2026-10-16T12:31:27.335981+00:00",
   "lastSnapshot": {
-   "growthPct": -10.5,
-   "mcap": 346185.969790526,
-   "ts": "2026-10-16T07:17:05.808955+00:00",
-   "volume": 1014278.99416907
+   "growthPct": -25.1,
+   "mcap": 424325.429163226,
+   "ts": "2026-10-16T12:31:27.335981+00:00",
+   "volume": 690797.401250794
   },
   "positiveStreak": 0,
   "symbol": "SAINDRA"
@@ -20343,6 +20399,24 @@
   },
   "positiveStreak": 0,
   "symbol": "MEMEAGENCY"
+ },
+ "D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-16T12:31:27.335981+00:00",
+    "value": 12020
+   }
+  ],
+  "lastSeen": "2026-10-16T12:31:27.335981+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 594234.424542809,
+   "ts": "2026-10-16T12:31:27.335981+00:00",
+   "volume": 3139151.82596614
+  },
+  "positiveStreak": 0,
+  "symbol": "OWLDACITY"
  },
  "D8GnQAnA7i5cmpkgDUyhxx8SmnveypZBQRXh6qiapump": {
   "history": [
