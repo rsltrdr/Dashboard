@@ -9705,16 +9705,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-19T01:24:27.844761+00:00",
     "value": 13044
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-19T07:53:06.576310+00:00",
+    "value": 13070
    }
   ],
-  "lastSeen": "2026-10-19T01:24:27.844761+00:00",
+  "lastSeen": "2026-10-19T07:53:06.576310+00:00",
   "lastSnapshot": {
-   "growthPct": 0.3,
-   "mcap": 301793.545880085,
-   "ts": "2026-10-19T01:24:27.844761+00:00",
-   "volume": 298473.324283209
+   "growthPct": 0.2,
+   "mcap": 347197.772660526,
+   "ts": "2026-10-19T07:53:06.576310+00:00",
+   "volume": 297087.262296645
   },
-  "positiveStreak": 3,
+  "positiveStreak": 4,
   "symbol": "EMPIREX"
  },
  "0xb3198fd8d281c8536adf2fe00fe2f985fe619000": {
@@ -16406,6 +16411,24 @@
   "positiveStreak": 1,
   "symbol": "NEARPAD"
  },
+ "6yMZv1NgnQWBeocyfCNKmdqGr3Enu3Lrdpz3TJRvpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-19T07:53:06.576310+00:00",
+    "value": 14237
+   }
+  ],
+  "lastSeen": "2026-10-19T07:53:06.576310+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 404081.016304798,
+   "ts": "2026-10-19T07:53:06.576310+00:00",
+   "volume": 3875753.55109587
+  },
+  "positiveStreak": 0,
+  "symbol": "CATONICE"
+ },
  "752meQjs65b2c9wu49kd35tT9Y5AHMQ8haPLcyyd8XrT": {
   "history": [
    {
@@ -17498,16 +17521,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-19T01:24:27.844761+00:00",
     "value": 1527
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-19T07:53:06.576310+00:00",
+    "value": 1953
    }
   ],
-  "lastSeen": "2026-10-19T01:24:27.844761+00:00",
+  "lastSeen": "2026-10-19T07:53:06.576310+00:00",
   "lastSnapshot": {
-   "growthPct": 15.1,
-   "mcap": 196677.868006564,
-   "ts": "2026-10-19T01:24:27.844761+00:00",
-   "volume": 249208.856420476
+   "growthPct": 27.9,
+   "mcap": 198990.761244955,
+   "ts": "2026-10-19T07:53:06.576310+00:00",
+   "volume": 319752.466438863
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "DOGESTER"
  },
  "8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": {
@@ -19111,16 +19139,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-19T01:24:27.844761+00:00",
     "value": 533
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-19T07:53:06.576310+00:00",
+    "value": 672
    }
   ],
-  "lastSeen": "2026-10-19T01:24:27.844761+00:00",
+  "lastSeen": "2026-10-19T07:53:06.576310+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 45001.17293,
-   "ts": "2026-10-19T01:24:27.844761+00:00",
-   "volume": 61165.3283461248
+   "growthPct": 26.1,
+   "mcap": 49180.50456,
+   "ts": "2026-10-19T07:53:06.576310+00:00",
+   "volume": 78615.8710345492
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "SOLFISH"
  },
  "AKyGUS7ueqtm4oUVBRxCNoyK7BV39HcfrXk4d6Gxpump": {
@@ -22225,16 +22258,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-19T01:24:27.844761+00:00",
     "value": 4344
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-19T07:53:06.576310+00:00",
+    "value": 5266
    }
   ],
-  "lastSeen": "2026-10-19T01:24:27.844761+00:00",
+  "lastSeen": "2026-10-19T07:53:06.576310+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 303821.6214,
-   "ts": "2026-10-19T01:24:27.844761+00:00",
-   "volume": 1638118.21825183
+   "growthPct": 21.2,
+   "mcap": 350015.4814,
+   "ts": "2026-10-19T07:53:06.576310+00:00",
+   "volume": 1975690.14990154
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "LUKE"
  },
  "F1z5FQdToNDLQYJ72grqePaWJrcrf39HR4gaKA57ySUQ": {
@@ -22987,6 +23025,24 @@
   },
   "positiveStreak": 4,
   "symbol": "KEVIN"
+ },
+ "GaPbQwLDPjSXGR9JxxG1aJLNthuxG58dM2XukBi8pump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-19T07:53:06.576310+00:00",
+    "value": 16398
+   }
+  ],
+  "lastSeen": "2026-10-19T07:53:06.576310+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 630785.459285962,
+   "ts": "2026-10-19T07:53:06.576310+00:00",
+   "volume": 1367188.04096657
+  },
+  "positiveStreak": 0,
+  "symbol": "Doomsday"
  },
  "GavQxkBXLg9Qwvxgni8SLJAnxLL592j55jVS2fnFpump": {
   "history": [
