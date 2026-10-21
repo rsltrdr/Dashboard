@@ -381,16 +381,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-21T15:20:30.811139+00:00",
     "value": 839
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-21T20:13:06.030579+00:00",
+    "value": 909
    }
   ],
-  "lastSeen": "2026-10-21T15:20:30.811139+00:00",
+  "lastSeen": "2026-10-21T20:13:06.030579+00:00",
   "lastSnapshot": {
-   "growthPct": 21.2,
-   "mcap": 253611.055953275,
-   "ts": "2026-10-21T15:20:30.811139+00:00",
-   "volume": 512226.323918338
+   "growthPct": 8.3,
+   "mcap": 252583.660910319,
+   "ts": "2026-10-21T20:13:06.030579+00:00",
+   "volume": 572324.206772096
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "KYRO"
  },
  "0x08cc2dad18452344995049f6669b9684f459a2f8": {
@@ -2555,16 +2560,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-21T15:20:30.811139+00:00",
     "value": 1026
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-21T20:13:06.030579+00:00",
+    "value": 884
    }
   ],
-  "lastSeen": "2026-10-21T15:20:30.811139+00:00",
+  "lastSeen": "2026-10-21T20:13:06.030579+00:00",
   "lastSnapshot": {
-   "growthPct": 7.3,
-   "mcap": 452411.9335,
-   "ts": "2026-10-21T15:20:30.811139+00:00",
-   "volume": 839788.866399867
+   "growthPct": -13.8,
+   "mcap": 326610.0723,
+   "ts": "2026-10-21T20:13:06.030579+00:00",
+   "volume": 725732.688195919
   },
-  "positiveStreak": 1,
+  "positiveStreak": 0,
   "symbol": "GH0ST"
  },
  "0x2efa480d60ea4f5a7e33f0a70bef2ada26a473d7": {
@@ -12967,16 +12977,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-21T15:20:30.811139+00:00",
     "value": 1014
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-21T20:13:06.030579+00:00",
+    "value": 960
    }
   ],
-  "lastSeen": "2026-10-21T15:20:30.811139+00:00",
+  "lastSeen": "2026-10-21T20:13:06.030579+00:00",
   "lastSnapshot": {
-   "growthPct": 27.5,
-   "mcap": 872718.0531,
-   "ts": "2026-10-21T15:20:30.811139+00:00",
-   "volume": 1436663.49265454
+   "growthPct": -5.3,
+   "mcap": 812488.9752,
+   "ts": "2026-10-21T20:13:06.030579+00:00",
+   "volume": 1592480.3890496
   },
-  "positiveStreak": 1,
+  "positiveStreak": 0,
   "symbol": "DEFERENCE"
  },
  "0xee9a89fadf3894fed75bf312f9252f770e287f5a": {
@@ -15895,6 +15910,24 @@
   },
   "positiveStreak": 13,
   "symbol": "DEGEN"
+ },
+ "4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-21T20:13:06.030579+00:00",
+    "value": 19937
+   }
+  ],
+  "lastSeen": "2026-10-21T20:13:06.030579+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 548615.76023316,
+   "ts": "2026-10-21T20:13:06.030579+00:00",
+   "volume": 2866177.5194973
+  },
+  "positiveStreak": 0,
+  "symbol": "Pokecity"
  },
  "52qkNpgTHcjuDYhKVcg6rJS4uYYtJHpDRcJoSdKqpump": {
   "history": [
@@ -21422,16 +21455,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-21T15:20:30.811139+00:00",
     "value": 8898
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-21T20:13:06.030579+00:00",
+    "value": 10239
    }
   ],
-  "lastSeen": "2026-10-21T15:20:30.811139+00:00",
+  "lastSeen": "2026-10-21T20:13:06.030579+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 795841.244999998,
-   "ts": "2026-10-21T15:20:30.811139+00:00",
-   "volume": 3703681.61592525
+   "growthPct": 15.1,
+   "mcap": 455977.197599999,
+   "ts": "2026-10-21T20:13:06.030579+00:00",
+   "volume": 4370370.0103059
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "PHP"
  },
  "CbouD8khLcz1Y1QngvRtQufUimSRKpHkvGn6y1n8pump": {
@@ -23517,6 +23555,24 @@
   },
   "positiveStreak": 5,
   "symbol": "POOPYBOT"
+ },
+ "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-21T20:13:06.030579+00:00",
+    "value": 1155
+   }
+  ],
+  "lastSeen": "2026-10-21T20:13:06.030579+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 208268.206077957,
+   "ts": "2026-10-21T20:13:06.030579+00:00",
+   "volume": 334590.221962503
+  },
+  "positiveStreak": 0,
+  "symbol": "COMPUTE"
  },
  "GYFLuEAZMDdpUsTmyGdHstuXQC3JB9ZqtZbfktpppump": {
   "history": [
