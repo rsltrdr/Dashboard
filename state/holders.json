@@ -5360,6 +5360,24 @@
   "positiveStreak": 0,
   "symbol": "PONINU"
  },
+ "0x5f6a1ce1733fc4834a526798c0e8cf85137effff": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-25T16:30:57.645323+00:00",
+    "value": 4335
+   }
+  ],
+  "lastSeen": "2026-10-25T16:30:57.645323+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 566814.8298,
+   "ts": "2026-10-25T16:30:57.645323+00:00",
+   "volume": 2598921.36887319
+  },
+  "positiveStreak": 0,
+  "symbol": "4AGENT"
+ },
  "0x6020a3992fd7dbb8a1622d9c4e0f7497bb819db0": {
   "history": [
    {
