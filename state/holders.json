@@ -24003,16 +24003,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-26T01:16:27.381164+00:00",
     "value": 10614
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T20:34:18.165478+00:00",
+    "value": 3538
    }
   ],
-  "lastSeen": "2026-10-26T01:16:27.381164+00:00",
+  "lastSeen": "2026-10-26T20:34:18.165478+00:00",
   "lastSnapshot": {
-   "growthPct": 10.3,
-   "mcap": 636803.6546,
-   "ts": "2026-10-26T01:16:27.381164+00:00",
-   "volume": 1738323.34690074
+   "growthPct": -66.7,
+   "mcap": 575818.2523,
+   "ts": "2026-10-26T20:34:18.165478+00:00",
+   "volume": 857205.915536064
   },
-  "positiveStreak": 2,
+  "positiveStreak": 0,
   "symbol": "\u2588\u2588\u2588"
  },
  "Ez7eEs53hQiXgCGmcbhdX5i1jgg2gC3F6MoeosuVpump": {
@@ -26300,6 +26305,24 @@
   },
   "positiveStreak": 0,
   "symbol": "BANDIT"
+ },
+ "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T20:34:18.165478+00:00",
+    "value": 3792
+   }
+  ],
+  "lastSeen": "2026-10-26T20:34:18.165478+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 127718.9087,
+   "ts": "2026-10-26T20:34:18.165478+00:00",
+   "volume": 1147621.16952589
+  },
+  "positiveStreak": 0,
+  "symbol": "Shitcoin"
  },
  "JoBxYVvPhPSkiZNiUjZdty1uR6TaNneuQvE3zZ2pump": {
   "history": [
