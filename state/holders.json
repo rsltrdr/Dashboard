@@ -11213,16 +11213,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-26T01:16:27.381164+00:00",
     "value": 242
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T06:23:38.134715+00:00",
+    "value": 252
    }
   ],
-  "lastSeen": "2026-10-26T01:16:27.381164+00:00",
+  "lastSeen": "2026-10-26T06:23:38.134715+00:00",
   "lastSnapshot": {
-   "growthPct": 10.5,
-   "mcap": 62696.65085,
-   "ts": "2026-10-26T01:16:27.381164+00:00",
-   "volume": 147936.808906384
+   "growthPct": 4.1,
+   "mcap": 68337.91135,
+   "ts": "2026-10-26T06:23:38.134715+00:00",
+   "volume": 156686.427360141
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "THKR"
  },
  "0xbd1a43744409a33d131cfc0c14103d6dcff11c12": {
@@ -11317,16 +11322,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-26T01:16:27.381164+00:00",
     "value": 1327
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T06:23:38.134715+00:00",
+    "value": 1392
    }
   ],
-  "lastSeen": "2026-10-26T01:16:27.381164+00:00",
+  "lastSeen": "2026-10-26T06:23:38.134715+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 327710.5252,
-   "ts": "2026-10-26T01:16:27.381164+00:00",
-   "volume": 1989452.09192026
+   "growthPct": 4.9,
+   "mcap": 314545.7394,
+   "ts": "2026-10-26T06:23:38.134715+00:00",
+   "volume": 2075628.82561368
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "NMS"
  },
  "0xbfe3e08e96ffa81563bd26be1d5ad31dd1dad1fe": {
@@ -15341,6 +15351,24 @@
   "positiveStreak": 0,
   "symbol": "SIB"
  },
+ "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T06:23:38.134715+00:00",
+    "value": 8500
+   }
+  ],
+  "lastSeen": "2026-10-26T06:23:38.134715+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 252669.5207,
+   "ts": "2026-10-26T06:23:38.134715+00:00",
+   "volume": 2516186.21231824
+  },
+  "positiveStreak": 0,
+  "symbol": "PRESIDENT"
+ },
  "3RTC33FgYgtbhEzXdRgNb2oaVuGPTSyUMkwWPJLx7NBX": {
   "history": [
    {
@@ -16168,14 +16196,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-26T01:16:27.381164+00:00",
     "value": 1287
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T06:23:38.134715+00:00",
+    "value": 1241
    }
   ],
-  "lastSeen": "2026-10-26T01:16:27.381164+00:00",
+  "lastSeen": "2026-10-26T06:23:38.134715+00:00",
   "lastSnapshot": {
-   "growthPct": -4.2,
-   "mcap": 234213.1038,
-   "ts": "2026-10-26T01:16:27.381164+00:00",
-   "volume": 531562.475058157
+   "growthPct": -3.6,
+   "mcap": 215297.6927,
+   "ts": "2026-10-26T06:23:38.134715+00:00",
+   "volume": 513255.620188196
   },
   "positiveStreak": 0,
   "symbol": "Bunnett"
@@ -16881,16 +16914,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-26T01:16:27.381164+00:00",
     "value": 4557
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T06:23:38.134715+00:00",
+    "value": 5049
    }
   ],
-  "lastSeen": "2026-10-26T01:16:27.381164+00:00",
+  "lastSeen": "2026-10-26T06:23:38.134715+00:00",
   "lastSnapshot": {
-   "growthPct": 12.3,
-   "mcap": 399919.915730734,
-   "ts": "2026-10-26T01:16:27.381164+00:00",
-   "volume": 751018.329938808
+   "growthPct": 10.8,
+   "mcap": 583570.605789705,
+   "ts": "2026-10-26T06:23:38.134715+00:00",
+   "volume": 834746.852989311
   },
-  "positiveStreak": 2,
+  "positiveStreak": 3,
   "symbol": "PumpkinBot"
  },
  "5Zspimi8VD6LctJLtaSjLqaSUvmh3Rs849iPtGocpump": {
@@ -24560,14 +24598,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-26T01:16:27.381164+00:00",
     "value": 620
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-26T06:23:38.134715+00:00",
+    "value": 591
    }
   ],
-  "lastSeen": "2026-10-26T01:16:27.381164+00:00",
+  "lastSeen": "2026-10-26T06:23:38.134715+00:00",
   "lastSnapshot": {
-   "growthPct": -5.5,
-   "mcap": 62075.5324634744,
-   "ts": "2026-10-26T01:16:27.381164+00:00",
-   "volume": 55658.3980355316
+   "growthPct": -4.7,
+   "mcap": 63871.5946291339,
+   "ts": "2026-10-26T06:23:38.134715+00:00",
+   "volume": 59570.2660894173
   },
   "positiveStreak": 0,
   "symbol": "RANCH"
