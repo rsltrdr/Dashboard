@@ -7250,16 +7250,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-28T16:41:47.235603+00:00",
     "value": 836
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-28T21:42:45.517414+00:00",
+    "value": 882
    }
   ],
-  "lastSeen": "2026-10-28T16:41:47.235603+00:00",
+  "lastSeen": "2026-10-28T21:42:45.517414+00:00",
   "lastSnapshot": {
-   "growthPct": 32.5,
-   "mcap": 297384.1917,
-   "ts": "2026-10-28T16:41:47.235603+00:00",
-   "volume": 478672.273506488
+   "growthPct": 5.5,
+   "mcap": 338929.6031,
+   "ts": "2026-10-28T21:42:45.517414+00:00",
+   "volume": 561612.838328443
   },
-  "positiveStreak": 2,
+  "positiveStreak": 3,
   "symbol": "zip"
  },
  "0x828c38b9ac8e0933ead14a6c0318d4494e127777": {
@@ -17744,16 +17749,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-28T16:41:47.235603+00:00",
     "value": 4855
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-28T21:42:45.517414+00:00",
+    "value": 5563
    }
   ],
-  "lastSeen": "2026-10-28T16:41:47.235603+00:00",
+  "lastSeen": "2026-10-28T21:42:45.517414+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 526367.9637,
-   "ts": "2026-10-28T16:41:47.235603+00:00",
-   "volume": 1291241.24010374
+   "growthPct": 14.6,
+   "mcap": 208573.7632,
+   "ts": "2026-10-28T21:42:45.517414+00:00",
+   "volume": 1578272.55347784
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "Grokbot"
  },
  "6UhUkSBc9RBB9gVJcjCWtcQv4t771rQF7bdn2qK7pump": {
@@ -26944,16 +26954,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-28T09:48:02.440054+00:00",
     "value": 5705
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-10-28T21:42:45.517414+00:00",
+    "value": 2759
    }
   ],
-  "lastSeen": "2026-10-28T09:48:02.440054+00:00",
+  "lastSeen": "2026-10-28T21:42:45.517414+00:00",
   "lastSnapshot": {
-   "growthPct": 4.0,
-   "mcap": 531157.5577,
-   "ts": "2026-10-28T09:48:02.440054+00:00",
-   "volume": 2457510.99808339
+   "growthPct": -51.6,
+   "mcap": 507236.0201,
+   "ts": "2026-10-28T21:42:45.517414+00:00",
+   "volume": 1200300.00255658
   },
-  "positiveStreak": 2,
+  "positiveStreak": 0,
   "symbol": "MOGZ"
  },
  "XLBLxbY1Mr7aadnqAbmqSBXLEyUdjvUXtXCnz8Mpump": {
