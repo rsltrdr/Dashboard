@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T05:53:25.524816+00:00",
+ "generatedAt": "2026-10-31T12:43:56.648583+00:00",
  "usdToEur": 0.8922,
  "usdToEurLive": true,
  "venue": "FOMO app",
@@ -34,37 +34,88 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 582,
-  "passedScreen": 3,
-  "shortlisted": 3,
-  "returned": 1
+  "discovered": 602,
+  "passedScreen": 6,
+  "shortlisted": 6,
+  "returned": 2
  },
  "rejectedBy": {
-  "market cap outside band": 482,
-  "outside the 6-72h window": 52,
-  "liquidity too thin to exit": 40,
-  "volume implausibly high against cap": 3,
+  "market cap outside band": 489,
+  "outside the 6-72h window": 67,
+  "liquidity too thin to exit": 28,
+  "volume implausibly high against cap": 10,
   "volume concentrated in few wallets": 1,
   "volume too low against cap": 1
  },
  "candidates": [
   {
-   "address": "0xe78f1b67c3c5d7e8c9836061621f8e0ca914d16a",
-   "symbol": "HI",
-   "name": "HYPER INU",
-   "network": "eth",
-   "chain": "Ethereum",
-   "mcapUsd": 277547.4361,
-   "liquidityUsd": 47251.8235,
-   "volume24hUsd": 303461.618019785,
-   "buys": 337,
-   "sells": 373,
-   "buyers24h": 177,
-   "createdAt": "2026-10-29T18:08:23+00:00",
-   "ageHours": 35.78,
-   "poolAddress": "0x9e50f638b93e36856deebcb45cd9c1cb10fe8b0e675b32390acd862ead60d1d9",
-   "volumePerBuyerUsd": 1714.47,
-   "volMcapRatio": 1.09,
+   "address": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
+   "symbol": "CATPAD",
+   "name": "CATPAD",
+   "network": "solana",
+   "chain": "Solana",
+   "mcapUsd": 140105.113322961,
+   "liquidityUsd": 30976.7537,
+   "volume24hUsd": 575006.309229094,
+   "buys": 5915,
+   "sells": 4522,
+   "buyers24h": 2342,
+   "createdAt": "2026-10-30T14:58:31+00:00",
+   "ageHours": 21.77,
+   "poolAddress": "GU2ajBKEBpvXumm27t41XEteVUsbvrwGhDmJW7FDc4BN",
+   "volumePerBuyerUsd": 245.52,
+   "volMcapRatio": 4.1,
+   "holderCount": null,
+   "growthPct": 13.7,
+   "growthBasis": "buyers24h",
+   "growthStatus": "measured",
+   "growthBefore": 2060,
+   "growthBeforeAt": "2026-10-30T23:52:28.113976+00:00",
+   "mcapChangePct": 37.3,
+   "volumeChangePct": 13.6,
+   "moves": [
+    "market cap +37%"
+   ],
+   "isMover": true,
+   "positiveStreak": 1,
+   "growthConfirmed": false,
+   "holderGrowthPct": 13.7,
+   "holderGrowthStatus": "measured",
+   "coingecko": {
+    "id": "catpad",
+    "categories": [
+     "Solana Ecosystem",
+     "Pump.fun Ecosystem"
+    ],
+    "marketCapRank": 5710,
+    "priceChange24h": null,
+    "priceChange7d": null,
+    "athChangePct": -20.28946,
+    "twitterFollowers": null,
+    "url": "https://www.coingecko.com/en/coins/catpad"
+   },
+   "mcapEur": 125006,
+   "liquidityEur": 27638,
+   "volume24hEur": 513037,
+   "dexscreener": "https://dexscreener.com/solana/2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1"
+  },
+  {
+   "address": "HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump",
+   "symbol": "LUMI",
+   "name": "LUMI",
+   "network": "solana",
+   "chain": "Solana",
+   "mcapUsd": 552641.163142768,
+   "liquidityUsd": 74970.626,
+   "volume24hUsd": 2817307.41618697,
+   "buys": 37236,
+   "sells": 21696,
+   "buyers24h": 8600,
+   "createdAt": "2026-10-31T01:01:59+00:00",
+   "ageHours": 11.72,
+   "poolAddress": "Db4jZrHQTFKEeAMVVtiyLRNpqT2W1XEoFrj9KxxpS3Z7",
+   "volumePerBuyerUsd": 327.59,
+   "volMcapRatio": 5.1,
    "holderCount": null,
    "growthPct": null,
    "growthBasis": "buyers24h",
@@ -76,13 +127,29 @@
    "holderGrowthPct": null,
    "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 247629,
-   "liquidityEur": 42158,
-   "volume24hEur": 270750,
-   "dexscreener": "https://dexscreener.com/eth/0xe78f1b67c3c5d7e8c9836061621f8e0ca914d16a"
+   "mcapEur": 493082,
+   "liquidityEur": 66891,
+   "volume24hEur": 2513683,
+   "dexscreener": "https://dexscreener.com/solana/HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump"
   }
  ],
- "movers": [],
+ "movers": [
+  {
+   "symbol": "CATPAD",
+   "chain": "Solana",
+   "address": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
+   "moves": [
+    "market cap +37%"
+   ],
+   "mcapEur": 125006,
+   "volMcapRatio": 4.1,
+   "growthPct": 13.7,
+   "ageHours": 21.77,
+   "mcapChangePct": 37.3,
+   "volumeChangePct": 13.6,
+   "dexscreener": "https://dexscreener.com/solana/2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1"
+  }
+ ],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -110,10 +177,6 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
-  },
-  {
-   "stage": "discover:solana:trending_pools:p2",
-   "message": "TimeoutError: The read operation timed out"
   }
  ]
 }
