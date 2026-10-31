@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-10-30T23:52:28.113976+00:00",
- "usdToEur": 0.8917,
+ "generatedAt": "2026-10-31T05:53:25.524816+00:00",
+ "usdToEur": 0.8922,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,36 +34,37 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 624,
-  "passedScreen": 6,
-  "shortlisted": 6,
-  "returned": 3
+  "discovered": 582,
+  "passedScreen": 3,
+  "shortlisted": 3,
+  "returned": 1
  },
  "rejectedBy": {
-  "liquidity too thin to exit": 33,
-  "market cap outside band": 518,
-  "outside the 6-72h window": 59,
-  "volume implausibly high against cap": 7,
+  "market cap outside band": 482,
+  "outside the 6-72h window": 52,
+  "liquidity too thin to exit": 40,
+  "volume implausibly high against cap": 3,
+  "volume concentrated in few wallets": 1,
   "volume too low against cap": 1
  },
  "candidates": [
   {
-   "address": "9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump",
-   "symbol": "CTO",
-   "name": "Chief Troll Officer",
-   "network": "solana",
-   "chain": "Solana",
-   "mcapUsd": 118548.176480335,
-   "liquidityUsd": 30807.7572,
-   "volume24hUsd": 1181466.78393768,
-   "buys": 13132,
-   "sells": 9579,
-   "buyers24h": 4056,
-   "createdAt": "2026-10-30T09:25:42+00:00",
-   "ageHours": 14.47,
-   "poolAddress": "5cTypHj9DabECdW3zKtoD9vKHgKVBPSKvf2147yvXX2c",
-   "volumePerBuyerUsd": 291.29,
-   "volMcapRatio": 9.97,
+   "address": "0xe78f1b67c3c5d7e8c9836061621f8e0ca914d16a",
+   "symbol": "HI",
+   "name": "HYPER INU",
+   "network": "eth",
+   "chain": "Ethereum",
+   "mcapUsd": 277547.4361,
+   "liquidityUsd": 47251.8235,
+   "volume24hUsd": 303461.618019785,
+   "buys": 337,
+   "sells": 373,
+   "buyers24h": 177,
+   "createdAt": "2026-10-29T18:08:23+00:00",
+   "ageHours": 35.78,
+   "poolAddress": "0x9e50f638b93e36856deebcb45cd9c1cb10fe8b0e675b32390acd862ead60d1d9",
+   "volumePerBuyerUsd": 1714.47,
+   "volMcapRatio": 1.09,
    "holderCount": null,
    "growthPct": null,
    "growthBasis": "buyers24h",
@@ -75,76 +76,10 @@
    "holderGrowthPct": null,
    "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 105710,
-   "liquidityEur": 27471,
-   "volume24hEur": 1053519,
-   "dexscreener": "https://dexscreener.com/solana/9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump"
-  },
-  {
-   "address": "2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1",
-   "symbol": "CATPAD",
-   "name": "CATPAD",
-   "network": "solana",
-   "chain": "Solana",
-   "mcapUsd": 102055.924653014,
-   "liquidityUsd": 26065.7873,
-   "volume24hUsd": 506377.39204858,
-   "buys": 5112,
-   "sells": 3925,
-   "buyers24h": 2060,
-   "createdAt": "2026-10-30T14:58:31+00:00",
-   "ageHours": 8.92,
-   "poolAddress": "GU2ajBKEBpvXumm27t41XEteVUsbvrwGhDmJW7FDc4BN",
-   "volumePerBuyerUsd": 245.81,
-   "volMcapRatio": 4.96,
-   "holderCount": null,
-   "growthPct": null,
-   "growthBasis": "buyers24h",
-   "growthStatus": "first sighting",
-   "moves": [],
-   "isMover": false,
-   "positiveStreak": 0,
-   "growthConfirmed": false,
-   "holderGrowthPct": null,
-   "holderGrowthStatus": "first sighting",
-   "coingecko": null,
-   "mcapEur": 91004,
-   "liquidityEur": 23243,
-   "volume24hEur": 451539,
-   "dexscreener": "https://dexscreener.com/solana/2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1"
-  },
-  {
-   "address": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
-   "symbol": "OREN",
-   "name": "Oren",
-   "network": "solana",
-   "chain": "Solana",
-   "mcapUsd": 98084.2443,
-   "liquidityUsd": 27163.016,
-   "volume24hUsd": 230916.588908326,
-   "buys": 2645,
-   "sells": 2065,
-   "buyers24h": 955,
-   "createdAt": "2026-10-29T11:55:06+00:00",
-   "ageHours": 35.98,
-   "poolAddress": "FptqM7Ev2nWFNT2v4QW5e1cHH6TAkgYtQd2NcJeKWebx",
-   "volumePerBuyerUsd": 241.8,
-   "volMcapRatio": 2.35,
-   "holderCount": null,
-   "growthPct": null,
-   "growthBasis": "buyers24h",
-   "growthStatus": "first sighting",
-   "moves": [],
-   "isMover": false,
-   "positiveStreak": 0,
-   "growthConfirmed": false,
-   "holderGrowthPct": null,
-   "holderGrowthStatus": "first sighting",
-   "coingecko": null,
-   "mcapEur": 87462,
-   "liquidityEur": 24221,
-   "volume24hEur": 205909,
-   "dexscreener": "https://dexscreener.com/solana/57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump"
+   "mcapEur": 247629,
+   "liquidityEur": 42158,
+   "volume24hEur": 270750,
+   "dexscreener": "https://dexscreener.com/eth/0xe78f1b67c3c5d7e8c9836061621f8e0ca914d16a"
   }
  ],
  "movers": [],
@@ -153,63 +88,7 @@
   "volumePct": 60.0,
   "growthPct": 8.0
  },
- "distribution": [
-  {
-   "market": "ZRO",
-   "price": 1.7127,
-   "change24hPct": 12.59,
-   "dayVolumeUsd": 28554534,
-   "openInterest": 40699585.0,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "volume draining",
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -29.49,
-   "oiChangePct": 0.37,
-   "signalCount": 5,
-   "observations": 13
-  },
-  {
-   "market": "XPL",
-   "price": 0.081477,
-   "change24hPct": 12.07,
-   "dayVolumeUsd": 24996467,
-   "openInterest": 1124370300.0,
-   "fundingRate": 6.95937e-05,
-   "signals": [
-    "volume draining",
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -41.45,
-   "oiChangePct": 2.02,
-   "signalCount": 4,
-   "observations": 13
-  },
-  {
-   "market": "UNI",
-   "price": 7.1465,
-   "change24hPct": 10.5,
-   "dayVolumeUsd": 53988020,
-   "openInterest": 11697515.2,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "volume draining",
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": -55.97,
-   "oiChangePct": 3.39,
-   "signalCount": 4,
-   "observations": 13
-  }
- ],
+ "distribution": [],
  "distributionScreen": {
   "venue": "Hyperliquid perps (what FOMO routes to)",
   "minDayVolumeUsd": 5000000,
@@ -231,6 +110,10 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
+  },
+  {
+   "stage": "discover:solana:trending_pools:p2",
+   "message": "TimeoutError: The read operation timed out"
   }
  ]
 }
