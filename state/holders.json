@@ -3917,6 +3917,24 @@
   "positiveStreak": 1,
   "symbol": "THESIS"
  },
+ "0x457badee84b6be7539458eac993983058c7f7777": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-01T01:15:59.091747+00:00",
+    "value": 9605
+   }
+  ],
+  "lastSeen": "2026-11-01T01:15:59.091747+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 288820.6147,
+   "ts": "2026-11-01T01:15:59.091747+00:00",
+   "volume": 2256456.55833617
+  },
+  "positiveStreak": 0,
+  "symbol": "FAGENT"
+ },
  "0x45d5ddab8a207b86d751d1c473557760c10b1f1c": {
   "history": [
    {
@@ -13478,14 +13496,19 @@
     "basis": "buyers24h",
     "ts": "2026-10-31T21:41:31.004795+00:00",
     "value": 498
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-01T01:15:59.091747+00:00",
+    "value": 484
    }
   ],
-  "lastSeen": "2026-10-31T21:41:31.004795+00:00",
+  "lastSeen": "2026-11-01T01:15:59.091747+00:00",
   "lastSnapshot": {
-   "growthPct": -4.8,
-   "mcap": 279253.347,
-   "ts": "2026-10-31T21:41:31.004795+00:00",
-   "volume": 229230.127670809
+   "growthPct": -2.8,
+   "mcap": 283117.9616,
+   "ts": "2026-11-01T01:15:59.091747+00:00",
+   "volume": 214050.598456033
   },
   "positiveStreak": 0,
   "symbol": "WOFL"
@@ -14548,16 +14571,21 @@
     "basis": "buyers24h",
     "ts": "2026-10-31T21:41:31.004795+00:00",
     "value": 258
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-01T01:15:59.091747+00:00",
+    "value": 286
    }
   ],
-  "lastSeen": "2026-10-31T21:41:31.004795+00:00",
+  "lastSeen": "2026-11-01T01:15:59.091747+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 105945.9371,
-   "ts": "2026-10-31T21:41:31.004795+00:00",
-   "volume": 105073.444673082
+   "growthPct": 10.9,
+   "mcap": 71835.81947,
+   "ts": "2026-11-01T01:15:59.091747+00:00",
+   "volume": 132531.451845784
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "STREET"
  },
  "0xfad17d7cc41d9c9ca4a459da798a4446dd217974": {
@@ -14908,6 +14936,24 @@
   },
   "positiveStreak": 0,
   "symbol": "DRAFT"
+ },
+ "0xfedcb1513b389b1c4d243f85c56557e86de0905f": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-01T01:15:59.091747+00:00",
+    "value": 597
+   }
+  ],
+  "lastSeen": "2026-11-01T01:15:59.091747+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 668491.1477,
+   "ts": "2026-11-01T01:15:59.091747+00:00",
+   "volume": 632507.864480134
+  },
+  "positiveStreak": 0,
+  "symbol": "SKELLY"
  },
  "0xffb390e5b6136704905e2635afc3e5150e768a26": {
   "history": [

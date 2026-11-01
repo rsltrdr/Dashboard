@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T21:41:31.004795+00:00",
+ "generatedAt": "2026-11-01T01:15:59.091747+00:00",
  "usdToEur": 0.8925,
  "usdToEurLive": true,
  "venue": "FOMO app",
@@ -34,16 +34,15 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 620,
-  "passedScreen": 5,
-  "shortlisted": 5,
-  "returned": 1
+  "discovered": 584,
+  "passedScreen": 4,
+  "shortlisted": 4,
+  "returned": 3
  },
  "rejectedBy": {
-  "market cap outside band": 488,
-  "outside the 6-72h window": 76,
-  "liquidity too thin to exit": 43,
-  "volume implausibly high against cap": 7,
+  "market cap outside band": 459,
+  "outside the 6-72h window": 48,
+  "liquidity too thin to exit": 72,
   "volume too low against cap": 1
  },
  "candidates": [
@@ -53,17 +52,54 @@
    "name": "Stonk Street",
    "network": "robinhood",
    "chain": "Robinhood Chain",
-   "mcapUsd": 105945.9371,
-   "liquidityUsd": 28601.3872,
-   "volume24hUsd": 105073.444673082,
-   "buys": 655,
-   "sells": 522,
-   "buyers24h": 258,
+   "mcapUsd": 71835.81947,
+   "liquidityUsd": 23697.8819,
+   "volume24hUsd": 132531.451845784,
+   "buys": 757,
+   "sells": 599,
+   "buyers24h": 286,
    "createdAt": "2026-10-30T14:39:55+00:00",
-   "ageHours": 31.15,
+   "ageHours": 34.72,
    "poolAddress": "0xdc4a4a0c7312b1e7e1833be32b4aaea48ecb885695652fd7195d9d810015a667",
-   "volumePerBuyerUsd": 407.26,
-   "volMcapRatio": 0.99,
+   "volumePerBuyerUsd": 463.4,
+   "volMcapRatio": 1.84,
+   "holderCount": null,
+   "growthPct": 10.9,
+   "growthBasis": "buyers24h",
+   "growthStatus": "measured",
+   "growthBefore": 258,
+   "growthBeforeAt": "2026-10-31T21:41:31.004795+00:00",
+   "mcapChangePct": -32.2,
+   "volumeChangePct": 26.1,
+   "moves": [],
+   "isMover": false,
+   "positiveStreak": 1,
+   "growthConfirmed": false,
+   "holderGrowthPct": 10.9,
+   "holderGrowthStatus": "measured",
+   "coingecko": null,
+   "mcapEur": 64111,
+   "liquidityEur": 21150,
+   "volume24hEur": 118280,
+   "dexscreener": "https://dexscreener.com/robinhood/0xf9ee3fbcf3fc11b5681e9a44666d2e1e4f8c5834"
+  },
+  {
+   "address": "0x457badee84b6be7539458eac993983058c7f7777",
+   "symbol": "FAGENT",
+   "name": "FAGENT",
+   "network": "bsc",
+   "chain": "BNB Chain",
+   "mcapUsd": 288820.6147,
+   "liquidityUsd": 54931.603,
+   "volume24hUsd": 2256456.55833617,
+   "buys": 50964,
+   "sells": 16084,
+   "buyers24h": 9605,
+   "createdAt": "2026-10-31T12:06:49+00:00",
+   "ageHours": 13.23,
+   "poolAddress": "0xcaac4a5976d546729ac1d9bb42b9e60f32f43658",
+   "volumePerBuyerUsd": 234.93,
+   "volMcapRatio": 7.81,
    "holderCount": null,
    "growthPct": null,
    "growthBasis": "buyers24h",
@@ -75,10 +111,43 @@
    "holderGrowthPct": null,
    "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 94555,
-   "liquidityEur": 25526,
-   "volume24hEur": 93776,
-   "dexscreener": "https://dexscreener.com/robinhood/0xf9ee3fbcf3fc11b5681e9a44666d2e1e4f8c5834"
+   "mcapEur": 257764,
+   "liquidityEur": 49025,
+   "volume24hEur": 2013820,
+   "dexscreener": "https://dexscreener.com/bsc/0x457badee84b6be7539458eac993983058c7f7777"
+  },
+  {
+   "address": "0xfedcb1513b389b1c4d243f85c56557e86de0905f",
+   "symbol": "SKELLY",
+   "name": "SKELLY",
+   "network": "eth",
+   "chain": "Ethereum",
+   "mcapUsd": 668491.1477,
+   "liquidityUsd": 75566.0812,
+   "volume24hUsd": 632507.864480134,
+   "buys": 1253,
+   "sells": 521,
+   "buyers24h": 597,
+   "createdAt": "2026-10-31T14:21:59+00:00",
+   "ageHours": 10.94,
+   "poolAddress": "0x7e3c5a5a6a3bdd2a6ae66eef31e1ddd85ee4c30ff16c7b19f55ca76497ab1204",
+   "volumePerBuyerUsd": 1059.48,
+   "volMcapRatio": 0.95,
+   "holderCount": null,
+   "growthPct": null,
+   "growthBasis": "buyers24h",
+   "growthStatus": "first sighting",
+   "moves": [],
+   "isMover": false,
+   "positiveStreak": 0,
+   "growthConfirmed": false,
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
+   "coingecko": null,
+   "mcapEur": 596608,
+   "liquidityEur": 67440,
+   "volume24hEur": 564494,
+   "dexscreener": "https://dexscreener.com/eth/0xfedcb1513b389b1c4d243f85c56557e86de0905f"
   }
  ],
  "movers": [],
@@ -87,25 +156,7 @@
   "volumePct": 60.0,
   "growthPct": 8.0
  },
- "distribution": [
-  {
-   "market": "LIT",
-   "price": 3.1321,
-   "change24hPct": 15.32,
-   "dayVolumeUsd": 25933404,
-   "openInterest": 42009110.0,
-   "fundingRate": 1.25e-05,
-   "signals": [
-    "open interest holding",
-    "ran up 24h",
-    "longs paying funding"
-   ],
-   "volumeChangePct": 56.04,
-   "oiChangePct": 3.48,
-   "signalCount": 3,
-   "observations": 13
-  }
- ],
+ "distribution": [],
  "distributionScreen": {
   "venue": "Hyperliquid perps (what FOMO routes to)",
   "minDayVolumeUsd": 5000000,
@@ -127,6 +178,10 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
+  },
+  {
+   "stage": "discover:solana:trending_pools:p1",
+   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/trending_pools"
   }
  ]
 }
