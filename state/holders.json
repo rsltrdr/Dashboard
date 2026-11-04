@@ -2528,16 +2528,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-03T21:04:29.586632+00:00",
     "value": 1335
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-04T01:27:00.651586+00:00",
+    "value": 1413
    }
   ],
-  "lastSeen": "2026-11-03T21:04:29.586632+00:00",
+  "lastSeen": "2026-11-04T01:27:00.651586+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 178885.9459,
-   "ts": "2026-11-03T21:04:29.586632+00:00",
-   "volume": 657271.269342184
+   "growthPct": 5.8,
+   "mcap": 130495.4259,
+   "ts": "2026-11-04T01:27:00.651586+00:00",
+   "volume": 708981.743550392
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "\u6211\u753b\u5730\u4e3a\u7262"
  },
  "0x29d3945d0c7e4c78d194a343d3db0e909a0a8a91": {
@@ -5815,16 +5820,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-03T06:56:04.544928+00:00",
     "value": 4736
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-04T01:27:00.651586+00:00",
+    "value": 3382
    }
   ],
-  "lastSeen": "2026-11-03T06:56:04.544928+00:00",
+  "lastSeen": "2026-11-04T01:27:00.651586+00:00",
   "lastSnapshot": {
-   "growthPct": 23.5,
-   "mcap": 294703.938396,
-   "ts": "2026-11-03T06:56:04.544928+00:00",
-   "volume": 1254731.28429895
+   "growthPct": -28.6,
+   "mcap": 222130.537338015,
+   "ts": "2026-11-04T01:27:00.651586+00:00",
+   "volume": 621006.573889341
   },
-  "positiveStreak": 1,
+  "positiveStreak": 0,
   "symbol": "AGC"
  },
  "0x63ffd4aa844f4befcee1b4606e467d1d209a926b": {
@@ -6445,6 +6455,24 @@
   },
   "positiveStreak": 1,
   "symbol": "SECTORAL"
+ },
+ "0x6f18277e5566090ad8ab35e401ce9155739bfb07": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-04T01:27:00.651586+00:00",
+    "value": 623
+   }
+  ],
+  "lastSeen": "2026-11-04T01:27:00.651586+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 704694.5795,
+   "ts": "2026-11-04T01:27:00.651586+00:00",
+   "volume": 1133356.92277832
+  },
+  "positiveStreak": 0,
+  "symbol": "Reboot"
  },
  "0x6f1a924b217e7bb254605662c4223b604b7e07ff": {
   "history": [
@@ -13876,14 +13904,19 @@
     "basis": "buyers24h",
     "ts": "2026-11-03T21:04:29.586632+00:00",
     "value": 218
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-04T01:27:00.651586+00:00",
+    "value": 203
    }
   ],
-  "lastSeen": "2026-11-03T21:04:29.586632+00:00",
+  "lastSeen": "2026-11-04T01:27:00.651586+00:00",
   "lastSnapshot": {
-   "growthPct": -17.7,
-   "mcap": 84675.2080999262,
-   "ts": "2026-11-03T21:04:29.586632+00:00",
-   "volume": 69178.1571514965
+   "growthPct": -6.9,
+   "mcap": 65123.1542710212,
+   "ts": "2026-11-04T01:27:00.651586+00:00",
+   "volume": 61845.3789919752
   },
   "positiveStreak": 0,
   "symbol": "BURSAR"
@@ -15493,6 +15526,24 @@
   },
   "positiveStreak": 1,
   "symbol": "Aloooong"
+ },
+ "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-04T01:27:00.651586+00:00",
+    "value": 9192
+   }
+  ],
+  "lastSeen": "2026-11-04T01:27:00.651586+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 865889.7845,
+   "ts": "2026-11-04T01:27:00.651586+00:00",
+   "volume": 3976876.96316586
+  },
+  "positiveStreak": 0,
+  "symbol": "STONKS"
  },
  "2724239D1JhWQGV5WZ7tdBTN5Jz4FZ3pdmvj3iD4LsVE": {
   "history": [
@@ -20798,14 +20849,19 @@
     "basis": "buyers24h",
     "ts": "2026-11-03T15:15:45.242002+00:00",
     "value": 4423
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-04T01:27:00.651586+00:00",
+    "value": 2988
    }
   ],
-  "lastSeen": "2026-11-03T15:15:45.242002+00:00",
+  "lastSeen": "2026-11-04T01:27:00.651586+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 539951.341171328,
-   "ts": "2026-11-03T15:15:45.242002+00:00",
-   "volume": 1325264.28647025
+   "growthPct": -32.4,
+   "mcap": 406023.821305355,
+   "ts": "2026-11-04T01:27:00.651586+00:00",
+   "volume": 981881.029175395
   },
   "positiveStreak": 0,
   "symbol": "RICO"
