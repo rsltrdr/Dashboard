@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-09T17:36:56.946675+00:00",
- "usdToEur": 0.8916,
+ "generatedAt": "2026-11-10T01:36:54.475125+00:00",
+ "usdToEur": 0.89,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,75 +34,86 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 531,
-  "passedScreen": 1,
-  "shortlisted": 1,
-  "returned": 1
+  "discovered": 571,
+  "passedScreen": 5,
+  "shortlisted": 5,
+  "returned": 2
  },
  "rejectedBy": {
-  "market cap outside band": 444,
-  "liquidity too thin to exit": 33,
-  "outside the 6-72h window": 52,
-  "volume too low against cap": 1
+  "market cap outside band": 466,
+  "outside the 6-72h window": 61,
+  "volume implausibly high against cap": 3,
+  "liquidity too thin to exit": 36
  },
  "candidates": [
   {
-   "address": "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8",
-   "symbol": "TEXEL",
-   "name": "Texel",
-   "network": "robinhood",
-   "chain": "Robinhood Chain",
-   "mcapUsd": 96242.90494,
-   "liquidityUsd": 26444.0153,
-   "volume24hUsd": 122213.559158018,
-   "buys": 863,
-   "sells": 603,
-   "buyers24h": 258,
-   "createdAt": "2026-11-08T16:34:21+00:00",
-   "ageHours": 25.15,
-   "poolAddress": "0x5e73f5892ef5cf4d553fe0cc9b109e884c3c2a52635bf6c4f1dceff9637fe932",
-   "volumePerBuyerUsd": 473.7,
-   "volMcapRatio": 1.27,
+   "address": "0xe9320db4ddfc689470d09c768a4cb9b05cf97777",
+   "symbol": "\u725b\u903c",
+   "name": "\u725b\u903c",
+   "network": "bsc",
+   "chain": "BNB Chain",
+   "mcapUsd": 37139.95917,
+   "liquidityUsd": 18058.9432,
+   "volume24hUsd": 200244.873888459,
+   "buys": 18557,
+   "sells": 1642,
+   "buyers24h": 965,
+   "createdAt": "2026-11-09T11:47:50+00:00",
+   "ageHours": 13.9,
+   "poolAddress": "0x9701c49e18685b765393022d9558e7bef761c19a",
+   "volumePerBuyerUsd": 207.51,
+   "volMcapRatio": 5.39,
    "holderCount": null,
-   "growthPct": 2.4,
+   "growthPct": null,
    "growthBasis": "buyers24h",
-   "growthStatus": "measured",
-   "growthBefore": 252,
-   "growthBeforeAt": "2026-11-09T06:47:23.063848+00:00",
-   "mcapChangePct": 86.9,
-   "volumeChangePct": 32.7,
-   "moves": [
-    "market cap +87%"
-   ],
-   "isMover": true,
-   "positiveStreak": 1,
+   "growthStatus": "first sighting",
+   "moves": [],
+   "isMover": false,
+   "positiveStreak": 0,
    "growthConfirmed": false,
-   "holderGrowthPct": 2.4,
-   "holderGrowthStatus": "measured",
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 85808,
-   "liquidityEur": 23577,
-   "volume24hEur": 108963,
-   "dexscreener": "https://dexscreener.com/robinhood/0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8"
-  }
- ],
- "movers": [
+   "mcapEur": 33055,
+   "liquidityEur": 16073,
+   "volume24hEur": 178220,
+   "dexscreener": "https://dexscreener.com/bsc/0xe9320db4ddfc689470d09c768a4cb9b05cf97777"
+  },
   {
-   "symbol": "TEXEL",
-   "chain": "Robinhood Chain",
-   "address": "0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8",
-   "moves": [
-    "market cap +87%"
-   ],
-   "mcapEur": 85808,
-   "volMcapRatio": 1.27,
-   "growthPct": 2.4,
-   "ageHours": 25.15,
-   "mcapChangePct": 86.9,
-   "volumeChangePct": 32.7,
-   "dexscreener": "https://dexscreener.com/robinhood/0x0ddcab9ae04bda0c87ecc1640636fa11e8e613e8"
+   "address": "22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp",
+   "symbol": "Pepetide",
+   "name": "Pepetide",
+   "network": "solana",
+   "chain": "Solana",
+   "mcapUsd": 358354.7521,
+   "liquidityUsd": 40822.4467,
+   "volume24hUsd": 483217.252512661,
+   "buys": 3123,
+   "sells": 3229,
+   "buyers24h": 1457,
+   "createdAt": "2026-11-08T00:14:38+00:00",
+   "ageHours": 49.39,
+   "poolAddress": "2uA94Y3X9dwDduojoj2NRcyZQaYtcoSsHZ4y1UX5P8Rs",
+   "volumePerBuyerUsd": 331.65,
+   "volMcapRatio": 1.35,
+   "holderCount": null,
+   "growthPct": null,
+   "growthBasis": "buyers24h",
+   "growthStatus": "first sighting",
+   "moves": [],
+   "isMover": false,
+   "positiveStreak": 0,
+   "growthConfirmed": false,
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
+   "coingecko": null,
+   "mcapEur": 318940,
+   "liquidityEur": 36332,
+   "volume24hEur": 430069,
+   "dexscreener": "https://dexscreener.com/solana/22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp"
   }
  ],
+ "movers": [],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
@@ -130,10 +141,6 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
-  },
-  {
-   "stage": "discover:solana:trending_pools:p1",
-   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/trending_pools"
   }
  ]
 }
