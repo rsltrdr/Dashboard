@@ -3228,16 +3228,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-12T03:52:13.775386+00:00",
     "value": 707
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-12T12:51:22.289558+00:00",
+    "value": 794
    }
   ],
-  "lastSeen": "2026-11-12T03:52:13.775386+00:00",
+  "lastSeen": "2026-11-12T12:51:22.289558+00:00",
   "lastSnapshot": {
-   "growthPct": 6.8,
-   "mcap": 182408.8555,
-   "ts": "2026-11-12T03:52:13.775386+00:00",
-   "volume": 1248843.67574969
+   "growthPct": 12.3,
+   "mcap": 281114.2061,
+   "ts": "2026-11-12T12:51:22.289558+00:00",
+   "volume": 1378103.62671762
   },
-  "positiveStreak": 1,
+  "positiveStreak": 2,
   "symbol": "REVVY"
  },
  "0x3458e003f6ed93df0f537b8acac6fbe08e41247f": {
@@ -8378,16 +8383,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-12T03:52:13.775386+00:00",
     "value": 214
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-12T12:51:22.289558+00:00",
+    "value": 217
    }
   ],
-  "lastSeen": "2026-11-12T03:52:13.775386+00:00",
+  "lastSeen": "2026-11-12T12:51:22.289558+00:00",
   "lastSnapshot": {
-   "growthPct": -15.1,
-   "mcap": 81082.77299,
-   "ts": "2026-11-12T03:52:13.775386+00:00",
-   "volume": 74178.9014921755
+   "growthPct": 1.4,
+   "mcap": 114631.0815,
+   "ts": "2026-11-12T12:51:22.289558+00:00",
+   "volume": 92062.5552881014
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "ZOLVA"
  },
  "0x8e859dbdfbfd2df6a99870e2871eaa58e8784e05": {
@@ -20098,68 +20108,6 @@
   "positiveStreak": 0,
   "symbol": "CATONICE"
  },
- "752meQjs65b2c9wu49kd35tT9Y5AHMQ8haPLcyyd8XrT": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T10:34:47.695668+00:00",
-    "value": 3294
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T11:27:34.098568+00:00",
-    "value": 3330
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T12:33:53.577987+00:00",
-    "value": 3367
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T13:28:00.401952+00:00",
-    "value": 3389
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T15:28:47.104238+00:00",
-    "value": 3451
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T16:29:33.493907+00:00",
-    "value": 3472
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T17:27:02.038609+00:00",
-    "value": 3485
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T18:30:30.535197+00:00",
-    "value": 3510
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T19:26:34.666023+00:00",
-    "value": 3522
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T20:29:17.893690+00:00",
-    "value": 3554
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T22:28:01.346625+00:00",
-    "value": 3585
-   }
-  ],
-  "lastSeen": "2026-09-06T22:28:01.346625+00:00",
-  "positiveStreak": 10,
-  "symbol": "zolana"
- },
  "75gGuxuqKhQQiHae8JKDQaetK3XguKf1rUJ1csispump": {
   "history": [
    {
@@ -20224,16 +20172,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-11T22:45:16.752920+00:00",
     "value": 1819
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-12T12:51:22.289558+00:00",
+    "value": 2058
    }
   ],
-  "lastSeen": "2026-11-11T22:45:16.752920+00:00",
+  "lastSeen": "2026-11-12T12:51:22.289558+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 88990.940125981,
-   "ts": "2026-11-11T22:45:16.752920+00:00",
-   "volume": 770350.920006369
+   "growthPct": 13.1,
+   "mcap": 95955.3839893343,
+   "ts": "2026-11-12T12:51:22.289558+00:00",
+   "volume": 863762.438102382
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "pants"
  },
  "777XNvfVmvumMEc6M9yxJQJQnQtjbUYJyx53cqrwo777": {
@@ -20983,6 +20936,24 @@
   },
   "positiveStreak": 0,
   "symbol": "Tulip"
+ },
+ "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-12T12:51:22.289558+00:00",
+    "value": 9005
+   }
+  ],
+  "lastSeen": "2026-11-12T12:51:22.289558+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 298515.4365,
+   "ts": "2026-11-12T12:51:22.289558+00:00",
+   "volume": 2893593.35610235
+  },
+  "positiveStreak": 0,
+  "symbol": "FLC"
  },
  "82ezhRLKdKwkSC9jkM3js1yf93VbmvLXNMPkBmompump": {
   "history": [
