@@ -1191,23 +1191,6 @@
   "positiveStreak": 1,
   "symbol": "MAFIA"
  },
- "0x157a752f3446fe891d6e2881006813703fbb3ad9": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T05:30:27.419469+00:00",
-    "value": 541
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T07:32:53.577931+00:00",
-    "value": 480
-   }
-  ],
-  "lastSeen": "2026-09-07T07:32:53.577931+00:00",
-  "positiveStreak": 0,
-  "symbol": "CATSTRO"
- },
  "0x15f3d1ba06aeeb26470bf4995305f58082a20859": {
   "history": [
    {
@@ -4180,16 +4163,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-13T09:39:46.593577+00:00",
     "value": 92
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T17:49:33.729156+00:00",
+    "value": 101
    }
   ],
-  "lastSeen": "2026-11-13T09:39:46.593577+00:00",
+  "lastSeen": "2026-11-13T17:49:33.729156+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 86545.2037499512,
-   "ts": "2026-11-13T09:39:46.593577+00:00",
-   "volume": 56641.4273080238
+   "growthPct": 9.8,
+   "mcap": 87880.8322564798,
+   "ts": "2026-11-13T17:49:33.729156+00:00",
+   "volume": 46378.4223115943
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "SPIN"
  },
  "0x449d057b556dd73335ab99b390b574e579da8b7e": {
@@ -7742,6 +7730,24 @@
   "positiveStreak": 13,
   "symbol": "Mamesuke"
  },
+ "0x7b43495c05581bd2d9326fe9c1c18c62c63dd2fc": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T17:49:33.729156+00:00",
+    "value": 418
+   }
+  ],
+  "lastSeen": "2026-11-13T17:49:33.729156+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 358154.981972865,
+   "ts": "2026-11-13T17:49:33.729156+00:00",
+   "volume": 296615.534772583
+  },
+  "positiveStreak": 0,
+  "symbol": "POPO"
+ },
  "0x7c651ee2f3c1c456ac3afc483b834c823649a0e2": {
   "history": [
    {
@@ -8074,24 +8080,6 @@
   },
   "positiveStreak": 6,
   "symbol": "PERPS"
- },
- "0x829b217ad539ccc53b18e53c63873333650e60f9": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T10:31:08.840970+00:00",
-    "value": 3890
-   }
-  ],
-  "lastSeen": "2026-09-07T10:31:08.840970+00:00",
-  "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 676165.3252,
-   "ts": "2026-09-07T10:31:08.840970+00:00",
-   "volume": 6267809.88340658
-  },
-  "positiveStreak": 0,
-  "symbol": "cyberbeer"
  },
  "0x867d3f36fc4a35541675e8a147fa879c1804b8e1": {
   "history": [
@@ -12207,59 +12195,6 @@
   },
   "positiveStreak": 2,
   "symbol": "PULP"
- },
- "0xbc7e5d630fc4ee095de2535d20e5af26958111a7": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-06T23:27:28.861167+00:00",
-    "value": 1149
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T00:41:50.872514+00:00",
-    "value": 1163
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T01:29:11.126488+00:00",
-    "value": 1176
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T03:31:50.901002+00:00",
-    "value": 1197
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T04:31:41.500396+00:00",
-    "value": 1209
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T07:32:53.577931+00:00",
-    "value": 1232
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T08:17:27.716311+00:00",
-    "value": 1242
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T08:33:59.468719+00:00",
-    "value": 1248
-   }
-  ],
-  "lastSeen": "2026-09-07T08:33:59.468719+00:00",
-  "lastSnapshot": {
-   "growthPct": 0.5,
-   "mcap": 106104.6846,
-   "ts": "2026-09-07T08:33:59.468719+00:00",
-   "volume": 976988.656228222
-  },
-  "positiveStreak": 7,
-  "symbol": "BABYPONS"
  },
  "0xbd095fb55f55d59f1e16115dabe3b81d5ce035dc": {
   "history": [
@@ -20249,6 +20184,24 @@
   "positiveStreak": 0,
   "symbol": "7"
  },
+ "77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T17:49:33.729156+00:00",
+    "value": 874
+   }
+  ],
+  "lastSeen": "2026-11-13T17:49:33.729156+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 356429.6753,
+   "ts": "2026-11-13T17:49:33.729156+00:00",
+   "volume": 600801.885347379
+  },
+  "positiveStreak": 0,
+  "symbol": "updog"
+ },
  "7BN68PVzqWV6EjK8J8Y6Q1h5C8FFD5ZRZVscXyJDpump": {
   "history": [
    {
@@ -22074,6 +22027,24 @@
   "positiveStreak": 0,
   "symbol": "DOMAIN"
  },
+ "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T17:49:33.729156+00:00",
+    "value": 1256
+   }
+  ],
+  "lastSeen": "2026-11-13T17:49:33.729156+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 305893.6826,
+   "ts": "2026-11-13T17:49:33.729156+00:00",
+   "volume": 369914.49117972
+  },
+  "positiveStreak": 0,
+  "symbol": "Shitcoin"
+ },
  "8qfyGBXhN43m8nWcLeTVZVdCVyH554F5gpEWFBAYpump": {
   "history": [
    {
@@ -23029,6 +23000,24 @@
   },
   "positiveStreak": 2,
   "symbol": "SICAT"
+ },
+ "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T17:49:33.729156+00:00",
+    "value": 11464
+   }
+  ],
+  "lastSeen": "2026-11-13T17:49:33.729156+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 513036.787099999,
+   "ts": "2026-11-13T17:49:33.729156+00:00",
+   "volume": 4219247.01644271
+  },
+  "positiveStreak": 0,
+  "symbol": "Sakura"
  },
  "9tpHqTJ2d8jMZJjZzsf9MCfnCEmbAjsqjPJ56PzSpump": {
   "history": [
@@ -25297,29 +25286,6 @@
   },
   "positiveStreak": 0,
   "symbol": "BOXCAT"
- },
- "CTALnV64vd1dkMxvtsuBgoYVhzB8tZ1XyRQFNS3ppump": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T10:31:08.840970+00:00",
-    "value": 9352
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T11:31:30.529144+00:00",
-    "value": 9559
-   }
-  ],
-  "lastSeen": "2026-09-07T11:31:30.529144+00:00",
-  "lastSnapshot": {
-   "growthPct": 2.2,
-   "mcap": 491898.205325522,
-   "ts": "2026-09-07T11:31:30.529144+00:00",
-   "volume": 4139035.05163986
-  },
-  "positiveStreak": 1,
-  "symbol": "TRONK"
  },
  "CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump": {
   "history": [
