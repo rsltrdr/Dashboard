@@ -2015,16 +2015,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-12T20:53:25.585409+00:00",
     "value": 476
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T01:54:02.542058+00:00",
+    "value": 496
    }
   ],
-  "lastSeen": "2026-11-12T20:53:25.585409+00:00",
+  "lastSeen": "2026-11-13T01:54:02.542058+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 53370.02581,
-   "ts": "2026-11-12T20:53:25.585409+00:00",
-   "volume": 82002.2236378639
+   "growthPct": 4.2,
+   "mcap": 40603.77323,
+   "ts": "2026-11-13T01:54:02.542058+00:00",
+   "volume": 85110.1795244404
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "GIRAFF"
  },
  "0x2153b6e2e40c2d511a383f2536bcb256698f4be2": {
@@ -3209,14 +3214,19 @@
     "basis": "buyers24h",
     "ts": "2026-11-12T20:53:25.585409+00:00",
     "value": 393
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T01:54:02.542058+00:00",
+    "value": 262
    }
   ],
-  "lastSeen": "2026-11-12T20:53:25.585409+00:00",
+  "lastSeen": "2026-11-13T01:54:02.542058+00:00",
   "lastSnapshot": {
-   "growthPct": -50.5,
-   "mcap": 186919.4719,
-   "ts": "2026-11-12T20:53:25.585409+00:00",
-   "volume": 390397.426366806
+   "growthPct": -33.3,
+   "mcap": 196981.3645,
+   "ts": "2026-11-13T01:54:02.542058+00:00",
+   "volume": 217136.568116934
   },
   "positiveStreak": 0,
   "symbol": "REVVY"
@@ -8387,16 +8397,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-12T20:53:25.585409+00:00",
     "value": 210
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T01:54:02.542058+00:00",
+    "value": 223
    }
   ],
-  "lastSeen": "2026-11-12T20:53:25.585409+00:00",
+  "lastSeen": "2026-11-13T01:54:02.542058+00:00",
   "lastSnapshot": {
-   "growthPct": -3.2,
-   "mcap": 120682.875,
-   "ts": "2026-11-12T20:53:25.585409+00:00",
-   "volume": 87483.5116011999
+   "growthPct": 6.2,
+   "mcap": 132973.3188,
+   "ts": "2026-11-13T01:54:02.542058+00:00",
+   "volume": 94944.2120822064
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "ZOLVA"
  },
  "0x8e859dbdfbfd2df6a99870e2871eaa58e8784e05": {
@@ -26540,6 +26555,24 @@
   "positiveStreak": 1,
   "symbol": "INCOME"
  },
+ "E8qaeXz7CF2auJebXaQkLZyrFPfRQft3KrGgvRvwpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-13T01:54:02.542058+00:00",
+    "value": 1485
+   }
+  ],
+  "lastSeen": "2026-11-13T01:54:02.542058+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 337346.144082323,
+   "ts": "2026-11-13T01:54:02.542058+00:00",
+   "volume": 229362.608408111
+  },
+  "positiveStreak": 0,
+  "symbol": "DOGGLE"
+ },
  "EBsK6LyH8ZCF6aq2uD4fTkFHuPzA1DLUE7fLjMyJpump": {
   "history": [
    {
@@ -30136,18 +30169,6 @@
   },
   "positiveStreak": 0,
   "symbol": "MERLYN"
- },
- "Y8kyGRvobqkptmXPH2PLepA9cgYm7tsdeGuikRrpump": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-07T06:39:52.343922+00:00",
-    "value": 18256
-   }
-  ],
-  "lastSeen": "2026-09-07T06:39:52.343922+00:00",
-  "positiveStreak": 0,
-  "symbol": "ULCAT"
  },
  "ZbF6PEbkTLmK7v7UzKyb8oEo58VuyRmF8b2UJMfpump": {
   "history": [
