@@ -6827,14 +6827,19 @@
     "basis": "buyers24h",
     "ts": "2026-11-15T22:55:35.877553+00:00",
     "value": 175
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-16T02:48:47.480742+00:00",
+    "value": 162
    }
   ],
-  "lastSeen": "2026-11-15T22:55:35.877553+00:00",
+  "lastSeen": "2026-11-16T02:48:47.480742+00:00",
   "lastSnapshot": {
-   "growthPct": -14.6,
-   "mcap": 117872.9037,
-   "ts": "2026-11-15T22:55:35.877553+00:00",
-   "volume": 80600.7658914473
+   "growthPct": -7.4,
+   "mcap": 117378.9415,
+   "ts": "2026-11-16T02:48:47.480742+00:00",
+   "volume": 70684.7423593396
   },
   "positiveStreak": 0,
   "symbol": "MORPH"
@@ -17888,16 +17893,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-15T22:55:35.877553+00:00",
     "value": 3922
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-16T02:48:47.480742+00:00",
+    "value": 4087
    }
   ],
-  "lastSeen": "2026-11-15T22:55:35.877553+00:00",
+  "lastSeen": "2026-11-16T02:48:47.480742+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 539961.7523,
-   "ts": "2026-11-15T22:55:35.877553+00:00",
-   "volume": 1649825.59893528
+   "growthPct": 4.2,
+   "mcap": 502308.9817,
+   "ts": "2026-11-16T02:48:47.480742+00:00",
+   "volume": 1778777.78777824
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "BUTTHOLE"
  },
  "4G5YDqDvwgwSS3nLPDGDpGuetbG7rZYzNSBb1U4Tqbzi": {
@@ -27493,16 +27503,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-15T22:55:35.877553+00:00",
     "value": 2009
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-16T02:48:47.480742+00:00",
+    "value": 2433
    }
   ],
-  "lastSeen": "2026-11-15T22:55:35.877553+00:00",
+  "lastSeen": "2026-11-16T02:48:47.480742+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 108151.976036426,
-   "ts": "2026-11-15T22:55:35.877553+00:00",
-   "volume": 230082.105240932
+   "growthPct": 21.1,
+   "mcap": 121331.140468946,
+   "ts": "2026-11-16T02:48:47.480742+00:00",
+   "volume": 323822.301027075
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "GTA"
  },
  "GAwhcphCqCv5bKHmCiN4VDdNWfbXJL4npmkc8L3Q9S9H": {
