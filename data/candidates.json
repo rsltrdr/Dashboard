@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-17T14:35:03.091900+00:00",
- "usdToEur": 0.9091,
+ "generatedAt": "2026-11-17T22:57:17.907056+00:00",
+ "usdToEur": 0.9085,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,34 +34,36 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 515,
-  "passedScreen": 2,
-  "shortlisted": 2,
-  "returned": 1
+  "discovered": 555,
+  "passedScreen": 3,
+  "shortlisted": 3,
+  "returned": 3
  },
  "rejectedBy": {
-  "market cap outside band": 429,
-  "liquidity too thin to exit": 25,
-  "outside the 6-72h window": 59
+  "market cap outside band": 442,
+  "volume implausibly high against cap": 9,
+  "outside the 6-72h window": 54,
+  "liquidity too thin to exit": 46,
+  "volume concentrated in few wallets": 1
  },
  "candidates": [
   {
-   "address": "0x9f0692785990bcb7f8c36d979a86fe5fcf31c7c3",
-   "symbol": "PLKT",
-   "name": "PlanktonOTC",
-   "network": "robinhood",
-   "chain": "Robinhood Chain",
-   "mcapUsd": 52048.37755,
-   "liquidityUsd": 18042.6783,
-   "volume24hUsd": 169393.628593228,
-   "buys": 1451,
-   "sells": 1217,
-   "buyers24h": 556,
-   "createdAt": "2026-11-16T19:31:24+00:00",
-   "ageHours": 19.16,
-   "poolAddress": "0xdf57f3bef112249f3b02f9da8c46c9907fb9c8ab818003907e5c59c4e01299cc",
-   "volumePerBuyerUsd": 304.66,
-   "volMcapRatio": 3.25,
+   "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+   "symbol": "HOGE",
+   "name": "Hogecoin",
+   "network": "solana",
+   "chain": "Solana",
+   "mcapUsd": 544887.0688,
+   "liquidityUsd": 86306.3568,
+   "volume24hUsd": 1299517.17371538,
+   "buys": 9630,
+   "sells": 8641,
+   "buyers24h": 2664,
+   "createdAt": "2026-11-15T06:56:10+00:00",
+   "ageHours": 64.04,
+   "poolAddress": "7CNC9gGegzEfFK8fLXiYUhdtMEeFPQZoND56U1Mxhnor",
+   "volumePerBuyerUsd": 487.81,
+   "volMcapRatio": 2.38,
    "holderCount": null,
    "growthPct": null,
    "growthBasis": "buyers24h",
@@ -73,38 +75,107 @@
    "holderGrowthPct": null,
    "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 47316,
-   "liquidityEur": 16402,
-   "volume24hEur": 153993,
-   "dexscreener": "https://dexscreener.com/robinhood/0x9f0692785990bcb7f8c36d979a86fe5fcf31c7c3"
+   "mcapEur": 495041,
+   "liquidityEur": 78411,
+   "volume24hEur": 1180637,
+   "dexscreener": "https://dexscreener.com/solana/FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump"
+  },
+  {
+   "address": "0x524988ccc8d7a23566e2fffb24b1b07e5aa2f134",
+   "symbol": "IDLEX",
+   "name": "Idlex Network",
+   "network": "robinhood",
+   "chain": "Robinhood Chain",
+   "mcapUsd": 27400.34335,
+   "liquidityUsd": 15233.3946,
+   "volume24hUsd": 59133.7752208534,
+   "buys": 692,
+   "sells": 384,
+   "buyers24h": 316,
+   "createdAt": "2026-11-17T04:02:34+00:00",
+   "ageHours": 19.03,
+   "poolAddress": "0x80b98a508a1a6e25e104cc3e76cc20ac17ecf967",
+   "volumePerBuyerUsd": 187.13,
+   "volMcapRatio": 2.16,
+   "holderCount": null,
+   "growthPct": null,
+   "growthBasis": "buyers24h",
+   "growthStatus": "first sighting",
+   "moves": [],
+   "isMover": false,
+   "positiveStreak": 0,
+   "growthConfirmed": false,
+   "holderGrowthPct": null,
+   "holderGrowthStatus": "first sighting",
+   "coingecko": null,
+   "mcapEur": 24894,
+   "liquidityEur": 13840,
+   "volume24hEur": 53724,
+   "dexscreener": "https://dexscreener.com/robinhood/0x524988ccc8d7a23566e2fffb24b1b07e5aa2f134"
+  },
+  {
+   "address": "0x13e6993417616de724f2b337d65063f229e96718",
+   "symbol": "STOA",
+   "name": "STOA",
+   "network": "robinhood",
+   "chain": "Robinhood Chain",
+   "mcapUsd": 58539.113392042,
+   "liquidityUsd": 20170.1884,
+   "volume24hUsd": 55949.1235943571,
+   "buys": 356,
+   "sells": 295,
+   "buyers24h": 142,
+   "createdAt": "2026-11-15T12:13:30+00:00",
+   "ageHours": 58.85,
+   "poolAddress": "0x3cf63de2530870232ec7075aec62ca539031c3c5a17dba5e016771238bf64180",
+   "volumePerBuyerUsd": 394.01,
+   "volMcapRatio": 0.96,
+   "holderCount": null,
+   "growthPct": -9.6,
+   "growthBasis": "buyers24h",
+   "growthStatus": "measured",
+   "growthBefore": 157,
+   "growthBeforeAt": "2026-11-17T14:35:03.091900+00:00",
+   "mcapChangePct": 36.1,
+   "volumeChangePct": -15.2,
+   "moves": [
+    "market cap +36%"
+   ],
+   "isMover": true,
+   "positiveStreak": 0,
+   "growthConfirmed": false,
+   "holderGrowthPct": -9.6,
+   "holderGrowthStatus": "measured",
+   "coingecko": null,
+   "mcapEur": 53184,
+   "liquidityEur": 18325,
+   "volume24hEur": 50831,
+   "dexscreener": "https://dexscreener.com/robinhood/0x13e6993417616de724f2b337d65063f229e96718"
   }
  ],
- "movers": [],
+ "movers": [
+  {
+   "symbol": "STOA",
+   "chain": "Robinhood Chain",
+   "address": "0x13e6993417616de724f2b337d65063f229e96718",
+   "moves": [
+    "market cap +36%"
+   ],
+   "mcapEur": 53184,
+   "volMcapRatio": 0.96,
+   "growthPct": -9.6,
+   "ageHours": 58.85,
+   "mcapChangePct": 36.1,
+   "volumeChangePct": -15.2,
+   "dexscreener": "https://dexscreener.com/robinhood/0x13e6993417616de724f2b337d65063f229e96718"
+  }
+ ],
  "moveThresholds": {
   "mcapPct": 25.0,
   "volumePct": 60.0,
   "growthPct": 8.0
  },
- "distribution": [
-  {
-   "market": "LIT",
-   "price": 2.9642,
-   "change24hPct": 12.35,
-   "dayVolumeUsd": 54986991,
-   "openInterest": 33057096.0,
-   "fundingRate": -1.91727e-05,
-   "signals": [
-    "volume draining",
-    "open interest holding",
-    "price rolling over",
-    "ran up 24h"
-   ],
-   "volumeChangePct": -65.38,
-   "oiChangePct": -0.27,
-   "signalCount": 4,
-   "observations": 13
-  }
- ],
+ "distribution": [],
  "distributionScreen": {
   "venue": "Hyperliquid perps (what FOMO routes to)",
   "minDayVolumeUsd": 5000000,
@@ -126,10 +197,6 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
-  },
-  {
-   "stage": "discover:solana:trending_pools:p1",
-   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/trending_pools"
   }
  ]
 }
