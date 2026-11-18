@@ -5152,49 +5152,6 @@
   "positiveStreak": 0,
   "symbol": "FIN"
  },
- "0x4f4a59ac165c6f05ed771df3530741494b1c7777": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T10:31:55.791897+00:00",
-    "value": 617
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T11:30:53.089075+00:00",
-    "value": 577
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T12:37:45.934227+00:00",
-    "value": 540
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T13:33:07.710981+00:00",
-    "value": 526
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T14:32:31.801590+00:00",
-    "value": 505
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T15:32:14.921318+00:00",
-    "value": 500
-   }
-  ],
-  "lastSeen": "2026-09-09T15:32:14.921318+00:00",
-  "lastSnapshot": {
-   "growthPct": -1.0,
-   "mcap": 304526.4053,
-   "ts": "2026-09-09T15:32:14.921318+00:00",
-   "volume": 587000.647691503
-  },
-  "positiveStreak": 0,
-  "symbol": "zDOG"
- },
  "0x4f8eb44cd1a5290d12d5729bc53f3f2bcee78684": {
   "history": [
    {
@@ -13995,16 +13952,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-18T04:29:49.283305+00:00",
     "value": 2382
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-18T14:11:48.084139+00:00",
+    "value": 2840
    }
   ],
-  "lastSeen": "2026-11-18T04:29:49.283305+00:00",
+  "lastSeen": "2026-11-18T14:11:48.084139+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 191234.1838,
-   "ts": "2026-11-18T04:29:49.283305+00:00",
-   "volume": 866750.999915645
+   "growthPct": 19.2,
+   "mcap": 148152.3135,
+   "ts": "2026-11-18T14:11:48.084139+00:00",
+   "volume": 1142529.63795231
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "PIKA"
  },
  "0xe8729dc9dca85167e06b7e9c66a58b22457c5f30": {
@@ -23784,6 +23746,24 @@
   },
   "positiveStreak": 0,
   "symbol": "COGE"
+ },
+ "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-18T14:11:48.084139+00:00",
+    "value": 13554
+   }
+  ],
+  "lastSeen": "2026-11-18T14:11:48.084139+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 279974.575226224,
+   "ts": "2026-11-18T14:11:48.084139+00:00",
+   "volume": 2586682.09988521
+  },
+  "positiveStreak": 0,
+  "symbol": "JALU"
  },
  "BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": {
   "history": [
