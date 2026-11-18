@@ -22220,6 +22220,24 @@
   "positiveStreak": 0,
   "symbol": "CTO"
  },
+ "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-18T22:03:45.103061+00:00",
+    "value": 1293
+   }
+  ],
+  "lastSeen": "2026-11-18T22:03:45.103061+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 111235.0563,
+   "ts": "2026-11-18T22:03:45.103061+00:00",
+   "volume": 321397.545814388
+  },
+  "positiveStreak": 0,
+  "symbol": "CHAR"
+ },
  "9kXG537MZvtTBUieRvrye9KG93FbA25QAk7zf5oYpump": {
   "history": [
    {
@@ -28858,14 +28876,19 @@
     "basis": "buyers24h",
     "ts": "2026-11-16T11:37:31.016282+00:00",
     "value": 7552
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-18T22:03:45.103061+00:00",
+    "value": 1991
    }
   ],
-  "lastSeen": "2026-11-16T11:37:31.016282+00:00",
+  "lastSeen": "2026-11-18T22:03:45.103061+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 300041.732669662,
-   "ts": "2026-11-16T11:37:31.016282+00:00",
-   "volume": 2667813.49820459
+   "growthPct": -73.6,
+   "mcap": 519749.259769603,
+   "ts": "2026-11-18T22:03:45.103061+00:00",
+   "volume": 874039.477192246
   },
   "positiveStreak": 0,
   "symbol": "Marvin"
@@ -29653,74 +29676,6 @@
   },
   "positiveStreak": 0,
   "symbol": "BLUF"
- },
- "cYHQyGqYrLA8Sob8B7qbU8Lqm6xSbR8r6jcH2pmpump": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T07:32:18.365329+00:00",
-    "value": 559
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T08:32:00.795269+00:00",
-    "value": 563
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T09:32:13.068305+00:00",
-    "value": 570
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T10:31:55.791897+00:00",
-    "value": 591
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T11:30:53.089075+00:00",
-    "value": 629
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T12:37:45.934227+00:00",
-    "value": 660
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T13:33:07.710981+00:00",
-    "value": 696
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T14:32:31.801590+00:00",
-    "value": 743
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T15:32:14.921318+00:00",
-    "value": 762
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T16:32:44.010753+00:00",
-    "value": 776
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-09T17:30:14.771900+00:00",
-    "value": 691
-   }
-  ],
-  "lastSeen": "2026-09-09T17:30:14.771900+00:00",
-  "lastSnapshot": {
-   "growthPct": -11.0,
-   "mcap": 81392.6536746466,
-   "ts": "2026-09-09T17:30:14.771900+00:00",
-   "volume": 97405.7571088637
-  },
-  "positiveStreak": 0,
-  "symbol": "CORVIN"
  },
  "fpam8wyNiDSHtwx1znYeipGgRNnBcBTcN1iechcpump": {
   "history": [
