@@ -8307,79 +8307,6 @@
   "positiveStreak": 4,
   "symbol": "WAFER"
  },
- "0x923cf92860f7e84f525051dfec371888be51ed6b": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T07:31:59.065098+00:00",
-    "value": 273
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T08:33:11.447338+00:00",
-    "value": 247
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T09:31:47.843449+00:00",
-    "value": 208
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T10:31:51.290012+00:00",
-    "value": 201
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T11:30:30.886039+00:00",
-    "value": 196
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T12:37:56.317954+00:00",
-    "value": 188
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T13:29:59.163108+00:00",
-    "value": 175
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T14:31:14.187887+00:00",
-    "value": 166
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T15:31:29.221840+00:00",
-    "value": 164
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T16:30:20.260319+00:00",
-    "value": 161
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T17:28:36.028520+00:00",
-    "value": 142
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-10T18:32:33.068723+00:00",
-    "value": 133
-   }
-  ],
-  "lastSeen": "2026-09-10T18:32:33.068723+00:00",
-  "lastSnapshot": {
-   "growthPct": -6.3,
-   "mcap": 89758.00144,
-   "ts": "2026-09-10T18:32:33.068723+00:00",
-   "volume": 50740.0094403849
-  },
-  "positiveStreak": 0,
-  "symbol": "MOOF"
- },
  "0x926e5912181e849e0a08599d18e9c17aa0a11111": {
   "history": [
    {
@@ -27851,6 +27778,24 @@
   },
   "positiveStreak": 0,
   "symbol": "DUST"
+ },
+ "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-20T21:14:17.255327+00:00",
+    "value": 13286
+   }
+  ],
+  "lastSeen": "2026-11-20T21:14:17.255327+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 259729.894992738,
+   "ts": "2026-11-20T21:14:17.255327+00:00",
+   "volume": 2238235.88352411
+  },
+  "positiveStreak": 0,
+  "symbol": "LOOSY"
  },
  "HGN8K3x5ZLfYNjvE8b1hCqqu7RwupuKU6EkEhemzpump": {
   "history": [
