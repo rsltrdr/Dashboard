@@ -17300,79 +17300,6 @@
   "positiveStreak": 0,
   "symbol": "JPAD"
  },
- "4oWhtcmBBsMG1bLZCLKusmq4t9fxdVVfbyJLevsYg5Ct": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T01:29:17.594228+00:00",
-    "value": 1159
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T02:30:41.534343+00:00",
-    "value": 1133
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T03:31:09.927330+00:00",
-    "value": 1078
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T04:31:04.507136+00:00",
-    "value": 1025
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T05:29:47.474845+00:00",
-    "value": 989
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T06:36:24.439689+00:00",
-    "value": 961
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T07:31:11.949877+00:00",
-    "value": 961
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T08:32:16.161731+00:00",
-    "value": 950
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T09:30:54.595467+00:00",
-    "value": 964
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T10:30:50.510365+00:00",
-    "value": 952
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T11:29:36.320107+00:00",
-    "value": 1007
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-11T12:36:39.895776+00:00",
-    "value": 1005
-   }
-  ],
-  "lastSeen": "2026-09-11T12:36:39.895776+00:00",
-  "lastSnapshot": {
-   "growthPct": -0.2,
-   "mcap": 114982.71800592,
-   "ts": "2026-09-11T12:36:39.895776+00:00",
-   "volume": 335091.229904661
-  },
-  "positiveStreak": 0,
-  "symbol": "CRIMECAT"
- },
  "4qpraJNwVi8yXn2hx6xxVnsifin1PEhJ8Nv61sab5a3U": {
   "history": [
    {
@@ -29628,5 +29555,23 @@
   },
   "positiveStreak": 0,
   "symbol": "GUST"
+ },
+ "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-22T07:01:07.369213+00:00",
+    "value": 4063
+   }
+  ],
+  "lastSeen": "2026-11-22T07:01:07.369213+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 145581.2453,
+   "ts": "2026-11-22T07:01:07.369213+00:00",
+   "volume": 1188154.97212132
+  },
+  "positiveStreak": 0,
+  "symbol": "SIDOOR"
  }
 }

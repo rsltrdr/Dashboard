@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-21T23:25:55.967089+00:00",
- "usdToEur": 0.9104,
+ "generatedAt": "2026-11-22T07:01:07.369213+00:00",
+ "usdToEur": 0.9103,
  "usdToEurLive": true,
  "venue": "FOMO app",
  "networksScanned": [
@@ -34,36 +34,36 @@
   "maxVolumePerBuyerUsd": 2000
  },
  "counts": {
-  "discovered": 552,
-  "passedScreen": 2,
-  "shortlisted": 2,
+  "discovered": 546,
+  "passedScreen": 1,
+  "shortlisted": 1,
   "returned": 1
  },
  "rejectedBy": {
-  "market cap outside band": 446,
+  "market cap outside band": 442,
+  "liquidity too thin to exit": 25,
   "outside the 6-72h window": 66,
-  "volume implausibly high against cap": 5,
-  "liquidity too thin to exit": 29,
+  "volume implausibly high against cap": 8,
   "volume too low against cap": 4
  },
  "candidates": [
   {
-   "address": "3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump",
-   "symbol": "Bigfoot",
-   "name": "Bigfoot",
+   "address": "zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor",
+   "symbol": "SIDOOR",
+   "name": "SIDOOR",
    "network": "solana",
    "chain": "Solana",
-   "mcapUsd": 173391.2148,
-   "liquidityUsd": 31936.0514,
-   "volume24hUsd": 1475451.76747659,
-   "buys": 22269,
-   "sells": 17143,
-   "buyers24h": 5647,
-   "createdAt": "2026-11-21T13:49:48+00:00",
-   "ageHours": 9.62,
-   "poolAddress": "75gT1hbmHTLJv4anizRjz2ojmSm6XESiLoK6255euXnu",
-   "volumePerBuyerUsd": 261.28,
-   "volMcapRatio": 8.51,
+   "mcapUsd": 145581.2453,
+   "liquidityUsd": 28025.5421,
+   "volume24hUsd": 1188154.97212132,
+   "buys": 14847,
+   "sells": 10542,
+   "buyers24h": 4063,
+   "createdAt": "2026-11-21T20:46:30+00:00",
+   "ageHours": 10.26,
+   "poolAddress": "3peugE6Fm4fpaVvrV2KBFN3nvLbCGEhGoUXDDxAHuscR",
+   "volumePerBuyerUsd": 292.43,
+   "volMcapRatio": 8.16,
    "holderCount": null,
    "growthPct": null,
    "growthBasis": "buyers24h",
@@ -75,10 +75,10 @@
    "holderGrowthPct": null,
    "holderGrowthStatus": "first sighting",
    "coingecko": null,
-   "mcapEur": 157859,
-   "liquidityEur": 29075,
-   "volume24hEur": 1343285,
-   "dexscreener": "https://dexscreener.com/solana/3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump"
+   "mcapEur": 132522,
+   "liquidityEur": 25512,
+   "volume24hEur": 1081574,
+   "dexscreener": "https://dexscreener.com/solana/zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor"
   }
  ],
  "movers": [],
@@ -89,20 +89,40 @@
  },
  "distribution": [
   {
-   "market": "VVV",
-   "price": 25.149,
-   "change24hPct": 20.38,
-   "dayVolumeUsd": 23498867,
-   "openInterest": 2519885.4,
-   "fundingRate": 2.80898e-05,
+   "market": "XMR",
+   "price": 485.32,
+   "change24hPct": 10.78,
+   "dayVolumeUsd": 24609470,
+   "openInterest": 136491.85,
+   "fundingRate": 3.29099e-05,
    "signals": [
+    "volume draining",
     "open interest holding",
+    "price rolling over",
     "ran up 24h",
     "longs paying funding"
    ],
-   "volumeChangePct": 13.67,
-   "oiChangePct": 3.45,
-   "signalCount": 3,
+   "volumeChangePct": -21.96,
+   "oiChangePct": 1.06,
+   "signalCount": 5,
+   "observations": 13
+  },
+  {
+   "market": "VVV",
+   "price": 24.89,
+   "change24hPct": 14.96,
+   "dayVolumeUsd": 24506430,
+   "openInterest": 2456587.18,
+   "fundingRate": 1.25e-05,
+   "signals": [
+    "open interest holding",
+    "price rolling over",
+    "ran up 24h",
+    "longs paying funding"
+   ],
+   "volumeChangePct": 4.29,
+   "oiChangePct": -2.51,
+   "signalCount": 4,
    "observations": 13
   }
  ],
@@ -127,6 +147,10 @@
   {
    "stage": "networks",
    "message": "resolved Robinhood Chain -> robinhood (Robinhood)"
+  },
+  {
+   "stage": "discover:solana:new_pools:p3",
+   "message": "HTTP 429 for https://api.geckoterminal.com/api/v2/networks/solana/new_pools"
   }
  ]
 }
