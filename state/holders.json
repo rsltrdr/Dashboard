@@ -134,16 +134,21 @@
     "basis": "buyers24h",
     "ts": "2026-11-26T19:41:45.530096+00:00",
     "value": 168
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-27T02:54:59.750036+00:00",
+    "value": 216
    }
   ],
-  "lastSeen": "2026-11-26T19:41:45.530096+00:00",
+  "lastSeen": "2026-11-27T02:54:59.750036+00:00",
   "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 70871.52799,
-   "ts": "2026-11-26T19:41:45.530096+00:00",
-   "volume": 78711.500350063
+   "growthPct": 28.6,
+   "mcap": 46119.26189,
+   "ts": "2026-11-27T02:54:59.750036+00:00",
+   "volume": 104728.720142362
   },
-  "positiveStreak": 0,
+  "positiveStreak": 1,
   "symbol": "SPARE"
  },
  "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111": {
@@ -4259,49 +4264,6 @@
   },
   "positiveStreak": 0,
   "symbol": "SWARM"
- },
- "0x4648dfd54d323ae1807f136668905d9ef2927777": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-12T18:30:28.293933+00:00",
-    "value": 2931
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-12T20:30:52.336164+00:00",
-    "value": 2951
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-12T21:28:22.117512+00:00",
-    "value": 2960
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-12T22:28:14.227194+00:00",
-    "value": 2963
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-13T04:29:58.903249+00:00",
-    "value": 3061
-   },
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-13T05:28:15.949510+00:00",
-    "value": 3282
-   }
-  ],
-  "lastSeen": "2026-09-13T05:28:15.949510+00:00",
-  "lastSnapshot": {
-   "growthPct": 7.2,
-   "mcap": 390132.7101,
-   "ts": "2026-09-13T05:28:15.949510+00:00",
-   "volume": 1953627.77153646
-  },
-  "positiveStreak": 5,
-  "symbol": "BCITY"
  },
  "0x46b6995b02b1e3afa39033243999e00d739615f1": {
   "history": [
@@ -8837,14 +8799,19 @@
     "basis": "buyers24h",
     "ts": "2026-11-26T19:41:45.530096+00:00",
     "value": 359
+   },
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-27T02:54:59.750036+00:00",
+    "value": 284
    }
   ],
-  "lastSeen": "2026-11-26T19:41:45.530096+00:00",
+  "lastSeen": "2026-11-27T02:54:59.750036+00:00",
   "lastSnapshot": {
-   "growthPct": -15.1,
-   "mcap": 110099.5955,
-   "ts": "2026-11-26T19:41:45.530096+00:00",
-   "volume": 180702.461586729
+   "growthPct": -20.9,
+   "mcap": 93203.1916,
+   "ts": "2026-11-27T02:54:59.750036+00:00",
+   "volume": 166063.125791581
   },
   "positiveStreak": 0,
   "symbol": "GREM"
@@ -11124,6 +11091,24 @@
   "positiveStreak": 11,
   "symbol": "Depth"
  },
+ "0xc2e886422182d778fb05495ea22399e3aa2e2ec3": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-27T02:54:59.750036+00:00",
+    "value": 680
+   }
+  ],
+  "lastSeen": "2026-11-27T02:54:59.750036+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 298512.2782,
+   "ts": "2026-11-27T02:54:59.750036+00:00",
+   "volume": 1226105.39020132
+  },
+  "positiveStreak": 0,
+  "symbol": "KURO"
+ },
  "0xc32ab2e562ade6fba6d3d1e3960d49b0957ef645": {
   "history": [
    {
@@ -11232,6 +11217,24 @@
   },
   "positiveStreak": 0,
   "symbol": "BROCCOLI"
+ },
+ "0xc4b58f6ba53926ee7bf3c10dd4c6bd73a6e593f5": {
+  "history": [
+   {
+    "basis": "buyers24h",
+    "ts": "2026-11-27T02:54:59.750036+00:00",
+    "value": 341
+   }
+  ],
+  "lastSeen": "2026-11-27T02:54:59.750036+00:00",
+  "lastSnapshot": {
+   "growthPct": null,
+   "mcap": 66159.55697,
+   "ts": "2026-11-27T02:54:59.750036+00:00",
+   "volume": 185657.925429855
+  },
+  "positiveStreak": 0,
+  "symbol": "RIG"
  },
  "0xc53023880caa121009aec6e4fc5b158897f5a174": {
   "history": [
@@ -25305,24 +25308,6 @@
   },
   "positiveStreak": 0,
   "symbol": "Ash"
- },
- "F5zC2QoP6j2erxNyf4z6iNCi6X6AkburMC2Xofhxpump": {
-  "history": [
-   {
-    "basis": "buyers24h",
-    "ts": "2026-09-13T03:30:10.529894+00:00",
-    "value": 6346
-   }
-  ],
-  "lastSeen": "2026-09-13T03:30:10.529894+00:00",
-  "lastSnapshot": {
-   "growthPct": null,
-   "mcap": 439172.198633585,
-   "ts": "2026-09-13T03:30:10.529894+00:00",
-   "volume": 2932521.88305308
-  },
-  "positiveStreak": 0,
-  "symbol": "MDOG"
  },
  "F6EDRhRzXGmkBabhSHdAnqx26XLhG6NCa83wwuqFpump": {
   "history": [
